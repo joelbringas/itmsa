@@ -1,0 +1,452 @@
+body {
+    min-width: 1200px;
+}
+
+
+@media only screen and (max-width: 1000px){
+    body {
+    margin:0; /* remove default margin */
+     padding:0
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+}
+#backgroundslider {
+    display: inline-block;
+    position: relative;
+    float: right;
+    height: 600px;
+    text-align: center;
+}
+
+.steps {
+    background-color: #a1a5ad;
+    height: 50px;
+    width: 200px;
+    position: relative;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    display: inline-block;
+     box-shadow: 10px 10px 5px #888888;
+    
+}
+
+.stepstext {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    color: black;
+}
+
+
+.steps img {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    
+}
+
+.steps p {
+    font-family: 'Lato', sans-serif;
+        color: #555;
+
+}
+
+.arrow {
+    height: 50px;
+    width: 70px;
+    display: inline-block;
+    margin: 20px;
+    
+}
+
+.stepswrapper {
+    margin: 0 auto;
+    padding-bottom: 160px;
+}
+
+#benefitswrapper {
+    width: 100%;
+}
+.benefits {
+    margin-bottom: 20px;
+    display: block;
+    position: relative;  
+    width: 100%;
+    height: auto;
+    text-align: center;
+   background: #fcfcfc;
+    transition: all .2s ease-in-out; 
+
+}
+
+div.benefits:hover {
+     transform: scale(1.1);  
+}
+
+.BICteamimages{
+    display: inline-block;
+    height: 300px;
+    width: 130px;
+    padding: 0;
+}
+
+.BICteamimages p{
+ text-align: center;
+font-size: 17px;
+    font-family: sans-serif;
+}
+
+.hoverdown img {
+    margin-top: 10px;
+  height: 200px;
+width: 200px;  
+}
+
+.benefits img { 
+margin: 5px;
+height: 150px;
+width: 150px;   
+}
+
+
+#benefitswrapperright {
+    float: left;
+    width: 20%;
+    margin-right: 20px;
+    
+}
+
+#whatsinit {
+    margin:0 auto;
+    text-align: center;
+    width: 35%;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right, #8AC24A 0%,#8AC24A 60%, #145214 61%, #145214 100%);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 5px #888888;
+    transition: all .2s ease-in-out; 
+
+}
+
+
+
+#whatsinit p{
+    font-size: 20px;
+
+}
+
+#whatsinit h4 {
+    font-size: 25px;
+}
+
+#applysection {
+    width: 40%;
+    height: 100%;
+    margin-left: 5%;
+    float:left;
+    
+}
+
+.bottomapply {
+    height: auto;
+    width: 100%;
+}
+
+.btn-apply {
+	color: #ffffff;
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+}
+.btn-apply:focus,
+.btn-apply.focus {
+	color: #ffffff;
+	background-color: #449d44;
+	border-color: #255625;
+}
+.btn-apply:hover {
+	color: #ffffff;
+	background-color: #449d44;
+	border-color: #398439;
+}
+.btn-apply:active,
+.btn-apply.active,
+.open > .dropdown-toggle.btn-apply {
+	color: #ffffff;
+	background-color: #449d44;
+	border-color: #398439;
+}
+.btn-apply:active:hover,
+.btn-apply.active:hover,
+.open > .dropdown-toggle.btn-apply:hover,
+.btn-apply:active:focus,
+.btn-apply.active:focus,
+.open > .dropdown-toggle.btn-apply:focus,
+.btn-apply:active.focus,
+.btn-apply.active.focus,
+.open > .dropdown-toggle.btn-apply.focus {
+	color: #ffffff;
+	background-color: #398439;
+	border-color: #255625;
+}
+.btn-apply:active,
+.btn-apply.active,
+.open > .dropdown-toggle.btn-apply {
+	background-image: none;
+}
+.btn-success.disabled:hover,
+.btn-success[disabled]:hover,
+fieldset[disabled] .btn-success:hover,
+.btn-success.disabled:focus,
+.btn-success[disabled]:focus,
+fieldset[disabled] .btn-success:focus,
+.btn-success.disabled.focus,
+.btn-success[disabled].focus,
+fieldset[disabled] .btn-success.focus {
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+}
+.btn-apply .badge {
+	color: #5cb85c;
+	background-color: #ffffff;
+}
+
+#slideshow {
+    text-align: center;
+    display: inline-block;
+    margin-left: 20%;
+}
+
+.slideshow {
+  width: 200px;
+display: inline-block;
+  overflow: hidden;
+  border: solid 1px white;
+
+}
+
+.slideshow-container {
+  width: 1000px;
+  font-size: 0;
+  transition: 1s ease;
+  height: 300px;
+}
+
+.slideshow-container:hover {
+  animation-play-state: paused;
+}
+
+.slide img {
+    height: 300px;
+    width: 200px;
+    
+}
+
+.slide {
+  animation: slide 24s ease infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  
+  12.5% {
+    transform: translateX(0%);
+  }
+  
+  25% {
+    transform: translateX(-20%);
+  }
+  
+  37.5% {
+    transform: translateX(-20%);
+  }
+  
+  50% {
+    transform: translateX(-40%);
+  }
+  
+  62.5% {
+    transform: translateX(-40%);
+  }
+  
+  75% {
+    transform: translateX(-60%);
+  }
+  
+  87.5% {
+    transform: translateX(-60%);
+  }
+  
+  99% {
+    transform: translateX(-80%);
+  }
+  
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.BICteampic {
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+
+}
+
+.uppercase {
+    margin-top: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+
+.animatable {
+  
+  /* initially hide animatable objects */
+  visibility: hidden;
+  
+  /* initially pause animatable objects their animations */
+  -webkit-animation-play-state: paused;   
+  -moz-animation-play-state: paused;     
+  -ms-animation-play-state: paused;
+  -o-animation-play-state: paused;   
+  animation-play-state: paused; 
+}
+
+/* show objects being animated */
+.animated {
+  visibility: visible;
+  
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+
+  -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -ms-animation-play-state: running;
+  -o-animation-play-state: running;
+  animation-play-state: running;
+}
+
+
+@-webkit-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(-20px);
+	}	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+	}
+}
+
+@-moz-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-moz-transform: translateY(-20px);
+	}
+
+	100% {
+		opacity: 1;
+		-moz-transform: translateY(0);
+	}
+}
+
+@-o-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-o-transform: translateY(-20px);
+	}
+
+	100% {
+		opacity: 1;
+		-o-transform: translateY(0);
+	}
+}
+
+@keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+
+
+@-webkit-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(20px);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+	}
+}
+
+@-moz-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-moz-transform: translateY(20px);
+	}
+
+	100% {
+		opacity: 1;
+		-moz-transform: translateY(0);
+	}
+}
+
+@-o-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-o-transform: translateY(20px);
+	}
+
+	100% {
+		opacity: 1;
+		-o-transform: translateY(0);
+	}
+}
+
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+
+.animated.fadeInUp {
+	-webkit-animation-name: fadeInUp;
+	-moz-animation-name: fadeInUp;
+	-o-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+}
+
+
