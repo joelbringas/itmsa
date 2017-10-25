@@ -1,0 +1,25 @@
+.img-circle {
+border-radius: 25%;
+cursor: pointer; cursor: hand; 
+}
+.img-with-text {
+    text-align: justify;
+    width: 150px;
+ opacity: 1;
+   transition: opacity .1s ease-in-out;
+   -moz-transition: opacity .1s ease-in-out;
+   -webkit-transition: opacity .1s ease-in-out;
+}
+
+.img-with-text img {
+    display: block;
+    margin-left: 60%;
+
+}
+.img-with-text:hover {
+ opacity: 0.5;
+}
+#centerfaculty {
+    margin:auto;
+    width: 100%;
+}
