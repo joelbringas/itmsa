@@ -1,0 +1,46 @@
+#testimonials{
+    position:relative;
+    margin-top: -70px; 
+	width: 400px;
+	height: 150px;
+  padding: 10px;
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+}
+#testimonials li{ 
+  display:none;
+}
+#testimonials ul{
+  list-style:none;
+}
+#testimonials p.author{
+	  color: white;
+    font-size: 16px;
+    font-style: italic;
+    text-align: right;
+	  margin:10px
+}
+#testimonials p.author a,
+#testimonials p.author a:hover,
+#testimonials p.author a:visited{
+	color:#8AC24A;
+}
+blockquote {
+color: white;
+font-size: 18px;
+}
+@media only screen and (max-width: 500px) {
+    #testimonials{
+    visibility: hidden;
+    position:relative;
+    margin-top: -70px; 
+	width: 400px;
+	height: 150px;
+  padding: 10px;
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+}
+    
+}
