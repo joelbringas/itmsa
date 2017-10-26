@@ -22,6 +22,10 @@ img.logo {
   height:50px;
 }
 
+img.logo2 {
+  height:100px;
+}
+
 img.portraits {
   display: inline;
   margin: -30px auto;
@@ -37,11 +41,20 @@ div.portraits {
   margin:20px auto;
 }
 
+/* Footer */
+
 .footercontainer {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
     margin-top:50px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:#064F3A;
+    color:white;
+}
+
+.itmsafooter {
+    width: 100%;
+    padding:50px;
     margin-right: auto;
     margin-left: auto;
     background-color:#064F3A;
@@ -52,6 +65,11 @@ div.portraits {
   width:250px;
   height:50px;
   padding:12px;
+}
+
+.footersocial {
+  height:15px;
+  padding:15px;
 }
 
 .center {
