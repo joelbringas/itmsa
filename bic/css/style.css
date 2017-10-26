@@ -1,5 +1,11 @@
 p.intro {
   text-align:center;
+  width:50%;
+  margin:0 auto;
+}
+
+p.names {
+  text-align:center;
 }
 
 div.row benefits {
@@ -12,13 +18,13 @@ img.logo {
 
 img.portraits {
   display: inline;
-  margin: -50px auto;
+  margin: -30px auto;
   width: 100%;
 }
 
 div.portraits {
-  width:200px;
-  height:200px;
+  width:150px;
+  height:150px;
   overflow:hidden;
   position:relative;
   border-radius:50%;
