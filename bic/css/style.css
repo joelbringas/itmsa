@@ -26,10 +26,6 @@ img.logotype {
   height:50px;
 }
 
-img.hierarchy {
-  height:50px;
-  margin-top:20px;
-}
 
 img.portraits {
   display: inline;
@@ -50,18 +46,14 @@ div.portraits {
 
 .footerjumbotron {
     padding: 2rem 1rem;
-    margin-bottom: 2rem;
-    background-color: ##064f3a;
+    background-color: #064f3a;
     border-radius: .3rem;
-    border: 15px solid white;
 }
 @media (min-width: 576px) {
     .footerjumbotron {
         padding: 4rem 2rem
     }
 }
-
-
 
 .itmsafooter {
     width: 100%;
@@ -93,8 +85,13 @@ div.portraits {
     }
 }
 
+img.footerhierarchy {
+  height:40px;
+  margin-top:20px;
+}
+
 .btn.btn-secondary.apply {
-  width:250px;
+  width:100%;
   height:50px;
   padding:12px;
 }
