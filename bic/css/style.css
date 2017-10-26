@@ -45,19 +45,18 @@ div.portraits {
 /* Footer */
 
 .footerjumbotron {
-    padding: 2rem 1rem;
+    padding: 3rem;
     background-color: #064f3a;
     border-radius: .3rem;
 }
 @media (min-width: 576px) {
     .footerjumbotron {
-        padding: 4rem 2rem
+        padding: 4rem
     }
 }
 
 .itmsafooter {
     width: 100%;
-    padding:50px;
     margin-right: auto;
     margin-left: auto;
     background-color:#064F3A;
@@ -86,8 +85,8 @@ div.portraits {
 }
 
 img.footerhierarchy {
-  height:40px;
-  margin-top:20px;
+  height:50px;
+  margin:15px;
 }
 
 .btn.btn-secondary.apply {
@@ -97,12 +96,12 @@ img.footerhierarchy {
 }
 
 .footersocial {
-  height:20px;
+  height:30px;
   margin:10px;
 }
 
 .center {
-  text-align:center;
+  text-align:right;
 }
 
 hr.footerhr {
