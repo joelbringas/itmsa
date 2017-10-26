@@ -445,9 +445,11 @@ h6 {
     line-height: 1.2
 }
 .display-3 {
-    font-size: 4.5rem;
-    font-weight: 300;
-    line-height: 1.2
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform:uppercase;
+    font-family:Gotham;
 }
 .display-4 {
     font-size: 3.5rem;
