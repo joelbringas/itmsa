@@ -22,8 +22,13 @@ img.logo {
   height:50px;
 }
 
-img.logo2 {
-  height:100px;
+img.logotype {
+  height:50px;
+}
+
+img.hierarchy {
+  height:50px;
+  margin-top:20px;
 }
 
 img.portraits {
@@ -68,10 +73,17 @@ div.portraits {
 }
 
 .footersocial {
-  height:15px;
-  padding:15px;
+  height:20px;
+  margin:10px;
 }
 
 .center {
   text-align:center;
+}
+
+hr.footerhr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 0;
+  border-top:1px solid white;
 }
