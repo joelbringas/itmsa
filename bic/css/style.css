@@ -6,10 +6,21 @@ div.row benefits {
   text-align:center;
 }
 
-img.logo {
+img#itmsalogo {
   height:50px;
 }
 
-img.portraits {
+img#portraits {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+div.portraits {
+  width:200px;
+  height:200px;
+  overflow:hidden;
+  position:relative;
   border-radius:50%;
 }
