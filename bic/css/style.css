@@ -1,6 +1,9 @@
 p.intro {
   text-align:center;
-  padding-bottom:30px;
+}
+
+p.footertext {
+  margin-bottom:20px;
 }
 
 p.names {
@@ -48,12 +51,11 @@ div.portraits {
 }
 
 .benefitsicon {
-  height:75px;
   float:left;
 }
 
 .benefitsdesc {
-  margin-left:100px;
+  margin-left:80px;
 }
 
 .benefitsdesc p {
