@@ -148,7 +148,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin-top: 1rem;
+    margin-top: 0;
     margin-bottom: 1rem;
 }
 p {
@@ -583,6 +583,8 @@ pre code {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    padding-right:15px;
+    padding-left:15px;
 }
 @media (min-width: 576px) {
     .container {
@@ -4135,7 +4137,7 @@ tbody.collapse.show {
 }
 @media (min-width: 576px) {
     .jumbotron {
-        padding: 4rem;
+        padding: 3rem;
     }
 }
 .jumbotron-fluid {
