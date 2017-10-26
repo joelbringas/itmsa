@@ -41,3 +41,7 @@ div.portraits {
     background-color:#064F3A;
     color:white;
 }
+
+.btn btn-secondary apply {
+  width:250px;
+}
