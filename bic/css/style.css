@@ -24,8 +24,8 @@ img.portraits {
 }
 
 div.portraits {
-  width:150px;
-  height:150px;
+  width:175px;
+  height:175px;
   overflow:hidden;
   position:relative;
   border-radius:50%;
