@@ -31,3 +31,12 @@ div.portraits {
   border-radius:50%;
   margin:20px auto;
 }
+
+.footercontainer {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+    background-color:#064F3A;
+}

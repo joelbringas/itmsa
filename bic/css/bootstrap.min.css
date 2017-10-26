@@ -401,7 +401,6 @@ h4,
 h5,
 h6 {
     margin-bottom: .5rem;
-    font-family: inherit;
     font-weight: 500;
     line-height: 1;
     color: inherit;
@@ -2151,7 +2150,6 @@ select.form-control-lg:not([size]):not([multiple]) {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    border: 1px solid transparent;
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
@@ -2160,7 +2158,7 @@ select.form-control-lg:not([size]):not([multiple]) {
 }
 .btn:focus,
 .btn:hover {
-    text-decoration: none
+    text-decoration: none;
 }
 .btn.focus,
 .btn:focus {
@@ -2208,8 +2206,8 @@ fieldset[disabled] a.btn {
 }
 .btn-secondary {
     color: #fff;
-    background-color: #868e96;
-    border-color: #868e96
+    background-color: #8AC24A;
+    border-color: #8AC24A
 }
 .btn-secondary:hover {
     color: #fff;
