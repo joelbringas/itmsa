@@ -447,9 +447,11 @@ h6 {
 .display-3 {
     font-size: 32px;
     font-weight: bold;
-    line-height: 1.2;
+    line-height: 1;
     text-transform:uppercase;
     font-family:Gotham;
+    color:#B59141;
+    text-align:center;
 }
 .display-4 {
     font-size: 3.5rem;

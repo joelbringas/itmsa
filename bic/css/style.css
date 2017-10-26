@@ -1,3 +1,15 @@
 p.intro {
   text-align:center;
 }
+
+div.row benefits {
+  text-align:center;
+}
+
+img.logo {
+  height:50px;
+}
+
+img.portraits {
+  border-radius:50%;
+}
