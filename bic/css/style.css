@@ -6,11 +6,11 @@ div.row benefits {
   text-align:center;
 }
 
-img#itmsalogo {
+img.logo {
   height:50px;
 }
 
-img#portraits {
+img.portraits {
   display: inline;
   margin: 0 auto;
   height: 100%;
