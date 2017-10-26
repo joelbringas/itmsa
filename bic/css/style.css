@@ -12,9 +12,8 @@ img.logo {
 
 img.portraits {
   display: inline;
-  margin: 0 auto;
-  height: 100%;
-  width: auto;
+  margin: -50px auto;
+  width: 100%;
 }
 
 div.portraits {
