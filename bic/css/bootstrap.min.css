@@ -3323,7 +3323,6 @@ tbody.collapse.show {
     align-items: center;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: .5rem 1rem
 }
 .navbar>.container,
 .navbar>.container-fluid {
@@ -3338,9 +3337,8 @@ tbody.collapse.show {
 }
 .navbar-brand {
     display: inline-block;
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
-    margin-right: 1rem;
+    padding:20px;
+    margin-right: 25px;;
     font-size: 1.25rem;
     line-height: inherit;
     white-space: nowrap
@@ -5201,7 +5199,7 @@ a.bg-light:hover {
     background-color: #dae0e5!important
 }
 .bg-dark {
-    background-color: #343a40!important
+    background-color: #004f39!important
 }
 a.bg-dark:focus,
 a.bg-dark:hover {
@@ -6476,6 +6474,7 @@ a.bg-dark:hover {
 .mr-auto,
 .mx-auto {
     margin-left: auto!important
+    margin-right:20px;
 }
 .mb-auto,
 .my-auto {
