@@ -1,5 +1,6 @@
 p.intro {
   text-align:center;
+  padding-bottom:30px;
 }
 
 p.names {
@@ -42,6 +43,10 @@ div.portraits {
 
 /* Benefits Section */
 
+.headers {
+  padding:2rem;
+}
+
 .benefitsicon {
   height:75px;
   float:left;
@@ -49,6 +54,10 @@ div.portraits {
 
 .benefitsdesc {
   margin-left:100px;
+}
+
+.benefitsdesc p {
+  padding-bottom:30px;
 }
 
 /* Container without Jumbotron */
@@ -145,7 +154,7 @@ div.footerhierarchy {
 }
 
 .center {
-  text-align:right;
+  text-align:center;
 }
 
 hr.footerhr {
