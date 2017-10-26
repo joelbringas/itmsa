@@ -702,6 +702,7 @@ pre code {
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px
+    margin:0 auto;
 }
 .col {
     -ms-flex-preferred-size: 0;
@@ -4131,6 +4132,7 @@ tbody.collapse.show {
     margin-bottom: 2rem;
     background-color: #e9ecef;
     border-radius: .3rem;
+    border: 15px solid white;
 }
 @media (min-width: 576px) {
     .jumbotron {
