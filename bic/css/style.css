@@ -11,7 +11,7 @@ p.names {
 
 p.footer {
   margin:0;
-  padding:20px;
+  padding:25px;
 }
 
 div.row benefits {
@@ -40,6 +40,46 @@ div.portraits {
   position:relative;
   border-radius:50%;
   margin:20px auto;
+}
+
+/* Benefits Section */
+
+.benefitsicon {
+  height:75px;
+  float:left;
+}
+
+.benefitsdesc {
+  margin-left:100px;
+}
+
+/* Container without Jumbotron */
+
+.anticontainer {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding:25px;
+}
+@media (min-width: 576px) {
+    .anticontainer {
+        max-width: 540px
+    }
+}
+@media (min-width: 768px) {
+    .anticontainer {
+        max-width: 720px
+    }
+}
+@media (min-width: 992px) {
+    .anticontainer {
+        max-width: 960px
+    }
+}
+@media (min-width: 1200px) {
+    .anticontainer {
+        max-width: 1140px
+    }
 }
 
 /* Footer */
@@ -85,18 +125,20 @@ div.portraits {
 }
 
 img.footerhierarchy {
-  height:50px;
-  margin:15px;
+  height:40px;
+  margin-left:10px;
+  margin-right:10px;
 }
 
 div.footerhierarchy {
-  max-width:100%;
+  margin-bottom:25px;
 }
 
 .btn.btn-secondary.apply {
-  width:100%;
+  width:50%;
   height:50px;
   padding:12px;
+  margin-top:10px;
 }
 
 .footersocial {
