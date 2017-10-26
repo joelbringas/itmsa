@@ -95,7 +95,7 @@ div.portraits {
 
 .footerjumbotron {
     padding: 3rem;
-    background-color: #064f3a;
+    background-color: #004F39;
     border-radius: .3rem;
 }
 @media (min-width: 576px) {
@@ -108,7 +108,7 @@ div.portraits {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    background-color:#064F3A;
+    background-color:#004F39;
     color:white;
 }
 
