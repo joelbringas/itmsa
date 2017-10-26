@@ -3355,7 +3355,8 @@ tbody.collapse.show {
     flex-direction: column;
     padding-left: 0;
     margin-bottom: 0;
-    list-style: none
+    list-style: none;
+    margin-right:20px;
 }
 .navbar-nav .nav-link {
     padding-right: 0;
@@ -3379,13 +3380,11 @@ tbody.collapse.show {
     align-items: center
 }
 .navbar-toggler {
-    padding: .25rem .75rem;
-    margin-right:40px;
+    padding: 20px;
     font-size: 1.25rem;
     line-height: 1;
     background: 0 0;
-    border: 1px solid transparent;
-    border-radius: .25rem
+    border: 0px solid transparent;
 }
 .navbar-toggler:focus,
 .navbar-toggler:hover {
@@ -6476,7 +6475,6 @@ a.bg-dark:hover {
 .mr-auto,
 .mx-auto {
     margin-left: auto!important
-    margin-right:20px!important;
 }
 .mb-auto,
 .my-auto {
