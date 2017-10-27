@@ -1,5 +1,7 @@
 p.intro {
   text-align:center;
+  width:75%;
+  margin:0 auto;
 }
 
 p.footertext {
@@ -96,7 +98,6 @@ div.portraits {
 .footerjumbotron {
     padding: 3rem;
     background-color: #004F39;
-    border-radius: .3rem;
 }
 @media (min-width: 576px) {
     .footerjumbotron {
