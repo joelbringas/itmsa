@@ -1,3 +1,9 @@
+/* NavBar */
+
+img.logo {
+  height:50px;
+}
+
 /* Intro */
 
 p.biclogo {
@@ -11,35 +17,13 @@ p.intro {
 }
 
 
-/* Untitled */
 
-
-p.footertext {
-  margin-bottom:20px;
-}
+/* Committee  */
 
 p.names {
   text-align:center;
   font-size:10pt;
 }
-
-p.footer {
-  margin:0;
-  padding:25px;
-}
-
-div.row benefits {
-  text-align:center;
-}
-
-img.logo {
-  height:50px;
-}
-
-img.logotype {
-  height:50px;
-}
-
 
 img.portraits {
   display: inline;
@@ -60,6 +44,10 @@ div.portraits {
 
 .headers {
   padding:2rem;
+}
+
+div.row benefits {
+  text-align:center;
 }
 
 .benefitsicon {
@@ -103,6 +91,15 @@ div.portraits {
     }
 }
 
+/* Apply */
+
+.btn.btn-secondary.apply {
+  width:50%;
+  height:50px;
+  padding:12px;
+  margin-top:50px;
+}
+
 /* Footer */
 
 .footerjumbotron {
@@ -144,22 +141,29 @@ div.portraits {
     }
 }
 
-img.footerhierarchy {
-  height:40px;
-  margin-left:10px;
-  margin-right:10px;
-}
-
-div.footerhierarchy {
-  margin-bottom:25px;
-}
-
-.btn.btn-secondary.apply {
-  width:50%;
+img.logotype {
   height:50px;
-  padding:12px;
-  margin-top:50px;
 }
+
+
+
+    div.footerhierarchy {
+      margin-bottom:25px;
+      white-space: nowrap;
+      width: 100%;
+      display: table;
+    }
+
+    div.footerhierarchylogo {
+      vertical-align: middle;
+      display: table-cell;
+      padding: 0px 10px;
+    }
+
+    img.footerhierarchy img {
+      max-width:100%;
+    }
+
 
 .footersocial {
   height:30px;
@@ -175,4 +179,12 @@ hr.footerhr {
   margin-bottom: 2rem;
   border: 0;
   border-top:1px solid white;
+}
+
+p.footertext {
+  margin-bottom:20px;
+}
+
+p.footer {
+  margin:0;
 }
