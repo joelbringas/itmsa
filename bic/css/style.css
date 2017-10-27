@@ -156,11 +156,13 @@ img.logotype {
     div.footersociallogo {
       vertical-align: middle;
       display: table-cell;
+      padding:10px;
+
     }
 
     div.footersociallogo img {
       max-height:30px;
-      margin:10px;
+      max-width:100%;
     }
 
 
