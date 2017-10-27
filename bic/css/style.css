@@ -100,6 +100,10 @@ div.row benefits {
   margin-top:50px;
 }
 
+div.center {
+  text-align:center;
+}
+
 /* Footer */
 
 .footerjumbotron {
