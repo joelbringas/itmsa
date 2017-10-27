@@ -1,7 +1,7 @@
 /* NavBar */
 
 img.logo {
-  height:50px;
+  max-height:50px;
 }
 
 /* Intro */
@@ -142,15 +142,15 @@ div.row benefits {
 }
 
 img.logotype {
-  height:50px;
+  max-height:50px;
+  max-width:100%;
 }
 
 
 
     div.footerhierarchy {
-      margin-bottom:25px;
+      margin: 25px auto;
       white-space: nowrap;
-      width: 100%;
       display: table;
     }
 
@@ -162,6 +162,7 @@ img.logotype {
 
     img.footerhierarchy img {
       max-width:100%;
+      max-height: 50px;
     }
 
 
