@@ -175,7 +175,7 @@ img.logotype {
       padding: 0px 10px;
     }
 
-    img.footerhierarchylogo a img {
+    div.footerhierarchylogo img {
       max-width:100%;
       max-height: 50px;
     }
