@@ -146,6 +146,21 @@ img.logotype {
   max-width:100%;
 }
 
+    div.footerhierarchy {
+      margin: 0 auto;
+      white-space: nowrap;
+      display: table;
+    }
+
+    div.footerhierarchylogo {
+      vertical-align: middle;
+      display: table-cell;
+    }
+
+    div.footersociallogo img {
+      height:30px;
+      margin:10px;
+    }
 
 
     div.footerhierarchy {
@@ -160,16 +175,13 @@ img.logotype {
       padding: 0px 10px;
     }
 
-    img.footerhierarchy img {
+    img.footerhierarchylogo img {
       max-width:100%;
       max-height: 50px;
     }
 
 
-.footersocial {
-  height:30px;
-  margin:10px;
-}
+
 
 .center {
   text-align:center;
