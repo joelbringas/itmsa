@@ -94,14 +94,22 @@ div.row benefits {
 /* Apply */
 
 .btn.btn-secondary.apply {
-  width:50%;
+  width:75%;
   height:50px;
   padding:12px;
   margin-top:50px;
 }
 
-div.center {
-  text-align:center;
+div.applybutton {
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+div.applybuttontable {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 /* Footer */
