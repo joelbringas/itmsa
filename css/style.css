@@ -1,20 +1,117 @@
-/* BIC STYLE */
+/* Body */
 
-/* Intro */
+body {
+  padding-bottom: 0;
+}
 
-p.biclogo {
+/.container, .container-fluid {
+  padding: 0;
+}
+
+/* Navbar Styles */
+
+.navbar {
+  background-color:#004F39;
+  padding: 0rem 2rem 0rem 0rem;
+}
+
+.navbar-brand {
+  padding:20px;
+}
+
+.navbar-nav {
+  padding-left:2rem;
   text-align:center;
 }
 
-p.intro {
-  text-align:center;
-  width:75%;
-  margin:0 auto;
+.nav-item {
+  padding:0.25rem 0.5rem 0.25rem 0.5rem;
 }
 
 
 
-/* Committee  */
+
+/* Footer */
+.footer-jumbotron {
+  background-color:#004F39;
+  color:white;
+  border-radius:0;
+  margin:0;
+  padding:4rem 4rem 1rem 4rem;
+}
+
+.footer-container {
+  padding:0;
+}
+
+hr.footerhr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 0;
+  border-top:1px solid white;
+}
+
+p.footertext {
+  padding-bottom:25px;
+}
+
+
+
+    .footersocial {
+      margin: 0 auto;
+      white-space: nowrap;
+      display: table;
+    }
+
+    .footersociallogo {
+      vertical-align: middle;
+      display: table-cell;
+      padding:10px;
+
+    }
+
+    .footersociallogo img {
+      max-height:30px;
+      max-width:100%;
+    }
+
+
+    .footerhierarchy {
+      margin: 25px auto;
+      white-space: nowrap;
+      display: table;
+    }
+
+    .footerhierarchylogo {
+      vertical-align: middle;
+      display: table-cell;
+      padding: 0px 10px;
+    }
+
+    .footerhierarchylogo img {
+      max-width:100%;
+      max-height: 50px;
+    }
+
+.copyright {
+  margin:0;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+
 
 p.names {
   text-align:center;
@@ -36,7 +133,7 @@ div.portraits {
   margin:20px auto;
 }
 
-/* Benefits Section */
+
 
 .headers {
   padding:2rem;
@@ -58,7 +155,7 @@ div.row benefits {
   padding-bottom:30px;
 }
 
-/* Container without Jumbotron */
+Container without Jumbotron
 
 .anticontainer {
     width: 100%;
@@ -87,7 +184,7 @@ div.row benefits {
     }
 }
 
-/* Apply */
+Apply
 
 .btn.btn-secondary.apply {
   width:75%;
@@ -107,7 +204,7 @@ div.applybuttontable {
     vertical-align: middle;
 }
 
-/* Footer */
+Footer
 
 .footerjumbotron {
     padding: 3rem;
@@ -149,60 +246,4 @@ div.applybuttontable {
     }
 }
 
-img.logotype {
-  max-height:50px;
-  max-width:100%;
-}
-
-    div.footersocial {
-      margin: 0 auto;
-      white-space: nowrap;
-      display: table;
-    }
-
-    div.footersociallogo {
-      vertical-align: middle;
-      display: table-cell;
-      padding:10px;
-
-    }
-
-    div.footersociallogo img {
-      max-height:30px;
-      max-width:100%;
-    }
-
-
-    div.footerhierarchy {
-      margin: 25px auto;
-      white-space: nowrap;
-      display: table;
-    }
-
-    div.footerhierarchylogo {
-      vertical-align: middle;
-      display: table-cell;
-      padding: 0px 10px;
-    }
-
-    div.footerhierarchylogo img {
-      max-width:100%;
-      max-height: 50px;
-    }
-
-hr.footerhr {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  border: 0;
-  border-top:1px solid white;
-}
-
-p.footertext {
-  padding-bottom:25px;
-}
-
-p.footer {
-  margin:0;
-  text-align: center;
-  padding-top:25px;
-}
+*/
