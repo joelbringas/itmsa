@@ -1,6 +1,7 @@
 /* Body */
 
 body {
+  padding-top:90px; /* Height of Navbar */
   padding-bottom: 0;
 }
 
