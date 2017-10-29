@@ -18,14 +18,15 @@
   z-index: 10;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   .carousel-caption h1 {
     font-size:1.5rem;
   }
 
-  .carousel-inner {
-    height:32rem;
-  }
+    .carousel-item {
+      height:32rem;
+    }
+
 }
 
 @media (min-width: 769px) {
