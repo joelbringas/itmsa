@@ -3,9 +3,17 @@
 body {
   padding-top:90px; /* Height of Navbar */
   padding-bottom: 0;
+  font-family: Helvetica Neue, Arial, sans-serif;
+  font-size:11pt;
 }
 
-/.container, .container-fluid {
+h1,h2,h3,h4,h5,h6 {
+    font-family:'Montserrat', Arial Black, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container, .container-fluid {
   padding: 0;
 }
 

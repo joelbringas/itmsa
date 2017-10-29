@@ -3265,7 +3265,6 @@ tbody.collapse.show {
     text-decoration: none
 }
 .nav-link.disabled {
-    text-decoration: line-through;
     color: #868e96
 }
 .nav-tabs {
