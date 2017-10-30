@@ -7,6 +7,10 @@ body {
   font-size:11pt;
 }
 
+.margintop {
+  margin-top:90px;
+}
+
 h1,h2,h3,h4,h5,h6 {
     font-family:'Montserrat', Arial Black, sans-serif;
     text-transform: uppercase;
@@ -27,7 +31,8 @@ h2 {
 }
 
 .headers {
-  padding:1rem;
+  padding-top:1rem;
+  padding-bottom:1rem;
 }
 
 
@@ -122,6 +127,31 @@ h2 {
   border:0;
   font-size:12pt;
 }
+
+
+
+
+/* Team */
+img.portraits {
+  /*display: inline;*/
+  margin: -30px auto;
+  width: 100%;
+}
+
+div.portraits {
+  width:150px;
+  height:150px;
+  overflow:hidden;
+  position:relative;
+  border-radius:50%;
+  margin:20px auto;
+}
+
+
+
+
+
+
 
 
 
