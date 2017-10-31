@@ -1,34 +1,5 @@
 
 
-
-
-/* Mission
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
-.mission .col-lg-4 {
-  margin-bottom: 1rem;
-  text-align: center;
-}
-.mission h2 {
-  font-weight: 400;
-}
-.mission .col-lg-4 p {
-  margin-right: 1rem;
-  margin-left: 1rem;
-}
-
-
-/* Divider
-------------------------- */
-
-.divider {
-  margin: 1rem 0; /* Space out the Bootstrap <hr> more */
-}
-
-
-
-
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 

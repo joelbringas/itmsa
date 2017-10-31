@@ -12,27 +12,50 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family:'Montserrat', Arial Black, sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
     margin:0;
     padding-top:0.5rem;
     padding-bottom:0.5rem;
 }
 
-h1 {
+
+
+.h1, h1 {
+  font-family:'Montserrat', Arial Black, sans-serif;
+  text-transform: uppercase;
   color:#B59141;
-  font-size:2rem;
+  font-weight:700;
+  font-size:2em;
+
 }
 
-h2 {
-  color:#8BC052;
-  text-transform:capitalize;
+.h2, h2 {
+    color:#8BC052;
+    font-weight:500;
+    text-transform:capitalize;
+    font-size: 1.75rem;
+    font-family:Helvetica Neue, Arial, sans-serif;
+}
+.h3,h3 {
+    font-weight:500;
+    font-size: 1.5rem;
+}
+.h4, h4 {
+    font-size: 1.5rem;
+}
+.h5,h5 {
+    font-size: 1.25rem;
+}
+.h6,h6 {
+    font-size: 1rem;
 }
 
 .headers {
   padding-top:1rem;
   padding-bottom:1rem;
+}
+
+.divider {
+  margin: 1rem 0;
 }
 
 
@@ -131,6 +154,18 @@ h2 {
 
 
 
+
+/* Divider
+------------------------- */
+
+.divider {
+  margin: 2rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+
+
+
+
 /* Team */
 img.portraits {
   /*display: inline;*/
@@ -147,8 +182,57 @@ div.portraits {
   margin:20px auto;
 }
 
+img.portraitsmodal {
+  /*display: inline;*/
+  margin: -30px auto;
+  width: 100%;
+}
+
+div.portraitsmodal {
+  width:150px;
+  height:150px;
+  overflow:hidden;
+  position:relative;
+  border-radius:50%;
+  padding:0;
+}
 
 
+.modal-header .close {
+  margin: -129px 0 0 0;
+}
+
+.btn-hidden {
+    font-weight: 400;
+    color: #000;
+    background-color: transparent;
+    font-size:11pt;
+    padding-top:0;
+    padding-bottom:0;
+}
+.btn-hidden:hover {
+    color: #000;
+    background-color: #E9ECEF;
+    border-color: transparent
+}
+.btn-hidden.focus,
+.btn-hidden:focus {
+    border-color: transparent;
+    box-shadow: none
+}
+.btn-hidden.disabled,
+.btn-hidden:disabled {
+    color: #868e96;
+}
+
+.indent {
+  text-indent:40px;
+}
+
+
+.socialicon {
+  height:20px;
+}
 
 
 
