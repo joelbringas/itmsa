@@ -63,6 +63,14 @@ small {
   font-size:10pt;
 }
 
+.jumbotron {
+  border-radius:0;
+}
+
+.row {
+  margin:0;
+}
+
 
 /* Navbar Styles */
 
@@ -209,7 +217,7 @@ div.portraits {
 
 
 div.portraitsmodal {
-  margin:0 15px;;
+  margin:0 10px;;
 }
 
 
