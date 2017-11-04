@@ -58,6 +58,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .headers {
+  padding-top:1rem;
   padding-bottom:1rem;
 }
 
@@ -66,7 +67,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .jumbotron {
-  padding: 0;
+  padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: #EEEEEE;
   border:15px solid white;
@@ -96,14 +97,13 @@ h1,h2,h3,h4,h5,h6 {
 
 .headerbg {
   padding: 2rem 1rem;
-  margin-bottom: 2rem;
   background-color: #EEEEEE;
   border-radius: 0;
 }
 
 @media (min-width: 576px) {
   .headerbg {
-    padding: 4rem 2rem;
+    padding: 8rem 2rem;
   }
 }
 
@@ -145,6 +145,22 @@ h1,h2,h3,h4,h5,h6 {
 
 .navbar-toggler {
   padding:0.5rem;
+}
+
+.navbar-hidden {
+  background-color: transparent;
+}
+
+.navbar-hidden.scrolled {
+  background-color: #004F39;
+  transition: background-color 100ms linear;
+}
+
+@media (max-width: 769px) {
+  .navbar-hidden {
+    background-color: #004F39;
+  }
+
 }
 
 
@@ -214,6 +230,18 @@ h1,h2,h3,h4,h5,h6 {
   background-color: #8BC052;
   border:0;
   font-size:12pt;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.5);
+}
+
+.btn-primary:not([disabled]):not(.disabled):active, .btn-primary:not([disabled]):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #616161;
+  border-color: none !important;
+  box-shadow: 0 !important;
 }
 
 
@@ -325,6 +353,7 @@ div.portraitsmodal {
     font-size:11pt;
     padding-top:0;
     padding-bottom:0;
+    cursor:pointer;
 }
 .btn-hidden:hover {
     color: #000;
@@ -342,9 +371,7 @@ div.portraitsmodal {
 }
 
 
-.btn-primary:focus, .btn-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.5);
-}
+
 
 
 
@@ -452,4 +479,5 @@ p.footertext {
     display:none;
     width:40px;
     height:40px;
+    z-index:1137;
 }
