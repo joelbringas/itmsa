@@ -6,7 +6,7 @@ body {
   padding-top:0;
   font-family: Helvetica Neue, Arial, sans-serif;
   font-size:11pt;
-  line-height:1.25;
+  line-height:1.5;
 }
 
 .margintop {
@@ -112,8 +112,13 @@ h1,h2,h3,h4,h5,h6 {
   margin:0;
 }
 
+
 .no-gutters {
   padding:0;
+}
+
+a, a:hover {
+  color:#9E9E9E;
 }
 
 
@@ -191,7 +196,6 @@ h1,h2,h3,h4,h5,h6 {
 */
 
 .carousel {
-  margin-bottom: 2rem;
   padding:0;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -265,6 +269,52 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 
+.boilerplate {
+  font-size:26pt;
+  font-weight:bold;
+  line-height:1;
+}
+
+@media (max-width: 576px) {
+  .boilerplate {
+    font-size:26pt;
+  }
+}
+
+.btmacicon {
+  float:left;
+  padding:15px;
+}
+
+.btmacdesc {
+  margin-left:80px;
+}
+
+
+
+.counterwrapper {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    padding: 0.5em;
+    border-radius: 5px;
+    margin: 0.5em;
+    color: #B59141;
+}
+
+.counterwrapper p {
+    font-weight:bold;
+    margin-top:-10px;
+}
+
+.counter-value {
+    font-family:'Montserrat', Arial Black, sans-serif;
+    text-transform: uppercase;
+    color:#B59141;
+    font-weight:700;
+    font-size:3em;
+}
+
 
 
 
@@ -319,7 +369,7 @@ div.partners {
       rgba(0, 80, 58, 0.6),
       rgba(0, 80, 58, 0.6)
     ),
-    url('https://scontent.fyto1-1.fna.fbcdn.net/v/t31.0-8/21992901_10159598095825413_1395745915573015448_o.jpg?oh=7e532943d7e4cb31af5a44e5432b281a&oe=5AAEBB8C');
+    url('../img/pics/team.jpg');
 }
 
 
@@ -477,7 +527,9 @@ p.footertext {
     bottom: 40px;
     right: 40px;
     display:none;
-    width:40px;
-    height:40px;
+    width:50px;
+    height:50px;
     z-index:1137;
+    border-radius: 50%;
+    padding-top:10px;
 }
