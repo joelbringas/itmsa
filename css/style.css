@@ -270,7 +270,7 @@ a, a:hover {
 
 
 .boilerplate {
-  font-size:26pt;
+  font-size:2.5em;
   font-weight:bold;
   line-height:1;
 }
@@ -315,6 +315,9 @@ a, a:hover {
     font-size:3em;
 }
 
+.table-sm th, .table-sm td {
+  padding:0.1rem;
+}
 
 #instafeed {
   width: 100%;
@@ -454,8 +457,8 @@ div.portraitsmodal {
 }
 
 
-.modal-header .close {
-  margin: -129px 0 0 0;
+.modal-open .modal {
+  z-index: 1138;
 }
 
 .btn-hidden {
