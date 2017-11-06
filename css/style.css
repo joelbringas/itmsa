@@ -229,7 +229,7 @@ a, a:hover {
 }
 
 .carousel-item {
-  height: 100vh;
+  height: 32rem;
   background-color: #777;
   background: no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -295,7 +295,7 @@ a, a:hover {
 
 @media (max-width: 576px) {
   .boilerplate {
-    font-size:26pt;
+    font-size:2em;
   }
 }
 
