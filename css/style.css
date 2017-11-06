@@ -62,8 +62,8 @@ h1,h2,h3,h4,h5,h6 {
   padding-bottom:1rem;
 }
 
-hr {
-  margin-top:2rem;
+.divider {
+  margin:3rem;
 }
 
 .jumbotron {
@@ -122,6 +122,15 @@ a, a:hover {
 }
 
 
+@media (max-width: 769px) {
+  .mobilecol {
+    padding-bottom:3em;
+  }
+
+  .events {
+    padding-bottom:2em;
+  }
+}
 
 
 
@@ -296,9 +305,8 @@ a, a:hover {
     text-align: center;
     position: relative;
     display: inline-block;
-    padding: 0.5em;
     border-radius: 5px;
-    margin: 0.5em;
+    margin-top: 2em;
     color: #B59141;
 }
 
@@ -353,39 +361,79 @@ a, a:hover {
 
 .events {
   width:100%;
-  padding-bottom:15px;
 }
 
+/* OLD DATE STUFF
 .date {
   position: absolute;
     top: 10px;
     left: 25px;
     background-color: #FFF;
     color: #000;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     text-align: center;
 }
 
 .month {
     display: block;
     background-color:#f50f4b;
-    font-size: 12px;
+    font-size: 11px;
     font-weight:bold;
     color:white;
     text-transform: uppercase;
-    padding:1px 0;
+    padding:2px 4px;
 }
 
 .day {
     display: block;
-    font-size: 24px;
+    font-size: 32px;
     font-weight:bold;
-    margin-top:-3px;
+    margin-top:-5px;
+}
+*/
+
+.badge {
+  display: inline-block;
+  font-size: 9pt;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
 }
 
 
+.badge-pill {
+  padding: 0.4em 0.8em;
+  border-radius: 1em;
+}
 
+.badge-social {
+  color: #fff;
+  background-color: #E53935;
+}
+
+.badge-cc {
+  color: #fff;
+  background-color: #FFB300;
+}
+
+.badge-academic {
+  color: #fff;
+  background-color: #1E88E5;
+}
+
+ul.event-details {
+    padding: 0;
+    list-style: none;
+    text-indent: -17pt;
+    margin-left: 32pt;
+}
+
+ul.event-details li i.fa {
+  color:#B49048;
+}
 
 
 
@@ -459,6 +507,11 @@ div.portraitsmodal {
 
 .modal-open .modal {
   z-index: 1138;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+  background-color:#9E9E9E;
 }
 
 .btn-hidden {
