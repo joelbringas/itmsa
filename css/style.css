@@ -619,6 +619,13 @@ p.footertext {
 
     }
 
+#Logo{
+  transition: all 0.3s;
+}
+
+.largeLogo{width: 122px;}
+.smallLogo{width: 90px;}
+
     .footersociallogo img {
       max-height:30px;
       max-width:100%;
