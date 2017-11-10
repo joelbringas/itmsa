@@ -84,12 +84,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .headerbg {
-  padding: 8rem 2rem;
+  padding: 10rem 2rem;
   background-color: #EEEEEE;
   border-radius: 0;
   height: 100%;
   background-attachment: fixed;
-  background-position: center;
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -402,14 +402,13 @@ a:hover {
 
 .eventstint {
   color:white;
-  background-position:center center repeat;
   background-size:cover;
   background-image:
       linear-gradient(
-      rgba(0, 80, 58, 0.6),
-      rgba(0, 80, 58, 0.6)
+      rgba(0, 80, 58, 0.7),
+      rgba(0, 80, 58, 0.7)
     ),
-    url('http://via.placeholder.com/1920x1080');
+    url('../img/pics/events-headerbg.jpg');
 }
 
 .events {
@@ -504,8 +503,8 @@ ul.event-details li i.fa {
   background-size:cover;
   background-image:
       linear-gradient(
-      rgba(0, 80, 58, 0.6),
-      rgba(0, 80, 58, 0.6)
+      rgba(0, 80, 58, 0.7),
+      rgba(0, 80, 58, 0.7)
     ),
     url('http://via.placeholder.com/1920x1080');
 }
