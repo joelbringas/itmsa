@@ -4,26 +4,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="ITMSA">
     <link rel="icon" href="img/logo/Favicon.png">
 
     <title>ITMSA</title>
 
-    <!-- Bootstrap core CSS -->
+<!-- Stylesheets
+============================================= -->
+
     <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
-
-    <!--Fonts -->
+    <link href="css/responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700,700i,900,900i">
 
   </head>
+
   <body>
+
+<!-- Navbar Start
+============================================= -->
 
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <a class="navbar-brand" href="index.html"><img src="img/logo/ITMSA Logo-White.png" class="largeLogo" id="Logo" style="max-height:50px;" alt=""/></a>
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo/ITMSA Logo-White.png" class="largeLogo" id="Logo" alt="ITMSA Logo"/>
+        </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -47,7 +52,7 @@
               <a class="nav-link" href="team.html">Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="shop.html">Shop</a>
+              <a class="nav-link" href="shop.html">Shop</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="apply.html">Apply</a>
@@ -61,7 +66,13 @@
       </nav>
     </header>
 
+<!-- Navbar End
+============================================= -->
+
     <main role="main" class="margintop">
+
+<!-- Carousel Start
+============================================= -->
 
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -71,32 +82,25 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active" style="background-image: url('img/pics/index1.jpg')">
-            <div class="container">
-              <div class="carousel-caption text-center">
+              <div class="carousel-caption">
                 <h1 style="color:white;">Meet the new ITMSA</h1>
                 <p>New year, new us! ITMSA has rebranded with a new look!</p>
 
               </div>
-            </div>
           </div>
 
           <div class="carousel-item" style="background-image: url('img/pics/index2.jpg')">
-            <div class="container">
               <div class="carousel-caption text-center">
                 <h1 style="color:white;">Ted Rogers IT Summit</h1>
                 <p>In a few weeks, ITMSA will be hosting the TRITS.</p>
               </div>
-            </div>
           </div>
 
           <div class="carousel-item" style="background-image: url('img/pics/index3.jpg')">
-
-            <div class="container">
               <div class="carousel-caption text-center">
                 <h1 style="color:white;">BTM Apparel</h1>
                 <p>New merchandise designed by your course union.</p>
               </div>
-            </div>
           </div>
 
       </div>
@@ -110,32 +114,45 @@
         </a>
       </div>
 
+<!-- Carousel End
+============================================= -->
 
+<!-- Intro Start
+============================================= -->
 
-<div class="row jumbotron justify-content-center">
+<div class="container-fluid">
+  <div class="row jumbotron justify-content-center">
 
-      <div class="col-lg-5 mobilecol">
-        <p class="boilerplate">We
-          <span style="color:#8CBE59">represent</span>
-            the<br>Ted Rogers School of ITM.
-        </p>
-        <p>Welcome to ITMSA — the premier course union and student association for the Business Technology Management program at Ted Rogers School of Management, Ryerson University.</p>
-      </div>
+        <div class="col-lg-5 mobilecol">
+          <p class="boilerplate">We
+            <span style="color:#8CBE59">represent</span>
+              the<br>Ted Rogers School of ITM.
+          </p>
+          <p>Welcome to ITMSA — the premier course union and student association for the Business Technology Management program at Ted Rogers School of Management, Ryerson University.</p>
+        </div>
 
-      <div class="col-lg-5">
-          <div class="row">
-            <div class="col-md-3 no-gutters text-center">
-              <img src="img/icons/BTMAC.png" style="max-width:100%; width:150px; padding:10px 0;"/>
+        <div class="col-lg-5">
+            <div class="row">
+              <div class="col-md-4 text-center" style="padding-left:0;">
+                <img src="img/icons/BTMAC.png" style="max-width:100%; width:150px; padding:10px 0;"/>
+              </div>
+
+              <div class="col-md-8 no-gutters">
+                  <h1>BTMAC Accredited<br>Program</h1>
+                  <p style="margin:0;">
+                    Our Business Technology Management (BTM) and BTM Co-op programs have been fully accredited by the <a href="https://www.btm-forum.org/" target="_blank">BTM Forum (BTMF)</a>, <a href="http://itac.ca/" target="_blank">Information and Technology Association of Canada (ITAC)</a>.
+                  </p>
+              </div>
             </div>
-
-            <div class="col-md-9">
-                <h1>BTMAC Accredited<br>Program</h1>
-                <p style="margin:0;">Our Business Technology Management (BTM) and BTM Co-op programs have been fully accredited by the <a href="https://www.btm-forum.org/" target="_blank">BTM Forum (BTMF)</a> and <a href="http://itac.ca/" target="_blank">Information and Technology Association of Canada (ITAC).</a></p>
-            </div>
-          </div>
-      </div>
+        </div>
+  </div>
 </div>
 
+<!-- Intro End
+============================================= -->
+
+<!-- Mission Start
+============================================= -->
 
 <div class="container">
 
@@ -145,7 +162,7 @@
           </div>
 
           <div class="col-lg-4 mobilecol">
-            <img src="img/icons/serve.svg" width="100" height="100">
+            <img src="img/icons/serve.svg" class="missionicon">
             <h2>Serve</h2>
             <p>To assist the needs of the Business Technology Management student body.</p>
             <br>
@@ -153,7 +170,7 @@
           </div>
 
           <div class="col-lg-4 mobilecol">
-            <img src="img/icons/represent.svg" width="100" height="100">
+            <img src="img/icons/represent.svg" class="missionicon">
             <h2>Represent</h2>
             <p>To be a catalyst in the positive branding of the BTM program and Ryerson University.</p>
             <br>
@@ -161,7 +178,7 @@
           </div>
 
           <div class="col-lg-4">
-            <img src="img/icons/contribute.svg" width="100" height="100">
+            <img src="img/icons/contribute.svg" class="missionicon">
             <h2>Contribute</h2>
             <p>To be apart of the lively spirit of the Ted Rogers School of Management community.</p>
             <br>
@@ -172,153 +189,174 @@
 
 </div>
 
+<!-- Mission End
+============================================= -->
 
 
+<!-- Counter Start
+============================================= -->
 
-
+<div class="container-fluid">
 
         <div class="row jumbotron justify-content-center text-center" id="counter" style="border-top:0;">
 
-            <div class="col-lg-2 col-md-4">
-              <div class="counterwrapper">
-                <img src="img/icons/fulltime.svg" height="75" width="75">
+          <div class="col-lg-2 col-md-4 counterwrapper">
+              <img src="img/icons/TRSM.svg" class="countericon">
+              <div class="counter-value" data-count="10792">0</div>
+              <p>TRSM<br>Students<sup>1</sup></p>
+          </div>
+
+            <div class="col-lg-2 col-md-4 counterwrapper">
+                <img src="img/icons/FullTime.svg" class="countericon">
                 <div class="counter-value" data-count="1716">0</div>
-                <p>Full-Time BTM<br>Students*</p>
-              </div>
+                <p>Full-Time BTM<br>Students<sup>1</sup></p>
             </div>
 
-            <div class="col-lg-2 col-md-4">
-              <div class="counterwrapper">
-                <img src="img/team/Placeholder.jpg" height="75" width="75">
+            <div class="col-lg-2 col-md-4 counterwrapper">
+                <img src="img/icons/PartTime.svg" class="countericon">
                 <div class="counter-value" data-count="220">0</div>
-                <p>Part-Time BTM<br>Students*</p>
-              </div>
+                <p>Part-Time BTM<br>Students<sup>1</sup></p>
             </div>
 
-            <div class="col-lg-2 col-md-4">
-              <div class="counterwrapper">
-                <img src="img/team/Placeholder.jpg" height="75" width="75">
-                <div class="counter-value" data-count="10792">0</div>
-                <p>TRSM<br>Students*</p>
-              </div>
+            <div class="col-lg-2 col-md-4 counterwrapper">
+                <img src="img/icons/Coop.svg" class="countericon">
+                <div class="counter-value" data-count="180">0</div>
+                <p>BTM Co-op<br>Students<sup>1</sup></p>
             </div>
 
-            <div class="col-lg-2 col-md-4">
-              <div class="counterwrapper">
-                <img src="img/team/Placeholder.jpg" height="75" width="75">
+            <div class="col-lg-2 col-md-4 counterwrapper">
+                <img src="img/icons/Partners.svg" class="countericon">
                 <div class="counter-value" data-count="15">0</div>
                 <p>Partners</p>
-              </div>
-            </div>
-
-            <div class="col-lg-2 col-md-4">
-              <div class="counterwrapper">
-                <img src="img/team/Placeholder.jpg" height="75" width="75">
-                <div class="counter-value" data-count="180">0</div>
-                <p>BTM Co-op<br>Students*</p>
-              </div>
             </div>
 
             <div class="w-100"></div>
 
             <div class="col-12">
-              <p><a href="http://www.ryerson.ca/upo/statistics/students-2016-head" target="_blank">* As of Fall 2016</a></p>
+              <p style="margin-top:2rem;"><a href="http://www.ryerson.ca/upo/statistics/students-2016-head" target="_blank"><sup>1</sup> Ryerson University — University Planning Office (UPO) — As of Fall 2016</a></p>
             </div>
 
         </div>
 
+</div>
 
+<!-- Counter End
+============================================= -->
+
+
+<!-- Social Start
+============================================= -->
 
 <div class="container">
 
-  <div class="row jumbotron2 justify-content-center text-center" id="counter">
+  <div class="row jumbotron2 justify-content-center" id="counter">
 
-
-        <div class="col-lg-6 headers text-center">
-            <h1>Office Hours</h1>
+        <div class="col-lg-6 mobilecol">
+          <div class="text-center headers">
+              <h1>Office Hours</h1>
+          </div>
 
             <table class="table-sm table-bordered" style="font-size:9pt; width:100%;">
               <tbody>
-                  <th scope="row" rowspan="2">Mon</th>
+                <tr>
+                  <th colspan="2" scope="col" style="background-color:#EEEEEE;">Monday</th>
+                </tr>
+                <tr>
                   <td>1 PM - 2 PM</td>
-                  <td><b>Nawal Ali</b><br>Director of Social Media</td>
+                  <td><b>Nawal Ali</b> — Director of Social Media</td>
                 </tr>
                 <tr>
                   <td>2 PM - 3 PM</td>
-                  <td><b>Zachary Moir</b><br>Director of Information Technology</td>
+                  <td><b>Zachary Moir</b> — Vice President of Technology</td>
                 </tr>
                 <tr>
-                  <th scope="row" rowspan="3">Tue</th>
+                  <th colspan="2" scope="col" style="background-color:#EEEEEE;">Tuesday</th>
+                </tr>
+                <tr>
                   <td>12 PM - 1 PM</td>
-                  <td><b>Hajra Arif</b><br>Director of Academic Events</td>
+                  <td><b>Hajra Arif</b> — Director of Academic Events</td>
                 </tr>
                 <tr>
                   <td>2 PM - 3 PM</td>
-                  <td><b>Alicia D'Souza</b><br>Co-Vice President of Corporate Relations</td>
+                  <td><b>Alicia D'Souza</b> — Co-Vice President of Corporate Relations</td>
                 </tr>
                 <tr>
                   <td>3 PM - 5 PM</td>
-                  <td><b>Maryam Ansari</b><br>Director of Corporate Relations</td>
+                  <td><b>Maryam Ansari</b> — Director of Corporate Relations</td>
                 </tr>
                 <tr>
-                  <th scope="row" rowspan="5">Wed</th>
+                  <th colspan="2" scope="col" style="background-color:#EEEEEE;">Wednesday</th>
+                </tr>
+                <tr>
                   <td>9 AM - 11 AM</td>
-                  <td><b>Saba Cheema</b><br>Executive Vice President</td>
+                  <td><b>Saba Cheema</b> — Executive Vice President</td>
                 </tr>
                 <tr>
                   <td>12 PM - 1 PM</td>
-                  <td><b>Joel Bringas</b><br>Director of Graphics</td>
+                  <td><b>Joel Bringas</b> — Director of Graphics</td>
                 </tr>
                 <tr>
                   <td>1 PM - 2 PM</td>
-                  <td><b>Priyanka Patel</b><br>Vice President of Case Competitions</td>
+                  <td><b>Priyanka Patel</b> — Vice President of Case Competitions</td>
                 </tr>
                 <tr>
                   <td>2 PM - 3 PM</td>
-                  <td><b>Saljoq Khurshid</b><br>President</td>
+                  <td><b>Saljoq Khurshid</b> — President</td>
                 </tr>
                 <tr>
                   <td>5 PM - 6 PM</td>
-                  <td><b>Benjamin Copeman</b><br>Director of Campus Outreach</td>
+                  <td><b>Benjamin Copeman</b> — Director of Campus Outreach</td>
                 </tr>
                 <tr>
-                  <th scope="row" rowspan="3">Thu</th>
+                  <th colspan="2" scope="col" style="background-color:#EEEEEE;">Thursday</th>
+                </tr>
+                <tr>
                   <td>10 AM - 12 PM</td>
-                  <td><b>Mirza Abubacker</b><br>Vice President of Finance</td>
+                  <td><b>Mirza Abubacker</b> — Vice President of Finance</td>
                 </tr>
                 <tr>
                   <td>12 PM - 1 PM</td>
-                  <td><b>Yusra Arshad</b><br>Director of Finance</td>
+                  <td><b>Yusra Arshad</b> — Director of Finance</td>
                 </tr>
                 <tr>
                   <td>5 PM - 6 PM</td>
-                  <td><b>Iftikhar Choudhary</b><br>Co-Vice President of Corporate Relations</td>
+                  <td><b>Iftikhar Choudhary</b> — Co-Vice President of Corporate Relations</td>
                 </tr>
                 <tr>
-                  <th scope="row" rowspan="4">Fri</th>
+                  <th colspan="2" scope="col" style="background-color:#EEEEEE;">Friday</th>
+                </tr>
+                <tr>
                   <td>11 AM - 12 PM</td>
-                  <td><b>Nathalia Alli</b><br>Director of Social Affairs</td>
+                  <td><b>Nathalia Alli</b> — Director of Social Affairs</td>
                 </tr>
                 <tr>
                   <td>3 PM - 4 PM</td>
-                  <td><b>Ronit Patel</b><br>Vice President of Events</td>
+                  <td><b>Ronit Patel</b> — Vice President of Events</td>
                 </tr>
                 <tr>
                   <td>4 PM - 5 PM</td>
-                  <td><b>Zafina Hoque</b><br>Director of Corporate Relations</td>
+                  <td><b>Zafina Hoque</b> — Director of Corporate Relations</td>
                 </tr>
                 <tr>
                   <td>5 PM - 6 PM</td>
-                  <td><b>Samuel Kieme</b><br>Vice President of Marketing</td>
+                  <td><b>Samuel Kieme</b> — Vice President of Marketing</td>
+                </tr>
+                <tr>
+                  <th colspan="2" scope="col" style="background-color:#EEEEEE;">Weekends — Closed</th>
                 </tr>
               </tbody>
             </table>
 
+
         </div>
 
 
-        <div class="col-lg-6 headers text-center">
-            <h1>Instagram</h1>
+        <div class="col-lg-6">
+
+          <div class="headers text-center">
+              <h1>Instagram</h1>
+          </div>
+
             <div id="instafeed"></div>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.js"></script>
                 <script type="text/javascript">
@@ -341,47 +379,30 @@
 
 </div>
 
+<!-- Social End
+============================================= -->
 
 
+<!-- Footer Start
+============================================= -->
 
-<div class="row jumbotron justify-content-center text-center">
+<a id="back-to-top" class="btn btn-primary back-to-top" role="button">
+  <i class="fa fa-chevron-up" aria-hidden="true" style="color:white;"></i>
+</a>
 
-  <div class="col-lg-6 headers text-center">
-      <h1>Useful Links</h1>
-      <p>Insert Co-op FAQ</p>
-      <p>Insert ITM Syllabuses Link</p>
-      <p>Insert ITM Faculty Contact Info Link, including Mandatory Courses (QMS/LAW/FIN,etc.)</p>
+<footer class="container-fluid">
+        <div class="row footer-jumbotron justify-content-center">
 
-
-  </div>
-
-</div>
-
-
-
-
-      <a id="back-to-top" class="btn btn-primary back-to-top" role="button">
-        <i class="fa fa-chevron-up" aria-hidden="true" style="color:white;"></i>
-      </a>
-
-
-
-
-
-      <div class="headerbg footer-jumbotron">
-      <footer class="container footer-container">
-        <div class="row">
-
-          <div class="col-md-6">
+          <div class="col-md-5 mobilecol">
             <img src="img/logo/ITMSA Logotype-White.png" style="max-height:50px; max-width:100%;"/>
 
             <hr class="footerhr">
 
-            <p class="footertext">Established in 2002, Ted Rogers School of Management's ITMSA has grown to become the premier course union for the largest Business Technology Management (BTM) student population in the country. Our executive team continually strives to seek what is in the best interests for our students in order to improve our program and equip students with the skills they'll need upon graduation. ITMSA hosts many events that not only help shape our students to become industry ready professionals after their academic career, but to also encourage more well rounded, social and corporate responsible individuals.</p>
+            <p>Established in 2002, Ted Rogers School of Management's ITMSA has grown to become the premier course union for the largest Business Technology Management (BTM) student population in the country. Our executive team continually strives to seek what is in the best interests for our students in order to improve our program and equip students with the skills they'll need upon graduation. ITMSA hosts many events that not only help shape our students to become industry ready professionals after their academic career, but to also encourage more well rounded, social and corporate responsible individuals.</p>
 
           </div>
 
-          <div class="col-md-6">
+          <div class="col-md-5">
 
             <div class="footersocial">
 
@@ -443,14 +464,16 @@
 
             <p class="copyright">Copyright ©
             <script>document.write(new Date().getFullYear());</script>
-            ITMSA.<br>All rights reserved.
+            ITMSA. All rights reserved.
            </p>
 
           </div>
 
         </div>
-      </footer>
-      </div>
+</footer>
+
+<!-- Footer End
+============================================= -->
 
     </main>
 
