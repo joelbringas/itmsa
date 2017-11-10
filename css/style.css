@@ -224,6 +224,7 @@ a, a:hover {
 .carousel-caption {
   bottom:3rem;
   z-index: 10;
+  text-shadow: 0 0 20px #616161;
 }
 
 .carousel-indicators li {
