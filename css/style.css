@@ -43,8 +43,11 @@ h1,h2,h3,h4,h5,h6 {
     font-family:Helvetica Neue, Arial, sans-serif;
 }
 .h3,h3 {
-    font-weight:500;
+    font-weight:700;
     font-size: 1.5rem;
+    font-family:'Montserrat', Arial Black, sans-serif;
+    text-transform: uppercase;
+    color:#B59141;
 }
 .h4, h4 {
     font-size: 1.25rem;
@@ -455,7 +458,6 @@ ul.event-details li i.fa {
 
 
 
-
 /* Partnership
 ------------------------- */
 
@@ -482,8 +484,101 @@ div.partners {
   width: 100%;
 }
 
+.partnership-metrics {
+   padding: 10px;
+   width: 50%;
+   position: relative;
+   text-align: center;
+   float: left;
+}
 
+.partnership-metrics img{
+    width: 90%;
+}
 
+@media only screen and (max-width: 900px) {
+  .partnership-metrics {
+   padding: 10px;
+   width: 100%;
+   position: relative;
+   text-align: center;
+  }
+}
+
+.partnership-events{
+    float: left; 
+    width: 50%;
+    text-align: center;
+    
+}
+
+.partner-events {
+    display: table;
+    text-align: center;
+    background-color: rgba(192,192,192,0.2);
+    width: 100%;
+    height: 150px;
+-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.partner-events:before, .partner-events:after
+{
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.partner-events:after
+{
+	right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+    -moz-transform:skew(8deg) rotate(3deg);
+    -ms-transform:skew(8deg) rotate(3deg);
+    -o-transform:skew(8deg) rotate(3deg);
+    transform:skew(8deg) rotate(3deg);
+}
+.partner-events img {
+    float: left;
+    margin-left: 5px;
+    margin-top: 7px;
+    height:130px;
+    width: 100px;
+}
+
+@media only screen and (max-width: 900px) {
+.partnership-events{ 
+    width: 100%;
+    text-align: center;
+    
+}
+}
+
+@media only screen and (max-width: 900px) {
+.partner-events {
+    background-color: rgba(192,192,192,0.5);
+    width: 100%;
+    height: 150px;
+}
+}
+
+.partnership-metrics-events-wrapper {
+   display: flex; 
+}
+
+@media only screen and (max-width: 900px) {
+.partnership-metrics-events-wrapper {
+    display: block;
+}
+}
 
 /* Team
 ------------------------- */
