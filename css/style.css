@@ -63,13 +63,18 @@ h1,h2,h3,h4,h5,h6 {
   margin:3rem;
 }
 
+.divider2 {
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
 .container, .container-fluid {
   padding:0;
 }
 
 
 .jumbotron {
-  padding: 2rem;
+  padding: 2rem 0 4rem;
   background-color: #EEEEEE;
   border:15px solid white;
   border-radius: 0;
@@ -78,7 +83,7 @@ h1,h2,h3,h4,h5,h6 {
 
 
 .jumbotron2 {
-  padding: 2rem;
+  padding: 2rem 0 2.5rem;
   background-color: #FFFFFF;
   border-radius: 0;
 }
@@ -130,8 +135,6 @@ a:hover {
   border-color: none !important;
   box-shadow: 0 !important;
 }
-
-
 
 
 
@@ -612,21 +615,20 @@ div.partners {
 ------------------------- */
 
 div.portraits {
-  width:150px;
-  height:150px;
+  max-width:175px;
   overflow:hidden;
   border-radius:50%;
-  margin:10px auto;
 }
 
 .portraits img {
-  margin: -30px auto;
   width: 100%;
 }
 
 
 div.portraitsmodal {
   margin:0 10px;
+  max-width:150px;
+  max-height:150px;
 }
 
 
@@ -635,7 +637,7 @@ div.portraitsmodal {
 }
 
 .modal-dialog {
-    max-width: 530px;
+    max-width: 582px;
 }
 
 .btn-primary.disabled,
@@ -648,12 +650,12 @@ div.portraitsmodal {
     color: #000;
     background-color: transparent;
     font-size:11pt;
-    padding-top:0;
-    padding-bottom:0;
+    padding:10px;
     cursor:pointer;
+    border:0;
+    border-radius:50%;
 }
 .btn-hidden:hover {
-    color: #000;
     background-color: #E0E0E0;
     border-color: transparent;
 }
