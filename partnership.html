@@ -87,12 +87,40 @@
 
 
 <div class="container">
-<div class="partnership-metrics-events-wrapper">
-  <div class="partnership-metrics">
+  <div class="partnership-metrics" id="counter">
   <h1 style="margin-top: 10px;">Increase Your Digital Precense</h1>
-  <img src="img/partnership/digital-metrics.PNG">
-  <h1 style="margin-top: 10px;">Engage Students On Campus</h1>
-  <img src="img/partnership/campus-outreach-metrics.PNG">
+       <div class="partnership-counter">
+   <img src="img/social/facebook-like.png" class="countericon">
+        <div class="counter-value" data-count="1300">0</div>
+           <p>Facebook<br>Likes</p>
+          </div>
+      <div class="partnership-counter">
+      <img src="img/social/linkedin-logo.png" class="countericon">
+        <div class="counter-value" data-count="1600">0</div>
+          <p>Total<br>Linkdin Followers</p>
+      </div>
+      <div class="partnership-counter">
+      <img src="img/icons/views-icon.png" class="countericon">
+        <div class="counter-value" data-count="1486">0</div>
+            <p>Website<br>Views</p>
+      </div>
+      <h1 style="margin-top: 30px;">Increase Your Campus Outreach</h1>
+           <div class="partnership-counter">
+      <img src="img/icons/student-icon.png" class="countericon">
+        <div class="counter-value" data-count="1900">0</div>
+            <p>BTM<br>Students</p>
+      </div>
+       <div class="partnership-counter">
+      <img src="img/icons/student-icon2.png" class="countericon">
+        <div class="counter-value" data-count="10000">0</div>
+            <p>Ted Rogers<br>Students</p>
+      </div>
+       <div class="partnership-counter">
+      <img src="img/icons/attendance%20icon.png" class="countericon">
+        <div class="counter-value" data-count="70">0</div>
+            <p>Average<br>Event Attendance</p>
+      </div>
+    
   </div>
 
 <div class="partnership-events">
@@ -100,15 +128,25 @@
     <div class="partner-events">
     <img src="img/events/cio.jpg">
     <h5>CIO Event</h5>
-    <p style="float: left; margin-left: 10px;">Description here.</p>
+    <p>Description here.</p>
+    <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-secondary" style="position: relative; margin-bottom: -5%;">Event Offerings</button>
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-body">
+            <img src="img/partnership/event-offerings.PNG" class="img-responsive">
+        </div>
     </div>
-     <div class="partner-events" style="margin-top: 20px;">
-    <img src="img/events/cio.jpg">
-    </div>
-     <div class="partner-events" style="margin-top: 20px;">
-    <img src="img/events/cio.jpg">
-    </div>
+  </div>
 </div>
+    </div>
+    
+     <div class="partner-events" style="margin-top: 20px;">
+    <img src="img/events/cio.jpg">
+    </div>
+     <div class="partner-events" style="margin-top: 20px;">
+    <img src="img/events/cio.jpg">
+    </div>
 </div>
 
     <div class="row jumbotron2 text-center">
@@ -395,6 +433,7 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/counter.js"></script>
     <script src="js/header-shrink.js"></script>
     <script src="https://use.fontawesome.com/e0fc1912cd.js"></script>
 
