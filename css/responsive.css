@@ -15,6 +15,15 @@
   .jumbotron {
     padding:2rem 1rem;
   }
+
+  .navbar-hidden {
+      background-color: #004F39;
+  }
+
+  .margintop {
+    margin-top:90px;
+  }
+
 }
 
 

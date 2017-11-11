@@ -2,29 +2,33 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="images/logo/Favicon.png">
+    <meta name="author" content="ITMSA">
+    <link rel="icon" href="img/logo/Favicon.png">
 
-    <title>BTM Innovation Core (BIC) | ITMSA</title>
+    <title>BTM Innovation Core | ITMSA</title>
 
-    <!-- Bootstrap core CSS -->
+<!-- Stylesheets
+============================================= -->
+
     <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
-
-    <!--Fonts -->
+    <link href="css/responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700,700i,900,900i">
 
   </head>
 
   <body>
 
+<!-- Navbar Start
+============================================= -->
+
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <a class="navbar-brand" href="index.html"><img src="img/logo/ITMSA Logo-White.png" class="largeLogo" id="Logo" style="max-height:50px;" alt=""/></a>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-hidden">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo/ITMSA Logo-White.png" class="largeLogo" id="Logo" alt="ITMSA Logo"/>
+        </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -42,13 +46,13 @@
               <a class="nav-link" href="partnership.html">Partnership</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="bic.html">Innovation Core</a>
+              <a class="nav-link active" href="bic.html">Innovation Core</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="team.html">Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="shop.html">Shop</a>
+              <a class="nav-link" href="shop.html">Shop</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="apply.html">Apply</a>
@@ -62,56 +66,65 @@
       </nav>
     </header>
 
-    <main role="main">
+<!-- Navbar End
+============================================= -->
 
-      <div class="jumbotron text-center">
-          <p class="biclogo">
-          <img src="img/logo/BTM Innovation Core.png" style="max-width:100%; max-height:200px;"/>
-          </p>
-          <br>
-          <p class="intro">Information Technology Management Students’ Association and Business Career Hub is excited to introduce the launch of the BTM Innovation Core (BIC). BTM Innovation Core will be a program designed to engage junior students to co-develop innovative solutions for a diverse portfolio of high impact projects.</p>
+
+    <main role="main" class="margintop">
+
+      <div class="container-fluid">
+        <div class="row justify-content-center headerbg text-center bictint">
+          <div class="col-lg-8 bictint-inner">
+            <p class="biclogo">
+              <img src="img/logo/BTM Innovation Core.png" style="max-width:100%; max-height:200px;"/>
+            </p>
+            <br>
+            <p class="intro">Information Technology Management Students’ Association and Business Career Hub is excited to introduce the launch of the BTM Innovation Core (BIC). BTM Innovation Core will be a program designed to engage junior students to co-develop innovative solutions for a diverse portfolio of high impact projects.</p>
+          </div>
+        </div>
       </div>
+
+    <!-- How It Works Start -->
 
       <div class="container">
 
-        <div class="headers text-center">
-          <h1>How It Works</h1>
-        </div>
-
-        <div class="row">
+        <div class="row jumbotron2">
+          <div class="col-12 text-center headers">
+            <h1>How It Works</h1>
+          </div>
           <div class="col-md-3">
             <div class="benefitsicon">
-              <img src="img/icons/Team.svg" style="height:60px;"/>
+              <img src="img/icons/Team.svg" class="bicicon"/>
             </div>
             <div class="benefitsdesc">
-              <h5>Step 1</h5>
+              <h3>Step 1</h3>
               <p>Form a team or work as an individual.</p>
             </div>
           </div>
           <div class="col-md-3">
             <div class="benefitsicon">
-              <img src="img/icons/Develop.svg" style="height:60px;"/>
+              <img src="img/icons/Develop.svg" class="bicicon"/>
             </div>
             <div class="benefitsdesc">
-              <h5>Step 2</h5>
+              <h3>Step 2</h3>
               <p>Develop creative solutions for projects, such as 2K Engagement, Brand Awareness, Corporate Partnerships and Academic and Social Events.</p>
             </div>
           </div>
           <div class="col-md-3">
             <div class="benefitsicon">
-              <img src="img/icons/Pitch.svg" style="height:60px;"/>
+              <img src="img/icons/Pitch.svg" class="bicicon"/>
             </div>
             <div class="benefitsdesc">
-              <h5>Step 3</h5>
+              <h3>Step 3</h3>
               <p>Pitch your ideas to the BIC Committee.</p>
             </div>
           </div>
           <div class="col-md-3">
             <div class="benefitsicon">
-              <img src="img/icons/Reality.svg" style="height:60px";/>
+              <img src="img/icons/Reality.svg" class="bicicon";/>
             </div>
             <div class="benefitsdesc">
-              <h5>Step 4</h5>
+              <h3>Step 4</h3>
               <p>Once your idea is approved, your idea becomes reality!</p>
             </div>
           </div>
@@ -119,11 +132,16 @@
 
       </div>
 
-      <div class="jumbotron text-center">
-        <div class="container">
-          <h1>BIC Committee</h1>
-          <p class="intro">A team elected by ITMSA Executives.</p>
-          <div class="row">
+      <!-- How It Works End -->
+
+    <!-- Commitee Start -->
+<div class="container-fluid">
+
+  <div class="row jumbotron justify-content-center text-center">
+                    <div class="col-12 headers">
+                        <h1>BIC Committee</h1>
+                        <p>A team elected by ITMSA Executives.</p>
+                    </div>
 
             <div class="col-md-2">
                 <div class="portraits">
@@ -132,7 +150,6 @@
               <p class="names">
                 <b>Benjamin Copeman</b><br>
                 Director of Campus Outreach<br>
-                <i>Marketing</i>
               </p>
             </div>
 
@@ -143,7 +160,6 @@
               <p class="names">
                 <b>Iftikhar Choudhary</b><br>
                 Co-Vice President of Corporate Relations<br>
-                <i>Corporate Relations</i>
               </p>
             </div>
 
@@ -154,7 +170,6 @@
                 <p class="names">
                   <b>Ronit Patel</b><br>
                   Vice President of Events<br>
-                  <i>Events</i>
                 </p>
             </div>
 
@@ -165,7 +180,6 @@
               <p class="names">
                   <b>Saba Cheema</b><br>
                   Executive Vice President<br>
-                  <i>Administration</i>
                 </p>
             </div>
 
@@ -176,24 +190,21 @@
                 <p class="names">
                   <b>Saljoq Khurshid</b><br>
                   President<br>
-                  <i>Administration</i>
                 </p>
             </div>
 
+        </div>
+</div>
+    <!-- Committee End -->
+
+    <!-- Benefits Start -->
+      <div class="container">
+        <div class="row jumbotron2">
+
+          <div class="col-12 text-center headers">
+              <h1>Benefits</h1>
           </div>
 
-        </div>
-      </div>
-
-
-
-      <div class="container">
-
-        <div class="headers text-center">
-          <h1>Benefits</h1>
-        </div>
-
-        <div class="row">
           <div class="col-md-6">
             <div class="benefitsicon">
               <img src="img/icons/Resume.svg" style="height:60px;"/>
@@ -233,34 +244,33 @@
         </div>
 
       </div>
+    <!-- Benefits End -->
 
+    <!-- Member Start -->
+    <div class="container-fluid">
+      <div class="row jumbotron justify-content-center">
 
-      <div class="jumbotron">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8">
-              <h1>Become a Member</h1>
-              <p>As a member of BIC, you will receive the opportunity to work in a self-organized project team and pitch your solutions related to student engagement to a committee of ITMSA Executives on a weekly basis. Your solutions will be assessed, funded, and implemented by ITMSA.
-                <br><br>
-              Apply as a team or an individual member of the BTM Innovation Core (BIC).<br>
+        <div class="col-md-5 headers">
+            <h1>Become a Member</h1>
+            <p>As a member of BIC, you will receive the opportunity to work in a self-organized project team and pitch your solutions related to student engagement to a committee of ITMSA Executives on a weekly basis. Your solutions will be assessed, funded, and implemented by ITMSA.
+              <br><br>
+            Apply as a team or an individual member of the BTM Innovation Core (BIC).<br>
 
-              <p style="color:#F44336; font-weight:bold;">
-                <i>Applications close February 29th.</i>
-              </p>
+            <p style="color:#F44336; font-weight:bold;">
+              <i>Applications close February 29th.</i>
+            </p>
+        </div>
 
-            </div>
-
-            <div class="col-md-4">
+            <div class="col-md-5">
               <div class="applybutton">
                 <div class="applybuttontable">
-                  <a class="btn btn-secondary apply" href="#" role="button">Apply</a>
+                  <button type="button" class="btn btn-secondary apply">Apply</button>
                 </div>
               </div>
             </div>
-            </div>
-          </div>
-        </div>
-
+      </div>
+    </div>
+    <!-- Member End -->
 
     </main>
 
@@ -268,108 +278,109 @@
 
 
 
+    <!-- Footer Start
+    ============================================= -->
+
     <a id="back-to-top" class="btn btn-primary back-to-top" role="button">
       <i class="fa fa-chevron-up" aria-hidden="true" style="color:white;"></i>
     </a>
 
+    <footer class="container-fluid">
+            <div class="row footer-jumbotron justify-content-center">
 
+              <div class="col-md-5 mobilecol">
+                <img src="img/logo/ITMSA Logotype-White.png" style="max-height:50px; max-width:100%;"/>
 
+                <hr class="footerhr">
 
+                <p>Established in 2002, Ted Rogers School of Management's ITMSA has grown to become the premier course union for the largest Business Technology Management (BTM) student population in the country. Our executive team continually strives to seek what is in the best interests for our students in order to improve our program and equip students with the skills they'll need upon graduation. ITMSA hosts many events that not only help shape our students to become industry ready professionals after their academic career, but to also encourage more well rounded, social and corporate responsible individuals.</p>
 
-    <div class="headerbg footer-jumbotron">
-    <footer class="container footer-container">
-      <div class="row">
+              </div>
 
-        <div class="col-md-6">
-          <img src="img/logo/ITMSA Logotype-White.png" style="max-height:50px; max-width:100%;"/>
+              <div class="col-md-5">
 
-          <hr class="footerhr">
+                <div class="footersocial">
 
-          <p class="footertext">Established in 2002, Ted Rogers School of Management's ITMSA has grown to become the premier course union for the largest Business Technology Management (BTM) student population in the country. Our executive team continually strives to seek what is in the best interests for our students in order to improve our program and equip students with the skills they'll need upon graduation. ITMSA hosts many events that not only help shape our students to become industry ready professionals after their academic career, but to also encourage more well rounded, social and corporate responsible individuals.</p>
+                  <div class="footersociallogo">
+                    <a href="http://www.facebook.com/itmsa/" target="_blank">
+                      <img src="img/social/Facebook.png"/>
+                    </a>
+                  </div>
 
-        </div>
+                  <div class="footersociallogo">
+                    <a href="http://www.twitter.com/itmsa/" target="_blank">
+                      <img src="img/social/Twitter.png"/>
+                    </a>
+                  </div>
 
-        <div class="col-md-6">
+                  <div class="footersociallogo">
+                    <a href="http://www.instagram.com/itmsa/" target="_blank">
+                      <img src="img/social/Instagram.png"/>
+                    </a>
+                  </div>
 
-          <div class="footersocial">
+                  <div class="footersociallogo">
+                    <a href="https://www.linkedin.com/company/692132/" target="_blank">
+                      <img src="img/social/LinkedIn.png"/>
+                    </a>
+                  </div>
 
-            <div class="footersociallogo">
-              <a href="http://www.facebook.com/itmsa/" target="_blank">
-                <img src="img/social/Facebook.png"/>
-              </a>
+                  <div class="footersociallogo">
+                    <a href="https://www.snapchat.com/add/itmsa/" target="_blank">
+                      <img src="img/social/Snapchat.png"/>
+                    </a>
+                  </div>
+
+                </div>
+
+                <hr class="footerhr">
+
+                <div class="footerhierarchy">
+
+                  <div class="footerhierarchylogo">
+                    <a href="http://www.ryerson.ca/" target="_blank">
+                      <img src="img/logo/Ryerson.png"/>
+                    </a>
+                  </div>
+
+                  <div class="footerhierarchylogo">
+                    <a href="http://www.ryerson.ca/tedrogersschool/" target="_blank">
+                      <img src="img/logo/TRSM.png"/>
+                    </a>
+                  </div>
+
+                  <div class="footerhierarchylogo">
+                    <a href="http://www.trssociety.ca/" target="_blank">
+                      <img src="img/logo/TRSS.png"/>
+                    </a>
+                  </div>
+
+              </div>
+
+                <p class="copyright">Copyright ©
+                <script>document.write(new Date().getFullYear());</script>
+                ITMSA. All rights reserved.
+               </p>
+
+              </div>
+
             </div>
-
-            <div class="footersociallogo">
-              <a href="http://www.twitter.com/itmsa/" target="_blank">
-                <img src="img/social/Twitter.png"/>
-              </a>
-            </div>
-
-            <div class="footersociallogo">
-              <a href="http://www.instagram.com/itmsa/" target="_blank">
-                <img src="img/social/Instagram.png"/>
-              </a>
-            </div>
-
-            <div class="footersociallogo">
-              <a href="https://www.linkedin.com/company/692132/" target="_blank">
-                <img src="img/social/LinkedIn.png"/>
-              </a>
-            </div>
-
-            <div class="footersociallogo">
-              <a href="https://www.snapchat.com/add/itmsa/" target="_blank">
-                <img src="img/social/Snapchat.png"/>
-              </a>
-            </div>
-
-          </div>
-
-          <hr class="footerhr">
-
-          <div class="footerhierarchy">
-
-            <div class="footerhierarchylogo">
-              <a href="http://www.ryerson.ca/" target="_blank">
-                <img src="img/logo/Ryerson.png"/>
-              </a>
-            </div>
-
-            <div class="footerhierarchylogo">
-              <a href="http://www.ryerson.ca/tedrogersschool/" target="_blank">
-                <img src="img/logo/TRSM.png"/>
-              </a>
-            </div>
-
-            <div class="footerhierarchylogo">
-              <a href="http://www.trssociety.ca/" target="_blank">
-                <img src="img/logo/TRSS.png"/>
-              </a>
-            </div>
-
-        </div>
-
-          <p class="copyright">Copyright ©
-          <script>document.write(new Date().getFullYear());</script>
-          ITMSA.<br>All rights reserved.
-         </p>
-
-        </div>
-
-      </div>
     </footer>
-    </div>
 
-  </main>
+    <!-- Footer End
+    ============================================= -->
 
-
-  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script src="js/script.js"></script>
-  <script src="js/counter.js"></script>
-  <script src="js/header-shrink.js"></script>
+        </main>
 
 
-</body>
-</html>
+        <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/counter.js"></script>
+        <script src="js/header-shrink.js"></script>
+        <script src="https://use.fontawesome.com/e0fc1912cd.js"></script>
+
+
+      </body>
+    </html>
