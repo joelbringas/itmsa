@@ -84,12 +84,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .headerbg {
-  padding: 7rem 2rem 5rem 2rem;
+  padding: 8rem 0 6rem;
   background-color:#004F39; /* Fallback when no photo */
-  border-radius: 0;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size:cover;
+  color:#ffffff;
 }
 
 
@@ -402,16 +399,6 @@ a:hover {
 /* Events
 ------------------------- */
 
-.eventstint {
-  color:white;
-  background-image:
-      linear-gradient(
-      rgba(0, 80, 58, 0.7),
-      rgba(0, 80, 58, 0.7)
-    ),
-    url('../img/events/headerbg.jpg');
-}
-
 .events {
   width:100%;
 }
@@ -493,16 +480,6 @@ ul.event-details li i.fa {
 /* BIC
 ------------------------- */
 
-.bictint {
-  color:white;
-  background-image:
-      linear-gradient(
-      rgba(0, 80, 58, 0.7),
-      rgba(0, 80, 58, 0.7)
-    ),
-    url('http://via.placeholder.com/1920x1080');
-}
-
 .benefitsicon {
   float:left;
   padding-top:10px;
@@ -535,16 +512,6 @@ div.applybuttontable {
 /* Partnership
 ------------------------- */
 
-.partnershiptint {
-  color:white;
-  background-image:
-      linear-gradient(
-      rgba(0, 80, 58, 0.7),
-      rgba(0, 80, 58, 0.7)
-    ),
-    url('../img/partnership/headerbg.jpg');
-}
-
 div.partners {
   width:200px;
   height:200px;
@@ -562,7 +529,7 @@ div.partners {
    display: block;
    text-align: center;
    margin: 0 auto;
-    
+
 }
 
 .partnership-counter {
@@ -643,16 +610,6 @@ div.partners {
 
 /* Team
 ------------------------- */
-.teamtint {
-  color:white;
-  background-image:
-      linear-gradient(
-      rgba(0, 80, 58, 0.7),
-      rgba(0, 80, 58, 0.7)
-    ),
-    url('../img/team/headerbg.jpg');
-}
-
 
 div.portraits {
   width:150px;
@@ -737,11 +694,4 @@ span.accreditation {
 .badge-collection {
   color: #fff;
   background-color: #B59141;;
-}
-
-.appareltint {
-  color:white;
-  background-image: url('../img/apparel/headerbg.jpg');
-  background-position: center bottom !important;
-
 }
