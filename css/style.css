@@ -84,14 +84,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .headerbg {
-  padding: 7rem 2rem 4rem 2rem;
-  background-color: #EEEEEE;
+  padding: 7rem 2rem 5rem 2rem;
+  background-color:#004F39; /* Fallback when no photo */
   border-radius: 0;
-  height: 100%;
   background-attachment: fixed;
-  background-position: top center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
 }
 
 
@@ -406,7 +404,6 @@ a:hover {
 
 .eventstint {
   color:white;
-  background-size:cover;
   background-image:
       linear-gradient(
       rgba(0, 80, 58, 0.7),
@@ -498,7 +495,6 @@ ul.event-details li i.fa {
 
 .bictint {
   color:white;
-  background-size:cover;
   background-image:
       linear-gradient(
       rgba(0, 80, 58, 0.7),
@@ -541,13 +537,12 @@ div.applybuttontable {
 
 .partnershiptint {
   color:white;
-  background-size:cover;
   background-image:
       linear-gradient(
       rgba(0, 80, 58, 0.7),
       rgba(0, 80, 58, 0.7)
     ),
-    url('http://via.placeholder.com/1920x1080');
+    url('../img/partnership/headerbg.jpg');
 }
 
 div.partners {
@@ -661,8 +656,6 @@ div.partners {
 ------------------------- */
 .teamtint {
   color:white;
-  background-position:0 20%;
-  background-size:cover;
   background-image:
       linear-gradient(
       rgba(0, 80, 58, 0.7),
@@ -693,6 +686,10 @@ div.portraitsmodal {
 
 .modal-open .modal {
   z-index: 1138;
+}
+
+.modal-dialog {
+    max-width: 530px;
 }
 
 .btn-primary.disabled,
@@ -755,11 +752,7 @@ span.accreditation {
 
 .appareltint {
   color:white;
-  background-size:cover;
-  background-image:
-      linear-gradient(
-      rgba(0, 80, 58, 0.7),
-      rgba(0, 80, 58, 0.7)
-    ),
-    url('http://via.placeholder.com/512x663');
+  background-image: url('../img/apparel/headerbg.jpg');
+  background-position: center bottom !important;
+
 }
