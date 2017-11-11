@@ -39,15 +39,10 @@ h1,h2,h3,h4,h5,h6 {
     font-family:Helvetica Neue, Arial, sans-serif;
 }
 .h3,h3 {
-<<<<<<< HEAD
-    font-weight:700;
-=======
+
+    font-weight:500;
     font-weight:bold;
->>>>>>> a7cefa3df3f4c10a3e0c6e180cc8531d832f2c00
     font-size: 1.5rem;
-    font-family:'Montserrat', Arial Black, sans-serif;
-    text-transform: uppercase;
-    color:#B59141;
 }
 .h4, h4 {
     font-size: 1.5rem;
@@ -590,10 +585,10 @@ div.partners {
 }
 
 .partnership-events{
-    float: left; 
+    float: left;
     width: 50%;
     text-align: center;
-    
+
 }
 
 .partner-events {
@@ -639,10 +634,10 @@ div.partners {
 }
 
 @media only screen and (max-width: 900px) {
-.partnership-events{ 
+.partnership-events{
     width: 100%;
     text-align: center;
-    
+
 }
 }
 
@@ -655,7 +650,7 @@ div.partners {
 }
 
 .partnership-metrics-events-wrapper {
-   display: flex; 
+   display: flex;
 }
 
 @media only screen and (max-width: 900px) {
