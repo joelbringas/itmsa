@@ -24,6 +24,22 @@
     margin-top:90px;
   }
 
+  .carousel-item {
+    height:28rem !important;
+  }
+
+  .carouselapply {
+    height:30rem !important;
+  }
+
+  .carousel-caption h1 {
+    font-size:2rem;
+  }
+
+  .carouselpadding {
+    padding: 1rem 2rem;
+  }
+
 }
 
 
