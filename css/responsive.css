@@ -1,5 +1,5 @@
 /* Until Smallest Phone to Tablet Mode */
-@media (max-width: 769px) {
+@media (max-width: 768px) {
   .mobilecol {
     padding-bottom:2em;
   }
@@ -24,6 +24,22 @@
     margin-top:90px;
   }
 
+  .carousel-item {
+    height:28rem !important;
+  }
+
+  .carouselapply {
+    height:30rem !important;
+  }
+
+  .carousel-caption h1 {
+    font-size:2rem;
+  }
+
+  .carouselpadding {
+    padding: 1rem 2rem;
+  }
+
 }
 
 
@@ -32,6 +48,7 @@
   .boilerplate {
     font-size:2em;
   }
+
 }
 
 

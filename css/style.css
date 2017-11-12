@@ -63,13 +63,18 @@ h1,h2,h3,h4,h5,h6 {
   margin:3rem;
 }
 
+.divider2 {
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
 .container, .container-fluid {
   padding:0;
 }
 
 
 .jumbotron {
-  padding: 2rem;
+  padding: 2rem 0 2rem;
   background-color: #EEEEEE;
   border:15px solid white;
   border-radius: 0;
@@ -78,20 +83,15 @@ h1,h2,h3,h4,h5,h6 {
 
 
 .jumbotron2 {
-  padding: 2rem;
+  padding: 2rem 0 3rem;
   background-color: #FFFFFF;
   border-radius: 0;
 }
 
 .headerbg {
-  padding: 7rem 2rem 4rem 2rem;
-  background-color: #EEEEEE;
-  border-radius: 0;
-  height: 100%;
-  background-attachment: fixed;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  padding: 8rem 0 6rem;
+  background-color:#004F39; /* Fallback when no photo */
+  color:#ffffff;
 }
 
 
@@ -135,8 +135,6 @@ a:hover {
   border-color: none !important;
   box-shadow: 0 !important;
 }
-
-
 
 
 
@@ -205,17 +203,6 @@ a:hover {
 /* Carousel
 ------------------------- */
 
-@media (max-width: 769px) {
-
-  .carousel-item {
-    height:28rem !important;
-  }
-
-  .carousel-caption h1 {
-    font-size:2rem;
-  }
-
-}
 
 .carousel-caption {
   padding:0;
@@ -241,6 +228,7 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
 }
+
 
 
 
@@ -404,17 +392,6 @@ a:hover {
 /* Events
 ------------------------- */
 
-.eventstint {
-  color:white;
-  background-size:cover;
-  background-image:
-      linear-gradient(
-      rgba(0, 80, 58, 0.7),
-      rgba(0, 80, 58, 0.7)
-    ),
-    url('../img/events/headerbg.jpg');
-}
-
 .events {
   width:100%;
 }
@@ -496,17 +473,6 @@ ul.event-details li i.fa {
 /* BIC
 ------------------------- */
 
-.bictint {
-  color:white;
-  background-size:cover;
-  background-image:
-      linear-gradient(
-      rgba(0, 80, 58, 0.7),
-      rgba(0, 80, 58, 0.7)
-    ),
-    url('http://via.placeholder.com/1920x1080');
-}
-
 .benefitsicon {
   float:left;
   padding-top:10px;
@@ -516,7 +482,7 @@ ul.event-details li i.fa {
   margin-left:75px;
 }
 
-.btn.btn-secondary.apply {
+.btn.btn-primary.apply {
   width:75%;
   height:50px;
   padding:12px;
@@ -539,20 +505,9 @@ div.applybuttontable {
 /* Partnership
 ------------------------- */
 
-.partnershiptint {
-  color:white;
-  background-size:cover;
-  background-image:
-      linear-gradient(
-      rgba(0, 80, 58, 0.7),
-      rgba(0, 80, 58, 0.7)
-    ),
-    url('http://via.placeholder.com/1920x1080');
-}
-
 div.partners {
-  width:200px;
-  height:200px;
+  width:150px;
+  height:150px;
   overflow:hidden;
   margin:10px auto;
 }
@@ -567,7 +522,7 @@ div.partners {
    display: block;
    text-align: center;
    margin: 0 auto;
-    
+
 }
 
 .partnership-counter {
@@ -648,40 +603,32 @@ div.partners {
 
 /* Team
 ------------------------- */
-.teamtint {
-  color:white;
-  background-position:0 20%;
-  background-size:cover;
-  background-image:
-      linear-gradient(
-      rgba(0, 80, 58, 0.7),
-      rgba(0, 80, 58, 0.7)
-    ),
-    url('../img/team/headerbg.jpg');
-}
-
 
 div.portraits {
-  width:150px;
-  height:150px;
+  max-width:175px;
   overflow:hidden;
   border-radius:50%;
-  margin:10px auto;
+  margin:0 auto;
 }
 
 .portraits img {
-  margin: -30px auto;
   width: 100%;
 }
 
 
 div.portraitsmodal {
   margin:0 10px;
+  max-width:150px;
+  max-height:150px;
 }
 
 
 .modal-open .modal {
   z-index: 1138;
+}
+
+.modal-dialog {
+    max-width: 525px;
 }
 
 .btn-primary.disabled,
@@ -694,12 +641,11 @@ div.portraitsmodal {
     color: #000;
     background-color: transparent;
     font-size:11pt;
-    padding-top:0;
-    padding-bottom:0;
+    padding:10px;
     cursor:pointer;
+    border:0;
 }
 .btn-hidden:hover {
-    color: #000;
     background-color: #E0E0E0;
     border-color: transparent;
 }
@@ -728,7 +674,7 @@ div.portraitsmodal {
   opacity:0.5;
 }
 
-span.accreditation {
+.accreditation {
   font-size:10pt;
 }
 
@@ -742,13 +688,13 @@ span.accreditation {
   background-color: #B59141;;
 }
 
-.appareltint {
-  color:white;
-  background-size:cover;
-  background-image:
-      linear-gradient(
-      rgba(0, 80, 58, 0.7),
-      rgba(0, 80, 58, 0.7)
-    ),
-    url('http://via.placeholder.com/512x663');
+
+/* Apply
+------------------------- */
+
+
+.carouselapply {
+  height:auto;
+  background-color:#F0F0F0;
+
 }
