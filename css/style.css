@@ -107,8 +107,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a {
-  color: #9E9E9E;
-  text-decoration: none;
+  color: #000000;
+  text-decoration: underline;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
@@ -183,6 +183,10 @@ a:hover {
 
 .nav-item {
   padding:0.5rem;
+}
+
+.nav-link {
+  text-decoration: none;
 }
 
 .navbar-toggler {
