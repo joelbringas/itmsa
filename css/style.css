@@ -83,7 +83,7 @@ h1,h2,h3,h4,h5,h6 {
 
 
 .jumbotron2 {
-  padding: 2rem 0 3rem;
+  padding: 2rem 1rem 3rem;
   background-color: #FFFFFF;
   border-radius: 0;
 }
@@ -484,7 +484,6 @@ ul.event-details li i.fa {
 
 .benefitsicon {
   float:left;
-  padding-top:10px;
 }
 
 .benefitsdesc {
@@ -495,6 +494,7 @@ ul.event-details li i.fa {
   width:75%;
   height:50px;
   padding:12px;
+  text-decoration: none;
 }
 
 div.applybutton {
