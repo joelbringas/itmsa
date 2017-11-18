@@ -40,6 +40,11 @@
     padding: 1rem 2rem;
   }
 
+  .carousel-custom {
+    width:100%;
+    display:block;
+  }
+
 }
 
 

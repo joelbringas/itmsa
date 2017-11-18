@@ -694,8 +694,57 @@ div.portraitsmodal {
 
 .badge-collection {
   color: #fff;
-  background-color: #B59141;;
+  background-color: #B59141;
 }
+
+.small-images a, .big-images a {
+  display:inline-block;
+}
+
+.small-images a.selected {
+  opacity:0.5;
+}
+
+
+
+
+.carousel-custom {
+  display:flex;
+}
+
+.apparel-carousel-indicators {
+    margin: 0;
+    padding: 0;
+    cursor:pointer;
+}
+
+.apparel-carousel-indicators li {
+    display: inline-block;
+    height: auto;
+    margin: 0 !important;
+    width: auto;
+}
+
+.apparel-carousel-indicators li img {
+    display: block;
+    opacity: 1;
+    width:100%;
+    overflow: visible;
+}
+
+.apparel-carousel-indicators li.active img {
+    opacity: 1;
+}
+
+.apparel-arousel-indicators li:hover img {
+    opacity: 0.75;
+}
+
+.carousel-outer {
+    position: relative;
+}
+
+
 
 
 /* Apply
