@@ -255,6 +255,8 @@ a:hover {
 
 .countericon {
   width:75px;
+  display: block;
+  margin: 0 auto;
 }
 
 .bicicon {
@@ -281,6 +283,7 @@ a:hover {
     color:#B59141;
     font-weight:700;
     font-size:3em;
+    display:inline-block;
 }
 
 
@@ -298,7 +301,7 @@ a:hover {
 #instafeed img {
     display: block;
     width:100%;
-    height:100%;
+    padding:5px;
   }
 
 
