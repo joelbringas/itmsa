@@ -107,8 +107,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a {
-  color: #9E9E9E;
-  text-decoration: none;
+  color: #000000;
+  text-decoration: underline;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
@@ -185,6 +185,10 @@ a:hover {
   padding:0.5rem;
 }
 
+.nav-link {
+  text-decoration: none;
+}
+
 .navbar-toggler {
   padding:0;
   border:0;
@@ -237,9 +241,11 @@ a:hover {
 ------------------------- */
 
 .boilerplate {
+  font-family:'Montserrat', Arial Black, sans-serif;
   font-size:2.5em;
   font-weight:bold;
-  line-height:1;
+  line-height:1.5;
+  color:#064F3A
 }
 
 
