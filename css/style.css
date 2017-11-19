@@ -245,7 +245,7 @@ a:hover {
   font-size:2.5em;
   font-weight:bold;
   line-height:1.5;
-  color:#064F3A
+  color:#064F3A;
 }
 
 
@@ -464,6 +464,11 @@ a:hover {
 .badge-academic {
   color: #fff;
   background-color: #1E88E5;
+}
+
+.badge-new {
+  color: #fff;
+  background-color: #8BC052;
 }
 
 ul.event-details {
@@ -744,6 +749,9 @@ div.portraitsmodal {
     position: relative;
 }
 
+.apparel-carousel-item {
+  height:auto;
+}
 
 
 
