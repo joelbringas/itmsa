@@ -108,13 +108,12 @@ h1,h2,h3,h4,h5,h6 {
 
 a {
   color: #000000;
-  text-decoration: underline;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: #9E9E9E;
+  color: #000000;
   text-decoration: underline;
 }
 
@@ -159,6 +158,8 @@ a:hover {
 
 .navbar-brand {
   padding:0;
+  margin-right:0;
+  width:0;
 }
 
 .navbar {
@@ -318,6 +319,21 @@ a:hover {
     padding:3rem 2rem 2rem 2rem;
   }
 
+  .footer-jumbotron a {
+      color: #FFFFFF;
+      background-color: transparent;
+    }
+
+  .footer-jumbotron a:hover {
+      color: #FFFFFF;
+      text-decoration: underline;
+  }
+
+  .footer-jumbotron ul {
+    list-style: none;
+    padding: 0;
+  }
+
 
   .footerhr {
     margin-top: 2rem;
@@ -331,6 +347,7 @@ a:hover {
       .footersocial {
         white-space: nowrap;
         display: table;
+        padding: 25px 0 20px 0;
       }
 
       .footersociallogo {
@@ -360,13 +377,13 @@ a:hover {
 
       .footerhierarchylogo img {
         max-width:100%;
-        max-height: 50px;
+        max-height: 40px;
       }
 
   .copyright {
       margin:0;
       font-size:10pt;
-      line-height: 20pt;
+      line-height: 30pt;
   }
 
   .back-to-top {
