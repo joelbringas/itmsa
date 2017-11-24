@@ -556,6 +556,12 @@ div.partners {
   }
 }
 
+.right-metrics {
+    width: 30%;
+    display: inline-block;
+    
+}
+
 .partnership-events{
     display: block;
     width: 90%;
