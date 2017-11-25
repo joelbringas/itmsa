@@ -558,15 +558,6 @@ div.partners {
   width: 100%;
 }
 
-@media only screen and (max-width: 900px) {
-  .partnership-metrics {
-   padding: 10px;
-   width: 100%;
-   position: relative;
-   text-align: center;
-  }
-}
-
 .socialmedia-metrics {
     display: inline-block;
     margin: 0 auto;
