@@ -3764,7 +3764,7 @@ tbody.collapse.show {
   }
   .navbar-expand-md .navbar-nav .dropdown-menu {
     position: absolute;
-    background-color: rgba(0, 79, 57, 0.7);
+    background-color: rgba(0, 79, 57, 0.9);
     margin-top: -18px;
   }
   .navbar-expand-md .navbar-nav .dropdown-menu-right {
