@@ -111,13 +111,13 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a {
-  color: rgba(255,255,255,0.5);
+  color: black;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: rgba(255,255,255,0.8);
+  color: black;
   text-decoration: none;
 }
 
@@ -137,6 +137,22 @@ a:hover {
   background-color: #616161;
   border-color: none !important;
   box-shadow: 0 !important;
+}
+
+.dropdown-toggle {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.dropdown-link {
+ color: rgba(255, 255, 255, 0.5);   
+}
+
+.dropdown-link:hover {
+    color:rgba(255, 255, 255, 0.75);
+}
+
+.dropdown-toggle:hover {
+    color: rgba(255, 255, 255, 0.75);
 }
 
 .dropdown {
@@ -163,7 +179,7 @@ a:hover {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content .dropdown-link:hover {background-color: #f1f1f1}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -179,10 +195,10 @@ a:hover {
 /* Nav Bar
 ------------------------- */
 .navbar-default .navbar-nav > li.dropdown:hover > a, 
-.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > .dropdown-link:hover,
 .navbar-default .navbar-nav > li.dropdown:hover > a:focus {
     background-color: rgb(231, 231, 231);
-    color: rgb(85, 85, 85);
+    color: white;
 }
 li.dropdown:hover > .dropdown-menu {
     display: block;
