@@ -283,7 +283,6 @@ summary,
 textarea {
   -ms-touch-action: manipulation;
       touch-action: manipulation;
-    color: rgba (255,255,255,0.3);
 }
 
 table {
@@ -2966,9 +2965,6 @@ tbody.collapse.show {
 
 .dropdown-menu.show {
   display: block;
-  background-color: rgba(0, 79, 57, 0.8);
-  width: 10%;
-  margin: 0 auto;
 }
 
 .dropdown-header {
@@ -3764,8 +3760,6 @@ tbody.collapse.show {
   }
   .navbar-expand-md .navbar-nav .dropdown-menu {
     position: absolute;
-    background-color: rgba(0, 79, 57, 0.7);
-    margin-top: -18px;
   }
   .navbar-expand-md .navbar-nav .dropdown-menu-right {
     right: 0;
