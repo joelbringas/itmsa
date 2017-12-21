@@ -44,6 +44,11 @@
     width:100%;
     display:block;
   }
+	
+  .twocol {
+    border-bottom: 0;
+	border-right: 15px solid white !important;
+  }
 
 }
 
