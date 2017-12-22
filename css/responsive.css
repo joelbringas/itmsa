@@ -13,8 +13,12 @@
   }
 
   .jumbotron {
-    padding:2rem 1rem;
+    padding:2rem 2rem;
   }
+	
+	.jumbotron2 {
+		padding:0rem 1rem 2rem;
+	}
 
   .navbar-hidden {
       background-color: #004F39;
@@ -55,9 +59,7 @@
 
 /* Until Smallest Phone to Medium Mode */
 @media (max-width: 576px) {
-  .boilerplate {
-    font-size:2em;
-  }
+
 
 }
 

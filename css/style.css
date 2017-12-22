@@ -330,8 +330,8 @@ font-weight: 500;
     }
 
   .footer-jumbotron a:hover {
-      color: #FFFFFF;
-      text-decoration: underline;
+      color: #B59141;
+      text-decoration: none;
   }
 
   .footer-jumbotron ul {
@@ -359,8 +359,68 @@ font-weight: 500;
         vertical-align: middle;
         display: table-cell;
         padding:0 10px;
-
       }
+
+.overlay-facebook {
+	height:20px;
+	width:20px;
+	background:url(../img/social/Facebook.png) no-repeat center center;
+	background-size: contain;
+}
+
+	.overlay-facebook:hover{
+	background: url(../img/social/Facebook-Colour.png) no-repeat center center;
+	background-size: contain;
+      }
+
+.overlay-twitter {
+	height:20px;
+	width:25px;
+	background:url(../img/social/Twitter.png) no-repeat center center;
+	background-size: contain;
+}
+
+	.overlay-twitter:hover{
+	background: url(../img/social/Twitter-Colour.png) no-repeat center center;
+	background-size: contain;
+      }
+
+.overlay-instagram {
+	height:20px;
+	width:20px;
+	background:url(../img/social/Instagram.png) no-repeat center center;
+	background-size: contain;
+}
+
+	.overlay-instagram:hover{
+	background: url(../img/social/Instagram-Colour.png) no-repeat center center;
+	background-size: contain;
+      }
+
+.overlay-linkedin {
+	height:20px;
+	width:20px;
+	background:url(../img/social/LinkedIn.png) no-repeat center center;
+	background-size: contain;
+}
+
+	.overlay-linkedin:hover{
+	background: url(../img/social/LinkedIn-Colour.png) no-repeat center center;
+	background-size: contain;
+      }
+
+.overlay-snapchat {
+	height:20px;
+	width:25px;
+	background:url(../img/social/Snapchat.png) no-repeat center center;
+	background-size: contain;
+}
+
+	.overlay-snapchat:hover{
+	background: url(../img/social/Snapchat-Colour.png) no-repeat center center;
+	background-size: contain;
+      }
+
 
 
       .footersociallogo img {
@@ -384,6 +444,47 @@ font-weight: 500;
         max-width:100%;
         max-height: 40px;
       }
+
+
+.overlay-ryerson {
+	height:40px;
+	width:82px;
+	background:url(../img/logo/Ryerson.svg) no-repeat center center;
+	background-size: contain;
+}
+
+	.overlay-ryerson:hover{
+	background: url(../img/logo/Ryerson-Colour.svg) no-repeat center center;
+	background-size: contain;
+      }
+
+.overlay-trsm {
+	height:40px;
+	width:58px;
+	background:url(../img/logo/TRSM.svg) no-repeat center center;
+	background-size: contain;
+}
+
+	.overlay-trsm:hover{
+	background: url(../img/logo/TRSM-Colour.svg) no-repeat center center;
+	background-size: contain;
+      }
+
+
+.overlay-trss {
+	height:40px;
+	width:102px;
+	background:url(../img/logo/TRSS.svg) no-repeat center center;
+	background-size: contain;
+}
+
+	.overlay-trss:hover{
+	background: url(../img/logo/TRSS-Colour.svg) no-repeat center center;
+	background-size: contain;
+      }
+
+
+
 
   .copyright {
       margin:0;
