@@ -83,7 +83,7 @@ h1,h2,h3,h4,h5,h6 {
 
 
 .jumbotron2 {
-  padding: 2rem 1rem 3rem;
+  padding: 0rem 0rem 2rem;
   background-color: #FFFFFF;
   border-radius: 0;
 }
@@ -108,6 +108,7 @@ h1,h2,h3,h4,h5,h6 {
 
 a {
   color: #000000;
+font-weight:500;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
@@ -189,18 +190,17 @@ a:hover {
 .navbar-dark .navbar-nav .nav-link {
 color: #FFFFFF;
 text-decoration: none;
-text-transform: uppercase;
-font-weight: bold;
-font-size: 9pt;
-letter-spacing: 1px;
+	font-weight: 500;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
 color: #B59141;
+	font-weight: 500;
 }
 
 .navbar-dark .navbar-nav .nav-link.active {
 color: #B59141;
+font-weight: 500;
 }
 
 .navbar-toggler {
@@ -494,6 +494,8 @@ color: #B59141;
 
 .badge-citc a {
   color: #FFFFFF;
+	font-size:11pt;
+
 }
 
 .badge-witm {
@@ -502,6 +504,8 @@ color: #B59141;
 
 .badge-witm a {
   color: #FFFFFF;
+	font-size:11pt;
+
 }
 
 ul.event-details {
