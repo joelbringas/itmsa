@@ -186,8 +186,21 @@ a:hover {
   padding:0.5rem;
 }
 
-.nav-link {
-  text-decoration: none;
+.navbar-dark .navbar-nav .nav-link {
+color: #FFFFFF;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 9pt;
+letter-spacing: 1px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+color: #B59141;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+color: #B59141;
 }
 
 .navbar-toggler {
@@ -240,14 +253,6 @@ a:hover {
 
 /* Index
 ------------------------- */
-
-.boilerplate {
-  font-family:'Montserrat', Arial Black, sans-serif;
-  font-size:2.5em;
-  font-weight:bold;
-  line-height:1.5;
-  color:#064F3A;
-}
 
 
 .missionicon {
@@ -481,6 +486,22 @@ a:hover {
 .badge-new {
   color: #fff;
   background-color: #8BC052;
+}
+
+.badge-citc {
+  background-color: #1A3868;
+}
+
+.badge-citc a {
+  color: #FFFFFF;
+}
+
+.badge-witm {
+  background-color: #4F61D3;
+}
+
+.badge-witm a {
+  color: #FFFFFF;
 }
 
 ul.event-details {
