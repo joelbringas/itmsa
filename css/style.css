@@ -327,6 +327,7 @@ font-weight: 500;
   .footer-jumbotron a {
       color: #FFFFFF;
       background-color: transparent;
+	  font-weight: 400;
     }
 
   .footer-jumbotron a:hover {
@@ -809,6 +810,10 @@ div.portraitsmodal {
 
 .modal-dialog {
     max-width: 525px;
+}
+
+.modal-body {
+	padding:1rem 2rem;
 }
 
 .btn-primary.disabled,
