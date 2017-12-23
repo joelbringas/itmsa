@@ -1,71 +1,322 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-<meta name="description" content="">
-<meta name="author" content="ITMSA">
-<link rel="icon" href="img/logo/Favicon.png">
-<title>Events | ITMSA</title>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+        <meta charset="utf-8">
+        <title>Bootply snippet - Blue Template Fixed Sidebar + Header</title>
+        <meta name="generator" content="Bootply" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="Uses a fixed left sidebar, that attaches after scrolling past a large top header." />
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link rel="apple-touch-icon" href="/bootstrap/img/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/bootstrap/img/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/bootstrap/img/apple-touch-icon-114x114.png">
 
-<!-- Stylesheets
-============================================= -->
 
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<link href="css/responsive.css" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700,700i,900,900i">
-</head>
 
-<body>
 
-<!-- Navbar Start
-============================================= -->
 
-<header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-hidden">
-    <div class="container"> <a class="navbar-brand" href="index.html"> <img src="img/logo/ITMSA_Logo-White.svg" class="largeLogo" id="Logo" alt="ITMSA Logo"/> </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"> <a class="nav-link active" href="events.html">Events</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="partnership.html">Partnership</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="bic.html">Innovation Core</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="team.html">Team</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="apparel.html">Apparel</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="apply.html">Apply</a> </li>
-		  <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a> </li>
-        </ul>
-      </div>
+
+
+
+
+        <!-- CSS code from Bootply.com editor -->
+        
+        <style type="text/css">
+            body {
+
+	padding-top:50px;
+
+}
+
+
+
+#masthead {
+
+	min-height:270px;
+
+	background-color:#000044;
+
+  	color:#aaaacc;
+
+}
+
+
+
+#masthead h1 {
+
+	font-size: 55px;
+
+	line-height: 1;
+
+}
+
+
+
+#masthead .well {
+
+	margin-top:13%;
+
+	background-color:#111155;
+
+  	border-color:#000033;
+
+}
+
+
+
+.icon-bar {
+
+	background-color:#fff;
+
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+	#masthead h1 {
+
+		font-size: 100px;
+
+	}
+
+}
+
+
+
+.navbar-bright {
+
+	background-color:#111155;
+
+    color:#fff;
+
+}
+
+  
+
+.navbar-bright a, #masthead a, #masthead .lead {
+
+  	color:#aaaacc;
+
+}
+
+
+
+.navbar-bright li > a:hover {
+
+    background-color:#000033;
+
+}
+
+
+
+.affix-top,.affix{
+
+	position: static;
+
+}
+
+
+
+@media (min-width: 979px) {
+
+  #sidebar.affix-top {
+
+    position: static;
+
+  	margin-top:30px;
+
+  	width:228px;
+
+  }
+
+  
+
+  #sidebar.affix-bottom {
+
+    position: relative;
+
+  }
+
+
+
+  #sidebar.affix {
+
+    position: fixed;
+
+    top:70px;
+
+    width:228px;
+
+  }
+
+}
+
+
+
+#sidebar li.active {
+
+  	border:0 #eee solid;
+
+  	border-right-width:4px;
+
+}
+
+
+
+#sidebar li li.active {
+
+  	border:0 #ccc solid;
+
+  	border-right-width:3px;
+
+}
+
+
+
+#mainCol h2 {
+
+	padding-top: 55px;
+
+    margin-top: -55px;
+
+}
+        </style>
+    </head>
+    
+    <!-- HTML code from Bootply.com editor -->
+    
+    <body >
+        
+        
+
+<header class="navbar navbar-bright navbar-fixed-top" role="banner">
+
+  <div class="container">
+
+    <div class="navbar-header">
+
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+
+        <span class="sr-only">Toggle navigation</span>
+
+        <span class="icon-bar"></span>
+
+        <span class="icon-bar"></span>
+
+        <span class="icon-bar"></span>
+
+      </button>
+
+      <a href="/" class="navbar-brand">Bootply</a>
+
     </div>
-  </nav>
+
+    <nav class="collapse navbar-collapse" role="navigation">
+
+      <ul class="nav navbar-nav">
+
+        <li>
+
+          <a href="#">Get Started</a>
+
+        </li>
+
+        <li>
+
+          <a href="#">Edit</a>
+
+        </li>
+
+        <li>
+
+          <a href="#">Visualize</a>
+
+        </li>
+
+        <li>
+
+          <a href="#">Prototype</a>
+
+        </li>
+
+      </ul>
+
+    </nav>
+
+  </div>
+
 </header>
 
-<!-- Navbar End
-============================================= -->
 
-<main role="main" class="margintop">
-  <div class="container-fluid">
-    <div class="row justify-content-center headerbg text-center" style="background: url(img/events/headerbg.jpg) no-repeat fixed top center; background-size:cover;">
-		
-		
-      <div class="col-lg-6">
-        <h1>Events</h1>
-        <p> ITMSA hosts many events to provide BTM students a social and engaging way to interact with the BTM community. </p>
-      </div>
-    </div>
-  </div>
-	</div>
-	
-	<div class="container">
+
+<div id="masthead">  
+
+  <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-7">
+
+          <h1>Bootply
+
+            <p class="lead">The easiest way to apply Bootstrap</p>
+
+          </h1>
+
+        </div>
+
+        <div class="col-md-5">
+
+            <div class="well well-lg"> 
+
+              <div class="row">
+
+                <div class="col-sm-6">
+
+        	      	<img src="http://placehold.it/180x100" class="img-responsive">
+
+                </div>
+
+                <div class="col-sm-6">
+
+	              	<strong>Important</strong>
+
+                  	<p>Blah blah blah blah bla!</p>
+
+                </div>
+
+              </div>
+
+            </div>
+
+        </div>
+
+      </div> 
+
+  </div><!-- /cont -->
+
+</div>
+
+
+
+<!-- Begin Body -->
+
+<div class="container">
 
 	<div class="row">
-	
-	<div class="col-md-3" id="leftCol">
+
+  			<div class="col-md-3" id="leftCol">
 
               
 
-              	<ul class="nav nav-stacked affix" id="sidebar">
+              	<ul class="nav nav-stacked" id="sidebar">
 
                   <li><a href="#sec0">Section 0</a></li>
 
@@ -95,8 +346,7 @@
 
       		</div>  
 
-	
-	      <div class="col-md-9" id="mainCol">
+      		<div class="col-md-9" id="mainCol">
 
               
 
@@ -339,127 +589,67 @@
               	
 
       		</div> 
-    </div>
-  </div>
-  
-    <!-- Footer Start
-============================================= --> 
-  
-  <a id="back-to-top" class="btn btn-primary back-to-top" role="button"> <i class="fa fa-chevron-up" aria-hidden="true" style="color:white;"></i> </a>
-  <footer class="container-fluid footer-jumbotron">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-5 mobilecol"> <img src="img/logo/ITMSA_Logotype-White.svg" style="height:50px; max-width:100%;" alt="ITMSA Logotype"/>
-          
-			
-			<div class="footersocial mr-auto">
-				
-            <div class="footersociallogo" style="padding: 0 10px 0 0;">
-				<a href="http://www.facebook.com/itmsa/" target="_blank">
-					<div class="overlay-facebook"></div>
-				</a>
-			</div>
-			  
-            <div class="footersociallogo">
-				<a href="http://www.twitter.com/itmsa/" target="_blank">
-					<div class="overlay-twitter"></div>
-				</a>
-			</div>
-				
-            <div class="footersociallogo">
-				<a href="http://www.instagram.com/itmsa/" target="_blank">
-					<div class="overlay-instagram"></div>
-				</a>
-			</div>
-				
-            <div class="footersociallogo">
-				<a href="https://www.linkedin.com/company/692132/" target="_blank">
-					<div class="overlay-linkedin"></div>
-				</a>
-			</div>
-				
-            <div class="footersociallogo">
-				<a href="https://www.snapchat.com/add/itmsa/" target="_blank">
-					<div class="overlay-snapchat"></div>
-				</a>
-			</div>
-				
-          </div>
-          <p class="ml-auto"><b>Ted Rogers School of Management<br>
-            </b> TRS 1-137 (7th Floor) — 55 Dundas Street West<br>
-            Toronto, Ontario, Canada — M5G 2C3</p>
-        </div>
-        <div class="col-md-7 no-gutters">
-          <div class="row justify-content-end">
-            <div class="col-md"> <p style="font-size:12pt; margin-top:0;"><b>Useful Links</b></p>
-              <ul>
-                <li><a href="http://www.ryerson.ca/calendar/2017-2018/programs/trsm/business_tech/table_i/" target="_blank">2017-2018 Professional Table I</a></li>
-                <li><a href="http://www.ryerson.ca/calendar/2017-2018/programs/trsm/business_tech/table_ii/" target="_blank">2017-2018 Professionally-Related Table II</a></li>
-                <li><a href="http://www.ryerson.ca/trsm-careers/" target="_blank">Business Career Hub</a></li>
-                <li><a href="http://www.ryerson.ca/itm/current/cos/" target="_blank">Course Syllabuses</a></li>
-                <li><a href="http://www.ryerson.ca/itm/current/coop/" target="_blank">Co-operative Education</a></li>
-              </ul>
-            </div>
-            <div class="col-md"> <p style="font-size:12pt; margin-top:0;"><b>Business Technology Management</b></p>
-              <ul>
-                <li><a href="http://www.ryerson.ca/itm/" target="_blank">Department Website</a></li>
-                <li><a href="http://www.ryerson.ca/itm/about/" target="_blank">About the Program</a></li>
-                <li><a href="http://www.ryerson.ca/content/ryerson/itm/current/awards/" target="_blank">Awards & Scholarships</a></li>
-                <li><a href="http://www.ryerson.ca/itm/current/capstone/" target="_blank">Capstone Project</a></li>
-                <li><a href="http://www.ryerson.ca/itm/current/deanslist/" target="_blank">Dean's List</a></li>
-                <li><a href="http://www.ryerson.ca/programs/undergraduate/business-technology-management/" target="_blank">Program Admission</a></li>
-                <li><a href="http://www.ryerson.ca/itm/faculty/" target="_blank">Faculty</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md">
-          <hr class="footerhr">
-          <div class="row">
-            <div class="col-md-6 no-gutters">
-              <p class="copyright">Copyright © 
-                <script>document.write(new Date().getFullYear());</script> 
-                ITMSA. All rights reserved. </p>
-            </div>
-            <div class="col-md-6 no-gutters">
-              <div class="footerhierarchy ml-auto">
-				  
-                <div class="footerhierarchylogo">
-					<a href="http://www.ryerson.ca/" target="_blank">
-						<div class="overlay-ryerson"></div>
-					</a>
-				  </div>
-				  
-                <div class="footerhierarchylogo">
-					<a href="http://www.ryerson.ca/tedrogersschool/" target="_blank">
-						<div class="overlay-trsm"></div>
-					</a>
-			  	</div>
-				  
-                <div class="footerhierarchylogo">
-					<a href="http://www.trssociety.ca/" target="_blank">
-						<div class="overlay-trss"></div>
-					</a>
-			  	</div>
-				  
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-  
-  <!-- Footer End
-============================================= --> 
-  
-</main>
-<script src="https://code.jquery.com/jquery-3.2.1.js"></script> 
-<script src="js/popper.min.js"></script> 
-<script src="js/bootstrap.js"></script> 
-<script src="js/script.js"></script> 
-<script src="js/header-shrink.js"></script> 
-<script src="js/scrollspy.js"></script>
-<script src="https://use.fontawesome.com/e0fc1912cd.js"></script>
-</body>
+
+  	</div>
+
+</div>
+
+
+
+
+
+
+        
+        <script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+
+        <script type='text/javascript' src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+        
+        <!-- JavaScript jQuery code from Bootply.com editor  -->
+        
+        <script type='text/javascript'>
+        
+        $(document).ready(function() {
+        
+            var $body   = $(document.body);
+
+var navHeight = $('.navbar').outerHeight(true) + 10;
+
+
+
+$('#sidebar').affix({
+
+      offset: {
+
+        top: 245,
+
+        bottom: navHeight
+
+      }
+
+});
+
+
+
+
+
+$body.scrollspy({
+
+	target: '#leftCol',
+
+	offset: navHeight
+
+});
+        
+        });
+        
+        </script>
+        
+    </body>
 </html>
