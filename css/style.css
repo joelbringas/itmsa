@@ -83,16 +83,15 @@ h1,h2,h3,h4,h5,h6 {
 
 
 .jumbotron2 {
-  padding: 0rem 0rem 2rem;
+  padding: 0rem 3rem 2rem;
   background-color: #FFFFFF;
   border-radius: 0;
 }
 
 .headerbg {
-  padding: 6rem 0;
+  padding: 8rem 0 6rem;
   background-color:#004F39; /* Fallback when no photo */
   color:#ffffff;
-  min-height: 500px;
 }
 
 
@@ -329,6 +328,7 @@ font-weight: 500;
       color: #FFFFFF;
       background-color: transparent;
 	  font-weight: 400;
+
     }
 
   .footer-jumbotron a:hover {
@@ -339,6 +339,10 @@ font-weight: 500;
   .footer-jumbotron ul {
     list-style: none;
     padding: 0;
+  }
+
+  .footer-jumbotron ul>ul>li {
+    padding-left:5pt;
   }
 
 
@@ -487,6 +491,19 @@ font-weight: 500;
 
 
 
+.overlay-bch {
+	height:40px;
+	width:102px;
+	background:url(../img/logo/BCH.svg) no-repeat center center;
+	background-size: contain;
+}
+
+	.overlay-bch:hover{
+	background: url(../img/logo/BCH-Colour.svg) no-repeat center center;
+	background-size: contain;
+      }
+
+
 
   .copyright {
       margin:0;
@@ -525,44 +542,96 @@ font-weight: 500;
   width:100%;
 }
 
+a.anchor {
+    display: block;
+    position: relative;
+    top: -30px;
+    visibility: hidden;
+}
+
+a.anchortitle {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
+
+#masthead {
+	min-height:270px;
+}
+
 
 .affix-top,.affix{
 	position: static;
 }
 
 
+@media (min-width: 979px) {
+
   #sidebar.affix-top {
     position: static;
-  	margin-top:30px;
-  	width:228px;
+	margin-top: 30px;
+  	width:280px;
   }
+
 
   #sidebar.affix-bottom {
     position: relative;
+	width:280px;
   }
 
   #sidebar.affix {
     position: fixed;
-    top:70px;
-    width:228px;
+    top:100px;
+    width:280px;
+  	max-height: calc(100vh - 9rem);
+	overflow-y: auto;
   }
+
+}
 
 
 #sidebar li.active {
-  	border:0 #eee solid;
-  	border-right-width:4px;
+  	font-weight:800;
 }
 
 
 #sidebar li li.active {
   	border:0 #ccc solid;
-  	border-right-width:3px;
+  	border-left-width:3px;
 }
 
+.nav {
+	display: block;
+}
 
-#mainCol h2 {
-	padding-top: 55px;
-    margin-top: -55px;
+.nav>li {
+    position: relative;
+    display: block;
+}
+
+.nav-stacked>li {
+    float: none;
+}
+
+.nav-stacked>li>ul>li {
+    padding-left:10px;
+}
+
+.nav-stacked>li+li {
+    margin-top: 0px;
+    margin-left: 0;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px;
+	}
+
+#mainCol>h3 {
+    margin-top: 1.5rem;
 }
 
 /* OLD DATE STUFF

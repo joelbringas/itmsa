@@ -1,10 +1,12 @@
-var $body   = $(document.body);
+$(document).ready(function() {   
+            var $body   = $(document.body);
 var navHeight = $('.navbar').outerHeight(true) + 10;
+
 
 $('#sidebar').affix({
       offset: {
         top: 245,
-        bottom: navHeight
+        bottom: 500
       }
 });
 
@@ -12,4 +14,5 @@ $('#sidebar').affix({
 $body.scrollspy({
 	target: '#leftCol',
 	offset: navHeight
-});// JavaScript Document
+}); 
+        });
