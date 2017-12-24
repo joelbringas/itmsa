@@ -14,7 +14,6 @@
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
-<link href="css/animate.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700,700i,900,900i">
 </head>
 
@@ -25,22 +24,17 @@
 
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-    <div class="container"> <a class="navbar-brand" href="index.html"> <img src="img/logo/ITMSA Logo-White.png" class="largeLogo" id="Logo" alt="ITMSA Logo"/> </a>
+    <div class="container"> <a class="navbar-brand" href="index.html"> <img src="img/logo/ITMSA_Logo-White.svg" class="largeLogo" id="Logo" alt="ITMSA Logo"/> </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"> <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a> </li>
-                   <li class="dropdown" style="padding: 0.5rem;margin-top: 7px;"> <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="events.html">Events<span class="caret"></span></a> <ul class="dropdown-menu">
-            <li><a class="dropdown-link" href="events.html">All Events</a></li>
-            <li><a class="dropdown-link" href="social-events.html">Social</a></li>
-            <li><a class="dropdown-link" href="academic-events.html">Academic</a></li>
-            <li><a class="dropdown-link" href="casecomps-events.html">Case Competitions</a></li>
-          </ul> </li>
+          <li class="nav-item"> <a class="nav-link" href="events.html">Events</a> </li>
           <li class="nav-item"> <a class="nav-link" href="partnership.html">Partnership</a> </li>
           <li class="nav-item"> <a class="nav-link" href="bic.html">Innovation Core</a> </li>
           <li class="nav-item"> <a class="nav-link" href="team.html">Team</a> </li>
           <li class="nav-item"> <a class="nav-link" href="apparel.html">Apparel</a> </li>
           <li class="nav-item"> <a class="nav-link" href="apply.html">Apply</a> </li>
+		  <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a> </li>
         </ul>
       </div>
     </div>
@@ -61,19 +55,19 @@
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
-      <div class="carousel-item active" style="background-image: url('img/home/index1.jpg')">
+      <div class="carousel-item active" style="background-image: url('img/index/index1.jpg')">
         <div class="carousel-caption">
           <h1 style="color:white;">Meet the new ITMSA</h1>
           <p>New year, new us! ITMSA has rebranded with a new look!</p>
         </div>
       </div>
-      <div class="carousel-item" style="background-image: url('img/home/index2.jpg')">
+      <div class="carousel-item" style="background-image: url('img/index/index2.jpg')">
         <div class="carousel-caption text-center">
-          <h1 style="color:white;">Ted Rogers IT Summit</h1>
-          <p>In a few weeks, ITMSA will be hosting the TRITS.</p>
+          <h1 style="color:white;">Symcor Case Competition</h1>
+          <p>Join now!</p>
         </div>
       </div>
-      <div class="carousel-item" style="background-image: url('img/home/index3.jpg')">
+      <div class="carousel-item" style="background-image: url('img/index/index3.jpg')">
         <div class="carousel-caption text-center">
           <h1 style="color:white;">BTM Apparel</h1>
           <p>New merchandise designed by your course union.</p>
@@ -86,51 +80,204 @@
   
   <!-- Intro Start -->
   
-  <div class="container-fluid jumbotron">
-    <div class="container">
+  <div class="container-fluid">
       <div class="row justify-content-center">
-        <div class="col-lg col-md mobilecol">
-          <p class="boilerplate">BTM DOES <span style="color:#064F3A"> I.T. </span> BETTER </p>
-          <p>Welcome to ITMSA — the premier course union and student association for the Business Technology Management program at Ted Rogers School of Management at Ryerson University.</p>
-        </div>
-        <div class="col-lg col-md">
+        <div class="col-lg col-md mobilecol jumbotron twocol" style="border-right: 0px;">
+		  <div class="row">
+			<div class="col-md-4 text-center" style="padding-left:0;"> <img src="img/index/ITMSA Sticker.svg" style="max-width:100%; width:150px; padding:10px 0;" alt="ITMSA Sticker"/> </div>
+			<div class="col-md no-gutters">
+			  <h1 style="color:#064F3A">BTM DOES I.T. BETTER </h1>
+			  <p><b>Welcome to ITMSA</b> — the premier course union and student association for the Business Technology Management program at Ted Rogers School of Management at Ryerson University.</p>
+			</div>
+			</div>
+	 	</div>
+		  
+		  
+        <div class="col-lg col-md jumbotron">
           <div class="row">
-            <div class="col-md-4 text-center" style="padding-left:0;"> <img src="img/icons/BTMAC.png" style="max-width:100%; width:150px; padding:10px 0;"/> </div>
+            <div class="col-md-4 text-center" style="padding-left:0;"> <img src="img/index/BTMAC.svg" style="max-width:100%; width:150px; padding:10px 0;" alt="BTMAC Accreditation"/> </div>
             <div class="col-md no-gutters">
-              <h1>BTMAC Accredited<br>
-                Program</h1>
-              <p style="margin:0;"> Our Business Technology Management (BTM) and BTM Co-op programs have been fully accredited by the <a href="https://www.btm-forum.org/" target="_blank">BTM Forum (BTMF)</a>, <a href="http://itac.ca/" target="_blank">Information and Technology Association of Canada (ITAC)</a>. </p>
+              <h1>BTMAC Accredited<br>Program</h1>
+              <p style="margin:0;"> Our Business Technology Management (BTM) and BTM Co-op programs have been fully accredited by the <a href="https://www.btm-forum.org/accreditation/programs/accredited" target="_blank">BTM Forum (BTMF), Information and Technology Association of Canada (ITAC)</a>. </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
   </div>
   
-  <!-- Intro End --> 
+  <!-- Intro End -->
+	
+	
+  <!-- About Start -->
+
+<div class="container-fluid jumbotron2">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12 text-center">
+			<img src="img/logo/ITMSA_Logo.svg" style="height:200px; margin:50px 0; max-width:100%;" alt="ITMSA Logo">
+		  </div>
+        <div class="col-lg-8 text-center">
+          <p> Established in 2002, the Information Technology Management Students’ Association (ITMSA) is a non-profit, student-run course union serving students within the Business Technology Management (BTM) program at the Ted Rogers School of Management. </p>
+          <p> Ryerson’s BTM program is the largest of its kind in North America, with a strong focus on integrating Business and Information Technology. It is the ITMSA’s mission to help bridge the gaps for BTM students in order to ensure they are fully prepared to enter the industry and excel beyond their expectations. </p>
+          <p> Through hosting numerous case competitions as well as professional and academic events, we hope to foster an environment full of innovation and collaboration, in order to provide the support system necessary to help our students take their development to the next level. </p>
+			
+			<hr class="divider">
+			<sub>
+				<p>Download Logo in
+				<a href="img/index/download/ITMSA-png.png" download>PNG <i class="fa fa-download" aria-hidden="true"></i>
+			</a> | <a href="img/index/download/ITMSA-eps.eps" download>EPS <i class="fa fa-download" aria-hidden="true"></i></a>
+				</p>
+			</sub>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid jumbotron">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-4 col-md-3 text-center mobilecol"> <img src="img/index/Awards_2014-2015.svg" style="max-width:250px; padding:10px;" alt="Ryerson Games — Best Social Event 2015">
+          <p> <b>Ryerson Games</b><br>
+            Best Social Event in 2015<br>
+			  awarded by Ryerson Commerce Society.<sup><a href="#footnote-1">1</a></sup></p>
+        </div>
+        <div class="col-lg-4 col-md-3 text-center mobilecol"> <img src="img/index/Awards_2003-2004.svg" style="max-width:250px; padding:10px;" alt="ITMSA — Course Union of the Year 2004">
+          <p> <b>ITMSA</b><br>
+            Course Union of the Year in 2004<br>
+			  awarded by Ryerson Students' Administrative Council.<sup><a href="#footnote-2">2</a></sup></p>
+        </div>
+        <div class="col-lg-4 col-md-3 text-center"> <img src="img/index/Awards_2001-2002.svg" style="max-width:250px; padding:10px;" alt="ITMSA — Course Union of the Year 2002">
+          <p> <b>ITMSA</b><br>
+            Course Union of the Year in 2002<br>
+			  awarded by Ryerson Students' Administrative Council.<sup><a href="#footnote-2">2</a></sup></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-100"></div>
+  <div class="container-fluid jumbotron2">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center headers">
+          <h1>Affiliations</h1>
+        </div>
+		  
+        <div class="col-lg-6">
+          <div class="row justify-content-center">
+            <div class="col-lg-12 col-md-3 text-center"> <img src="img/index/CITC_Logo.svg" style="height:250px; padding:20px; max-width: 100%;" alt="CITC Logo"> </div>
+         
+            <div class="col-lg-12 text-center">
+				<span class="badge badge-pill badge-citc">
+			  <a href="http://www.citconference.ca/" target="_blank">
+				  citc.ai <i class="fa fa-external-link" aria-hidden="true"></i>
+				</a>
+		  </span>
+				
+              <p> Originally an ITMSA Event in 2005, Connect
+                I.T. has grown to become one of Canada’s largest
+                undergraduate business technology conferences.</p>
+				
+			<p>Bringing
+                together students on an application basis from leading
+                universities across Ontario, we explore a new emerging
+                trend in technology each year, offering our delegates an
+                opportunity to learn, network, and play. The design of our
+                conference ensures delegates are immersed and engaged
+                with topics encompassing the theme. </p>
+
+				<p>For the 2018 year, the theme is —<br><br>
+					<img src="img/index/AI.svg" style="max-width:100%;" alt="Artificial Intelligence Logo">
+				</p>
+					  
+				<hr class="divider">
+				<sub>
+				<p>Download Logo in
+				<a href="img/index/download/CITC-png.png" download>PNG <i class="fa fa-download" aria-hidden="true"></i>
+			</a> | <a href="img/index/download/CITC-eps.eps" download>EPS <i class="fa fa-download" aria-hidden="true"></i></a>
+				</p>
+				</sub>
+            </div>
+		   </div>
+        </div>
+		  
+        <div class="col-lg-6">
+          <div class="row justify-content-center">
+            <div class="col-lg-12 col-md-3 text-center"> <img src="img/index/WITM_Logo.svg" style="height:250px; padding:20px; max-width: 100%;" alt="WITM Logo"> </div>
+			  
+			  
+              <div class="col-lg-12 text-center">
+				  <span class="badge badge-pill badge-witm">
+			  <a href="http://www.witm.ca/" target="_blank">
+				  witm.ca <i class="fa fa-external-link" aria-hidden="true"></i>
+				</a>
+			  </span>
+				  
+                <p> For over a decade, Women in Information Technology (WITM) has been striving to bring together
+                  professionals, partners, and students, particularly women in
+                  Information Technology Management to help break the barriers
+                  that exist in STEM fields and the corporate realm. </p>
+                <p> WITM aims to bridge the diversity gap and eradicate the shortfall
+                  of female leaders in said fields, by focusing on the 3 pillars of our
+				mandate — <b>encourage, empower and equip</b> — and also aims to mobilize students with the necessary
+                  knowledge and skills to contribute to a socially progressive culture. </p>
+				  
+				  <hr class="divider">
+				<sub>
+				<p>Download Logo in
+				<a href="img/index/download/WITM-png.png" download>PNG <i class="fa fa-download" aria-hidden="true"></i>
+			</a> | <a href="img/index/download/WITM-eps.eps" download>EPS <i class="fa fa-download" aria-hidden="true"></i></a>
+				</p>
+				</sub>
+              </div>
+				  
+			</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+	
+<div class="container-fluid jumbotron">
+	<div class="container">
+	  <div class="row justify-content-center text-center">
+		<div class="col-lg-4 col-md-3 text-center mobilecol"> <img src="img/index/Awards_2016-2017.svg" style="max-width:250px; padding:10px;" alt="Connect I.T. — Best Professional Event 2016">
+		  <p> <b>Connect I.T.</b><br>
+			Best Professional Event in 2016<br>
+			awarded by Ted Rogers Students' Society.</p>
+		</div>
+		<div class="col-lg-4 col-md-3 text-center"> <img src="img/index/Awards_2015-2016.svg" style="max-width:250px; padding:10px;" alt="Connect I.T. — Best Corporate Relations 2015">
+		  <p> <b>Connect I.T.</b><br>
+			Best Corporate Relations in 2015<br>
+			  awarded by Ryerson Commerce Society.<sup><a href="#footnote-1">1</a></sup></p>
+		</div>
+	  </div>
+	</div>
+  </div>
+	
+  <!-- About End -->
   
   <!-- Mission Start -->
   
-  <div class="container">
-    <div class="row jumbotron2 text-center" style="padding-bottom:0; border-bottom:0;">
+  <div class="container jumbotron2" style="padding-bottom:0; border-bottom:0;">
+    <div class="row text-center">
       <div class="col-12 text-center headers">
         <h1>Our Mission</h1>
       </div>
-      <div class="col-lg col-md-4 mobilecol"> <img src="img/icons/serve.svg" class="missionicon wow fadeInUp" data-wow-delay="0.2s">
+      <div class="col-lg col-md-4 mobilecol"> <img src="img/icons/serve.svg" class="missionicon" alt="Serving Bell">
         <h2>Serve</h2>
-        <p>To assist the needs of the Business Technology Management student body.</p>
+        <p style="width: 250px; margin: 0.5rem auto;">To assist the needs of the Business Technology Management student body.</p>
         <br>
-        <img src="img/icons/column.png" width="200px"> </div>
-      <div class="col-lg col-md-4 mobilecol"> <img src="img/icons/represent.svg" class="missionicon wow fadeInUp" data-wow-delay="0.4s">
+        <img src="img/index/Column.svg" width="200px" alt="Column"> </div>
+      <div class="col-lg col-md-4 mobilecol"> <img src="img/icons/represent.svg" class="missionicon" alt="Flag">
         <h2>Represent</h2>
-        <p>To be a catalyst in the positive branding of the BTM program and Ryerson University.</p>
+        <p style="width: 250px; margin: 0.5rem auto;">To be a catalyst in the positive branding of the BTM program and Ryerson University.</p>
         <br>
-        <img src="img/icons/column.png" width="200px"> </div>
-      <div class="col-lg col-md-4"> <img src="img/icons/contribute.svg" class="missionicon wow fadeInUp" data-wow-delay="0.6s">
+        <img src="img/index/Column.svg" width="200px" alt="Column"> </div>
+      <div class="col-lg col-md-4"> <img src="img/icons/contribute.svg" class="missionicon" alt="Puzzle Piece">
         <h2>Contribute</h2>
-        <p>To be apart of the lively spirit of the Ted Rogers School of Management community.</p>
+        <p style="width: 250px; margin: 0.5rem auto;">To be a part of the lively spirit of the Ted Rogers School of Management community.</p>
         <br>
-        <img src="img/icons/column.png" width="200px"> </div>
+        <img src="img/index/Column.svg" width="200px" alt="Column"> </div>
     </div>
   </div>
   
@@ -141,38 +288,34 @@
   <div class="container-fluid jumbotron" style="border-top:0;">
     <div class="container">
       <div class="row justify-content-center text-center" id="counter">
-        <div class="col-lg col-md-4 counterwrapper"> <img src="img/icons/TRSM.svg" class="countericon">
+        <div class="col-lg col-md-4 counterwrapper"> <img src="img/icons/TRSM.svg" class="countericon" alt="TRSM Logo">
           <div class="counter-value" data-count="10000">0</div>
           <div class="counter-value">+</div>
           <p>TRSM<br>
-            Students<sup>1</sup></p>
+			  Students<sup><a href="#footnote-3">3</a></sup></p>
         </div>
-        <div class="col-lg col-md-4 counterwrapper"> <img src="img/icons/FullTime.svg" class="countericon">
+        <div class="col-lg col-md-4 counterwrapper"> <img src="img/icons/FullTime.svg" class="countericon" alt="Full Circle">
           <div class="counter-value" data-count="1700">0</div>
           <div class="counter-value">+</div>
           <p>Full-Time BTM<br>
-            Students<sup>1</sup></p>
+			  Students<sup><a href="#footnote-3">3</a></sup></p>
         </div>
-        <div class="col-lg col-md-4 counterwrapper"> <img src="img/icons/PartTime.svg" class="countericon">
+        <div class="col-lg col-md-4 counterwrapper"> <img src="img/icons/PartTime.svg" class="countericon" alt="Quarter Circle">
           <div class="counter-value" data-count="200">0</div>
           <div class="counter-value">+</div>
           <p>Part-Time BTM<br>
-            Students<sup>1</sup></p>
+			  Students<sup><a href="#footnote-3">3</a></sup></p>
         </div>
-        <div class="col-lg col-md-4 counterwrapper"> <img src="img/icons/Coop.svg" class="countericon">
+        <div class="col-lg col-md-4 counterwrapper"> <img src="img/icons/Coop.svg" class="countericon" alt="Star">
           <div class="counter-value" data-count="180">0</div>
           <div class="counter-value">+</div>
           <p>BTM Co-op<br>
-            Students<sup>1</sup></p>
+			  Students<sup><a href="#footnote-3">3</a></sup></p>
         </div>
-        <div class="col-lg col-md-4 counterwrapper"> <img src="img/icons/Partners.svg" class="countericon">
-          <div class="counter-value" data-count="12">0</div>
-          <p>External<br>
+        <div class="col-lg col-md-4 counterwrapper"> <img src="img/icons/Partners.svg" class="countericon" alt="Handshake">
+          <div class="counter-value" data-count="31">0</div>
+          <p>Past & Present<br>
             Partners</p>
-        </div>
-        <div class="w-100"></div>
-        <div class="col-12">
-          <p style="margin-top:2rem;"><a href="http://www.ryerson.ca/upo/statistics/students-2016-head" target="_blank"><sup>1</sup> Ryerson University — University Planning Office (UPO) — As of Fall 2016</a></p>
         </div>
       </div>
     </div>
@@ -183,103 +326,9 @@
   <!-- Social Start -->
   
   <div class="container">
-    <div class="row jumbotron2 justify-content-center" id="counter">
-      <div class="col-lg-6 mobilecol">
-        <div class="text-center headers">
-          <h1>Office Hours</h1>
-        </div>
-        <table class="table-sm table-bordered" style="font-size:9pt; width:100%;">
-          <tbody>
-            <tr>
-              <th colspan="2" scope="col" style="background-color:#EEEEEE;">Monday</th>
-            </tr>
-            <tr>
-              <td>1 PM - 2 PM</td>
-              <td><b>Nawal Ali</b> — Director of Social Media</td>
-            </tr>
-            <tr>
-              <td>2 PM - 3 PM</td>
-              <td><b>Zachary Moir</b> — Vice President of Technology</td>
-            </tr>
-            <tr>
-              <th colspan="2" scope="col" style="background-color:#EEEEEE;">Tuesday</th>
-            </tr>
-            <tr>
-              <td>12 PM - 1 PM</td>
-              <td><b>Hajra Arif</b> — Director of Academic Events</td>
-            </tr>
-            <tr>
-              <td>2 PM - 3 PM</td>
-              <td><b>Alicia D'Souza</b> — Co-Vice President of Corporate Relations</td>
-            </tr>
-            <tr>
-              <td>3 PM - 5 PM</td>
-              <td><b>Maryam Ansari</b> — Director of Corporate Relations</td>
-            </tr>
-            <tr>
-              <th colspan="2" scope="col" style="background-color:#EEEEEE;">Wednesday</th>
-            </tr>
-            <tr>
-              <td>9 AM - 11 AM</td>
-              <td><b>Saba Cheema</b> — Executive Vice President</td>
-            </tr>
-            <tr>
-              <td>12 PM - 1 PM</td>
-              <td><b>Joel Bringas</b> — Director of Graphics</td>
-            </tr>
-            <tr>
-              <td>1 PM - 2 PM</td>
-              <td><b>Priyanka Patel</b> — Vice President of Case Competitions</td>
-            </tr>
-            <tr>
-              <td>2 PM - 3 PM</td>
-              <td><b>Saljoq Khurshid</b> — President</td>
-            </tr>
-            <tr>
-              <td>5 PM - 6 PM</td>
-              <td><b>Benjamin Copeman</b> — Director of Campus Outreach</td>
-            </tr>
-            <tr>
-              <th colspan="2" scope="col" style="background-color:#EEEEEE;">Thursday</th>
-            </tr>
-            <tr>
-              <td>10 AM - 12 PM</td>
-              <td><b>Mirza Abubacker</b> — Vice President of Finance</td>
-            </tr>
-            <tr>
-              <td>12 PM - 1 PM</td>
-              <td><b>Yusra Arshad</b> — Director of Finance</td>
-            </tr>
-            <tr>
-              <td>5 PM - 6 PM</td>
-              <td><b>Iftikhar Choudhary</b> — Co-Vice President of Corporate Relations</td>
-            </tr>
-            <tr>
-              <th colspan="2" scope="col" style="background-color:#EEEEEE;">Friday</th>
-            </tr>
-            <tr>
-              <td>11 AM - 12 PM</td>
-              <td><b>Nathalia Alli</b> — Director of Social Affairs</td>
-            </tr>
-            <tr>
-              <td>3 PM - 4 PM</td>
-              <td><b>Ronit Patel</b> — Vice President of Events</td>
-            </tr>
-            <tr>
-              <td>4 PM - 5 PM</td>
-              <td><b>Zafina Hoque</b> — Director of Corporate Relations</td>
-            </tr>
-            <tr>
-              <td>5 PM - 6 PM</td>
-              <td><b>Samuel Kieme</b> — Vice President of Marketing</td>
-            </tr>
-            <tr>
-              <th colspan="2" scope="col" style="background-color:#EEEEEE;">Weekends — Closed</th>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="col-lg-6">
+    <div class="row jumbotron2 justify-content-center">
+      
+      <div class="col-lg">
         <div class="headers text-center">
           <h1>Instagram</h1>
         </div>
@@ -292,7 +341,7 @@
                     clientId: 'b9e559ec7c284375bf41e9a9fb72ae01',
                     accessToken: '572062184.1677ed0.ffcf3f9cfb804220939412eca0dfadf1',
                     resolution: 'standard_resolution',
-                    template: '<div class="col-lg-4 col-4 no-gutters"><a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" /></a></div>',
+                    template: '<div class="col-lg-2 col-2 no-gutters"><a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" /></a></div>',
                     sortBy: 'most-recent',
                     limit: 12,
                     links: true,
@@ -303,8 +352,24 @@
     </div>
   </div>
   
-  <!-- Social End --> 
-  
+  <!-- Social End -->
+	
+<!-- Footnote Start -->
+
+<div class="container-fluid jumbotron" style="border-top:0;">
+<div class="container">
+<div class="row justify-content-center text-center" id="counter">
+	<div class="col-12">
+	  <sup id="footnote-1">1</sup> Rebranded as Ted Rogers Students' Society<br>
+	  <sup id="footnote-2">2</sup> Rebranded as Ryerson Students' Union<br>
+	  <a href="http://www.ryerson.ca/upo/statistics/students-2016-head" target="_blank"><sup id="footnote-3">3</sup> Ryerson University — University Planning Office (UPO) — As of Fall 2016</a>
+	</div>
+</div>
+</div>
+</div>
+
+<!-- Footnote End -->
+
   <!-- Footer Start
 ============================================= --> 
   
@@ -312,30 +377,63 @@
   <footer class="container-fluid footer-jumbotron">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md-5 mobilecol"> <img src="img/logo/ITMSA Logotype-White.png" style="max-height:50px; max-width:100%;"/>
-          <div class="footersocial mr-auto">
-            <div class="footersociallogo"> <a href="http://www.facebook.com/itmsa/" target="_blank"> <img src="img/social/Facebook.png"/> </a> </div>
-            <div class="footersociallogo"> <a href="http://www.twitter.com/itmsa/" target="_blank"> <img src="img/social/Twitter.png"/> </a> </div>
-            <div class="footersociallogo"> <a href="http://www.instagram.com/itmsa/" target="_blank"> <img src="img/social/Instagram.png"/> </a> </div>
-            <div class="footersociallogo"> <a href="https://www.linkedin.com/company/692132/" target="_blank"> <img src="img/social/LinkedIn.png"/> </a> </div>
-            <div class="footersociallogo"> <a href="https://www.snapchat.com/add/itmsa/" target="_blank"> <img src="img/social/Snapchat.png"/> </a> </div>
+        <div class="col-md-4 mobilecol"> <img src="img/logo/ITMSA_Logotype-White.svg" style="height:50px; max-width:100%;" alt="ITMSA Logotype"/>
+          
+			
+			<div class="footersocial mr-auto">
+				
+            <div class="footersociallogo" style="padding: 0 10px 0 0;">
+				<a href="http://www.facebook.com/itmsa/" target="_blank">
+					<div class="overlay-facebook"></div>
+				</a>
+			</div>
+			  
+            <div class="footersociallogo">
+				<a href="http://www.twitter.com/itmsa/" target="_blank">
+					<div class="overlay-twitter"></div>
+				</a>
+			</div>
+				
+            <div class="footersociallogo">
+				<a href="http://www.instagram.com/itmsa/" target="_blank">
+					<div class="overlay-instagram"></div>
+				</a>
+			</div>
+				
+            <div class="footersociallogo">
+				<a href="https://www.linkedin.com/company/692132/" target="_blank">
+					<div class="overlay-linkedin"></div>
+				</a>
+			</div>
+				
+            <div class="footersociallogo">
+				<a href="https://www.snapchat.com/add/itmsa/" target="_blank">
+					<div class="overlay-snapchat"></div>
+				</a>
+			</div>
+				
           </div>
           <p class="ml-auto"><b>Ted Rogers School of Management<br>
             </b> TRS 1-137 (7th Floor) — 55 Dundas Street West<br>
             Toronto, Ontario, Canada — M5G 2C3</p>
+			
+			
+			
         </div>
-        <div class="col-md-7 no-gutters">
+        <div class="col-md-8 no-gutters">
           <div class="row justify-content-end">
-            <div class="col-md"> <b>Quick Links</b>
+            <div class="col-md-5"> <p style="font-size:12pt; margin-top:0; margin-bottom:1rem;"><b>Resources<br></b></p>
               <ul>
-                <li><a href="http://www.ryerson.ca/calendar/2017-2018/programs/trsm/business_tech/table_i/" target="_blank"><i class="fa fa-star" aria-hidden="true"></i> 2017-2018 Professional Table I</a></li>
-                <li><a href="http://www.ryerson.ca/calendar/2017-2018/programs/trsm/business_tech/table_ii/" target="_blank"><i class="fa fa-star" aria-hidden="true"></i> 2017-2018 Professionally-Related Table II</a></li>
-                <li><i class="fa fa-star" aria-hidden="true"></i> <a href="http://www.ryerson.ca/trsm-careers/" target="_blank">Business Career Hub</a></li>
-                <li><i class="fa fa-star" aria-hidden="true"></i> <a href="http://www.ryerson.ca/itm/current/cos/" target="_blank">Course Syllabuses</a></li>
-                <li><i class="fa fa-star" aria-hidden="true"></i> <a href="http://www.ryerson.ca/itm/current/coop/" target="_blank">Co-operative Education</a></li>
+                <li><a href="http://www.ryerson.ca/calendar/2017-2018/programs/trsm/business_tech/table_i/" target="_blank">2017-2018 Professional Table I</a></li>
+                <li><a href="http://www.ryerson.ca/calendar/2017-2018/programs/trsm/business_tech/table_ii/" target="_blank">2017-2018 Professionally-Related Table II</a></li>
+				<li><a href="http://www.ryerson.ca/itm/current/cos/" target="_blank">Course Syllabuses</a></li>
+                <li><a href="https://www.ryerson.ca/tedrogersschool/success/" target="_blank">Academic Success Centre</a></li>
+				<li><a href="http://www.ryerson.ca/trsm-careers/" target="_blank">Business Career Hub</a></li>
+                <li><a href="http://www.ryerson.ca/itm/current/coop/" target="_blank">Co-operative Education</a></li>
               </ul>
-            </div>
-            <div class="col-md"> <b>Business Technology Management Program</b>
+
+         	
+			  <p style="font-size:12pt; margin-top:0; margin-bottom:1rem;"><b>Business Technology Management</b></p>
               <ul>
                 <li><a href="http://www.ryerson.ca/itm/" target="_blank">Department Website</a></li>
                 <li><a href="http://www.ryerson.ca/itm/about/" target="_blank">About the Program</a></li>
@@ -344,6 +442,37 @@
                 <li><a href="http://www.ryerson.ca/itm/current/deanslist/" target="_blank">Dean's List</a></li>
                 <li><a href="http://www.ryerson.ca/programs/undergraduate/business-technology-management/" target="_blank">Program Admission</a></li>
                 <li><a href="http://www.ryerson.ca/itm/faculty/" target="_blank">Faculty</a></li>
+              </ul>
+            </div>
+			  
+
+			 <div class="col-md-7"> <p style="font-size:12pt; margin-top:0; margin-bottom:1rem;"><b>Certifications<br></b></p>
+              <ul>
+				  <li><b>Project Management Institute (PMI)</b></li>
+				  <li><a href="https://www.pmi.org/certifications/types/certified-associate-capm" target="_blank">Certified Associate in Project Management (CAPM)<sup>®</sup></a></li>
+                  <li><a href="https://www.pmi.org/certifications/types/project-management-pmp" target="_blank">Project Management Professional (PMP)<sup>®</sup></a></li>
+			 </ul>
+				  
+			<ul>
+				  <li><b>Information Technology Association of Canada (ITAC)</b></li>
+				  <li><a href="https://www.btm-forum.org/certification" target="_blank">BTM Certification</a></li>
+			</ul>
+
+			 <ul>
+			  	<li><b>Scrum Alliance</b></li>
+                <li><a href="https://www.scrumalliance.org/certifications/practitioners/certified-scrummaster-csm" target="_blank">Certified ScrumMaster<sup>®</sup> (CSM)</a></li>
+			  </ul>
+			
+			<ul>
+				<li><b>Axelos</b></li>
+                <li><a href="https://www.axelos.com/certifications/itil-certifications" target="_blank">ITIL<sup>®</sup> Certifications</a></li>
+			</ul>
+			
+			<ul>
+				<li><b>CompTIA</b></li>
+                <li><a href="https://certification.comptia.org/certifications/network" target="_blank">Network+</a></li>
+			</ul>
+				 
               </ul>
             </div>
           </div>
@@ -358,9 +487,31 @@
             </div>
             <div class="col-md-6 no-gutters">
               <div class="footerhierarchy ml-auto">
-                <div class="footerhierarchylogo"> <a href="http://www.ryerson.ca/" target="_blank"> <img src="img/logo/Ryerson.png"/> </a> </div>
-                <div class="footerhierarchylogo"> <a href="http://www.ryerson.ca/tedrogersschool/" target="_blank"> <img src="img/logo/TRSM.png"/> </a> </div>
-                <div class="footerhierarchylogo"> <a href="http://www.trssociety.ca/" target="_blank"> <img src="img/logo/TRSS.png"/> </a> </div>
+				  
+                <div class="footerhierarchylogo">
+					<a href="http://www.ryerson.ca/" target="_blank">
+						<div class="overlay-ryerson"></div>
+					</a>
+				  </div>
+				  
+                <div class="footerhierarchylogo">
+					<a href="http://www.ryerson.ca/tedrogersschool/" target="_blank">
+						<div class="overlay-trsm"></div>
+					</a>
+			  	</div>
+				  
+                <div class="footerhierarchylogo">
+					<a href="http://www.trssociety.ca/" target="_blank">
+						<div class="overlay-trss"></div>
+					</a>
+			  	</div>
+				
+				<div class="footerhierarchylogo">
+					<a href="https://www.ryerson.ca/trsm-careers/" target="_blank">
+						<div class="overlay-bch"></div>
+					</a>
+			  	</div>
+				  
               </div>
             </div>
           </div>
@@ -380,11 +531,6 @@
 <script src="js/counter.js"></script> 
 <script src="js/header-shrink.js"></script> 
 <script src="https://use.fontawesome.com/e0fc1912cd.js"></script> 
-<script src="js/wow.js"></script> 
-<script>
-  var wow = new WOW();
-  wow.init(); 
-</script>
 <script>
     $('.carousel').carousel({
       interval: 4000

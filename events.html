@@ -14,7 +14,6 @@
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
-<link href="css/animate.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700,700i,900,900i">
 </head>
 
@@ -25,22 +24,17 @@
 
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-hidden">
-    <div class="container"> <a class="navbar-brand" href="index.html"> <img src="img/logo/ITMSA Logo-White.png" class="largeLogo" id="Logo" alt="ITMSA Logo"/> </a>
+    <div class="container"> <a class="navbar-brand" href="index.html"> <img src="img/logo/ITMSA_Logo-White.svg" class="largeLogo" id="Logo" alt="ITMSA Logo"/> </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
-          <li class="dropdown" style="padding: 0.5rem;margin-top: 7px;"> <a class="dropdown-toggle" data-toggle="dropdown" href="events.html">Events<span class="caret"></span></a> <ul class="dropdown-menu">
-            <li><a class="dropdown-link" href="events.html">All Events</a></li>
-            <li><a class="dropdown-link" href="social-events.html">Social</a></li>
-            <li><a class="dropdown-link" href="academic-events.html">Academic</a></li>
-            <li><a class="dropdown-link" href="casecomps-events.html">Case Competitions</a></li>
-          </ul> </li>
+          <li class="nav-item"> <a class="nav-link active" href="events.html">Events</a> </li>
           <li class="nav-item"> <a class="nav-link" href="partnership.html">Partnership</a> </li>
           <li class="nav-item"> <a class="nav-link" href="bic.html">Innovation Core</a> </li>
           <li class="nav-item"> <a class="nav-link" href="team.html">Team</a> </li>
           <li class="nav-item"> <a class="nav-link" href="apparel.html">Apparel</a> </li>
           <li class="nav-item"> <a class="nav-link" href="apply.html">Apply</a> </li>
+		  <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a> </li>
         </ul>
       </div>
     </div>
@@ -52,65 +46,193 @@
 
 <main role="main" class="margintop">
   <div class="container-fluid">
+	<div id="masthead"> 
     <div class="row justify-content-center headerbg text-center" style="background: url(img/events/headerbg.jpg) no-repeat fixed top center; background-size:cover;">
+		
+		
       <div class="col-lg-6">
         <h1>Events</h1>
         <p> ITMSA hosts many events to provide BTM students a social and engaging way to interact with the BTM community. </p>
       </div>
     </div>
-  </div>      
-<div id="parent">   
-  <div class="container-fluid jumbotron wow fadeInUp">
+	  </div>
+  </div>
+	
+
+
+<!-- Begin Body -->
+
+<div class="container">
+
+	<div class="row">
+
+  			<div class="col-md-3" id="leftCol">
+
+              
+
+              	<ul class="nav nav-stacked" id="sidebar">
+					<li>
+                    <a href="#future">UPCOMING EVENTS</a>
+                    <ul class="nav nav-stacked">
+                      <li><a href="#scc">Symcor Case Competition (SCC)</a></li>
+                      <li><a href="#alumni">Alumni Appreciation</a></li>
+                      <li><a href="#occ">Oracle Case Competition (OCC)</a></li>
+					  <li><a href="#tech">Tech Consulting Night</a></li>
+					<li><a href="#trits">Ted Rogers IT Summit</a></li>
+					<li><a href="#ryersongames">Ryerson Games</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#past">PAST EVENTS</a>
+                    <ul class="nav nav-stacked">
+                      <li><a href="#eds">Exam Destressor</a></li>
+                      <li><a href="#fintech">FinTech</a></li>
+					  <li><a href="#innovation">ITM Program Advisory Council Speaker Series: Innovation</a></li>
+					<li><a href="#wom">Wheel of Majors</a></li>
+					<li><a href="#itzone">IT Zone</a></li>
+					<li><a href="#btmtm">BTM Talent Mash Ontario 2017</a></li>
+					<li><a href="#btmcert">BTM Certification</a></li>
+					<li><a href="#jicc">Junior IT Case Competition (JICC)</a></li>
+					<li><a href="#wbtm">Welcome BTM</a></li>
+                    </ul>
+                  </li>
+
+              	</ul>
+
+              
+
+      		</div>  
+
+      		<div class="col-md-9 no-gutters" id="mainCol">
+
+              
+<div class="container-fluid jumbotron">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 text-center headers">
-          <h1>Upcoming Event</h1>
+			<a class="anchortitle" id="future"></a>
+				<h1>Upcoming Events</h1>
         </div>
         
         <!-- SCC Start -->
+		  <a class="anchor" id="scc"></a>
         <div class="col-lg-5 col-md-5 text-center"> <img src="img/events/Symcor.jpg" class="events"/> </div>
         <div class="col-lg-7 col-md-7"> <span class="badge badge-pill badge-cc">Case Competition</span>
           <h3>Symcor Case Competition</h3>
           <ul class="event-details">
-            <li><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i> January 19, 2018 — 6-10 PM & January 20, 2018 — 9 AM - 3 PM</li>
-            <li><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i> Cara Commons — TRS 1-148</li>
+		    <li><i class="fa fa-heart fa-fw" aria-hidden="true"></i> In collaboration with <a href="http://www.itsayork.ca/" target="_blank">York University</a> & <a href="https://www.facebook.com/memsociety/" target="_blank">McMaster University</a></li>
+            <li><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i> January 2018 — 9-5 PM</li>
+            <li><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i> Design Exchange — 234 Bay Street, Toronto</li>
             <li><i class="fa fa-user fa-fw" aria-hidden="true"></i> Business Formal</li>
           </ul>
-          <p> Some words here. </p>
+          <p> ITMSA is excited to introduce our 8th annual Symcor Case Competition. This year we are thrilled to announce that we will be collaborating with York University and McMaster University to bring you an unparalleled case competition experience. The day will consist of keynote’s from industry leading professionals and will provide participants with the chance to win cash prizes! </p>
+		  <p> Why should you attend?
+          
+          <ul>
+            <li>1st Place — $3000</li>
+            <li>2nd Place — $2100</li>
+            <li>3rd Place — $1200</li>
+            <li>Develop your communication, problem solving and teamwork skills by solving a real-life business problem.</li>
+            <li>Interact and network with industry professionals, Alumni, and students from a variety of universities. </li>
+          </ul>
+          </p>
           <a href="#" target="_blank">
           <button type="button" class="btn btn-primary disabled"> Register <i class="fa fa-external-link" aria-hidden="true"></i></button>
           </a> </div>
         <!-- SCC End --> 
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid jumbotron2 wow fadeInUp">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 text-center headers">
-          <h1>Future Events</h1>
-        </div>
-        
-        <!-- Ryerson Games Start -->
-        <div class="col-lg-5 col-md-5 text-center"> <img src="img/events/Ryerson Games.jpg" class="events"/> </div>
-        <div class="col-lg-7 col-md-7"> <span class="badge badge-pill badge-social">Social</span>
-          <h3>Ryerson Games</h3>
-          <ul class="event-details">
-            <li><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i> March 10, 2018 — 8-5 PM</li>
-            <li><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i> Kerr Hall West Gymnasium — KHW 123</li>
-            <li><i class="fa fa-user fa-fw" aria-hidden="true"></i> Business Formal</li>
-          </ul>
-          <p> Some words here. </p>
-          <a href="#" target="_blank">
-          <button type="button" class="btn btn-primary disabled"> Register <i class="fa fa-external-link" aria-hidden="true"></i></button>
-          </a> </div>
-        <!-- Ryerson Games End -->
-        
+
         <div class="w-100">
           <hr class="divider">
         </div>
-        
-        <!-- TRITS Start -->
+		
+		<!-- Alumni Start -->
+		  <a class="anchor" id="alumni"></a>
+        <div class="col-lg-5 col-md-5 text-center"> <img src="img/events/Alumni.jpg" class="events"/> </div>
+        <div class="col-lg-7 col-md-7"> <span class="badge badge-pill badge-social">Social</span>
+          <h3>Alumni Appreciation</h3>
+          <ul class="event-details">
+		   <li><i class="fa fa-heart fa-fw" aria-hidden="true"></i> In collaboration with <a href="https://www.ciocan.ca/" target="_blank">CIO Association of Canada</a></li>
+            <li><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i> January 31, 2018 — 6-9 PM</li>
+            <li><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i> Aperture Room — 340 Yonge Street, Toronto</li>
+            <li><i class="fa fa-user fa-fw" aria-hidden="true"></i> Business Formal</li>
+          </ul>
+          <p> ITMSA will be partnering up with the CIO Association of Canada for our annual Alumni Event. The evening will feature keynote speakers from leading global technology leaders and introduce the launch of our Alumni Mentorship Program! </p>
+		  <p> Why should you attend?
+          
+          <ul>
+            <li>Keynote speeches from Global Technology Leaders.</li>
+            <li>Interact and network with past alumni, industry professionals, and students.</li>
+            <li>Learn about how you can get involved with our new Alumni Mentorship Program.</li>
+            <li>Food and refreshments will be provided.</li>
+          </ul>
+          </p>
+          <a href="#" target="_blank">
+          <button type="button" class="btn btn-primary disabled"> Register <i class="fa fa-external-link" aria-hidden="true"></i></button>
+          </a> </div>
+        <!-- Alumni End --> 
+	
+		<div class="w-100">
+          <hr class="divider">
+        </div>
+	
+		<!-- Oracle Start -->
+		  <a class="anchor" id="occ"></a>
+        <div class="col-lg-5 col-md-5 text-center"> <img src="img/events/Oracle.jpg" class="events"/> </div>
+        <div class="col-lg-7 col-md-7"> <span class="badge badge-pill badge-cc">Case Competition</span>
+          <h3>Oracle Case Competition</h3>
+          <ul class="event-details">
+		   <li><i class="fa fa-heart fa-fw" aria-hidden="true"></i> In collaboration with <a href="https://www.ciocan.ca/" target="_blank">CIO Association of Canada</a></li>
+            <li><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i> January 31, 2018 — 6-9 PM</li>
+            <li><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i> Aperture Room — 340 Yonge Street, Toronto</li>
+            <li><i class="fa fa-user fa-fw" aria-hidden="true"></i> Business Formal</li>
+          </ul>
+			<p> asdasd
+          
+          <ul>
+            <li>asd</li>
+          </ul>
+          </p>
+          <a href="#" target="_blank">
+          <button type="button" class="btn btn-primary disabled"> Register <i class="fa fa-external-link" aria-hidden="true"></i></button>
+          </a> </div>
+        <!-- Oracle End --> 
+				
+		<div class="w-100">
+          <hr class="divider">
+        </div>
+				
+		<!-- Tech Start -->
+		  <a class="anchor" id="tech"></a>
+        <div class="col-lg-5 col-md-5 text-center"> <img src="img/events/Oracle.jpg" class="events"/> </div>
+        <div class="col-lg-7 col-md-7"> <span class="badge badge-pill badge-academic">Academic</span>
+          <h3>Tech Consulting Night</h3>
+          <ul class="event-details">
+		   <li><i class="fa fa-heart fa-fw" aria-hidden="true"></i> In collaboration with <a href="http://www.ryersonconsulting.ca/" target="_blank">RCA</a></li>
+            <li><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i> March 2, 2018 — 6-9 PM</li>
+            <li><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i> Sears Atrium — 245 Church Street (3rd Floor), Toronto</li>
+            <li><i class="fa fa-user fa-fw" aria-hidden="true"></i> Business Casual</li>
+          </ul>
+          <p> Information Technology Management Students' Association (ITMSA) and Ryerson Consulting Association (RCA) are excited to introduce our first ever Tech Consulting Night!
+          
+          <ul>
+            <li>Learn more about Technology Consulting from top firms</li>
+			<li>Learn about recruitment opportunities for co-op/internships and new-grad positions with top firms</li>
+			<li>Interact with industry leaders and recruiters</li>
+			<li>Food and refreshment will be provided</li>
+
+          </ul>
+          </p>
+          <a href="#" target="_blank">
+          <button type="button" class="btn btn-primary disabled"> Register <i class="fa fa-external-link" aria-hidden="true"></i></button>
+          </a> </div>
+        <!-- Tech End --> 
+		
+		<div class="w-100">
+          <hr class="divider">
+        </div>
+		
+		<!-- TRITS Start -->
+		  <a class="anchor" id="trits"></a>
         <div class="col-lg-5 col-md-5 text-center"> <img src="img/events/Ted Rogers IT Summit.jpg" class="events"/> </div>
         <div class="col-lg-7 col-md-7"> <span class="badge badge-pill badge-academic">Academic</span>
           <h3>Ted Rogers IT Summit</h3>
@@ -124,31 +246,56 @@
           <button type="button" class="btn btn-primary disabled"> Register <i class="fa fa-external-link" aria-hidden="true"></i></button>
           </a> </div>
         <!-- TRITS End --> 
+		
+		<div class="w-100">
+          <hr class="divider">
+        </div>
+		 
+        <!-- Ryerson Games Start -->
+		  <a class="anchor" id="ryersongames"></a>
+        <div class="col-lg-5 col-md-5 text-center"> <img src="img/events/Ryerson Games.jpg" class="events"/> </div>
+        <div class="col-lg-7 col-md-7"> <span class="badge badge-pill badge-social">Social</span>
+          <h3>Ryerson Games</h3>
+          <ul class="event-details">
+            <li><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i> March 31, 2018 — 9-5 PM</li>
+            <li><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i> Kerr Hall West Gymnasium — KHW 123</li>
+            <li><i class="fa fa-user fa-fw" aria-hidden="true"></i> Athletic</li>
+          </ul>
+          <p> Some words here. </p>
+          <a href="#" target="_blank">
+          <button type="button" class="btn btn-primary disabled"> Register <i class="fa fa-external-link" aria-hidden="true"></i></button>
+          </a> </div>
+        <!-- Ryerson Games End -->
+
+        
         
       </div>
     </div>
   </div>
-  <div class="container-fluid jumbotron wow fadeInUp">
+  <div class="container-fluid jumbotron2">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 text-center headers">
-          <h1>Past Events</h1>
+			<a class="anchortitle" id="past"></a>
+				<h1>Past Events</h1>
         </div>
         
         <!-- Exam Destressor Start -->
+		  <a class="anchor" id="eds"></a>
         <div class="col-lg-5 col-md-5 text-center"> <img src="img/events/eds.png" class="events"/> </div>
         <div class="col-lg-7 col-md-7"> <span class="badge badge-pill badge-social">Social</span>
           <h3>Exam Destressor</h3>
           <ul class="event-details">
-            <li><i class="fa fa-heart fa-fw" aria-hidden="true"></i> In collaboration with</li>
+            <li><i class="fa fa-heart fa-fw" aria-hidden="true"></i> In collaboration with <a href="http://ryegfc.rsuequity.ca/" target="_blank">The Good Food Centre</a></li>
             <li><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i> November 27, 2017 — 11 AM - 5 PM</li>
             <li><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i> CPA Lounge — TRS 1-003</li>
             <li><i class="fa fa-user fa-fw" aria-hidden="true"></i> Casual</li>
           </ul>
-          <p> Some words here. </p>
-          <a href="#" target="_blank">
-          <button type="button" class="btn btn-primary disabled"> See Photos <i class="fa fa-external-link" aria-hidden="true"></i></button>
-          </a> </div>
+          <p> Are you stressed about finals?</p>
+			<p>If your answer was a yes, be sure to attend the ITMSA's Exam De-Stressor event taking place on November 27th between 12-4pm at the CPA Lounge (TRS 1-003).</p>
+			<p>This drop-in event will have various board games and video game stations set up with tournaments. FREE snacks and refreshments will be provided to munch on. This is a great opportunity to gather with your friends and peers to unwind and de-stress during a busy study period. We are also partnering with the Good Food Centre to donate non-perishable food items and monetary donations at the event. </p>
+			<br>
+          </div>
         <!-- Exam Destressor End -->
         
         <div class="w-100">
@@ -156,6 +303,7 @@
         </div>
         
         <!-- FinTech Start -->
+		  <a class="anchor" id="fintech"></a>
         <div class="col-lg-5 col-md-5 text-center"> <img src="img/events/fintech.jpg" class="events"/> </div>
         <div class="col-lg-7 col-md-7"> <span class="badge badge-pill badge-academic">Academic</span> <span class="badge badge-pill badge-info">External</span>
           <h3>FinTech</h3>
@@ -171,7 +319,10 @@
           <br>
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSfFZ8EFwSvYUj7L73vGbkMHwbyAfdximJ9tQmc9RAjGR9991g/viewform" target="_blank">
           <button type="button" class="btn btn-primary"> Register <i class="fa fa-external-link" aria-hidden="true"></i></button>
-          </a> </div>
+          </a>
+		<a href="https://www.facebook.com/rfpaonline/posts/886697278155337" target="_blank">
+          <button type="button" class="btn btn-primary"> See Photos <i class="fa fa-external-link" aria-hidden="true"></i></button>
+          </a></div>
         <!-- FinTech End -->
         
         <div class="w-100">
@@ -179,6 +330,7 @@
         </div>
         
         <!-- CIO Special Event Start -->
+		  <a class="anchor" id="innovation"></a>
         <div class="col-lg-5 col-md-5 text-center"> <img src="img/events/cio.jpg" class="events"/> </div>
         <div class="col-lg-7 col-md-7"> <span class="badge badge-pill badge-academic">Academic</span> <span class="badge badge-pill badge-info">External</span>
           <h3>ITM Program Advisory Council Speaker Series: Innovation</h3>
@@ -207,7 +359,10 @@
           <br>
           <a href="https://www.eventbrite.ca/e/itm-program-advisory-council-speaker-series-innovation-tickets-38601606444" target="_blank">
           <button type="button" class="btn btn-primary">Register <i class="fa fa-external-link" aria-hidden="true"></i></button>
-          </a> </div>
+          </a>
+		<a href="https://www.facebook.com/pg/itmsa/photos/?tab=album&album_id=10159919756690413" target="_blank">
+          <button type="button" class="btn btn-primary"> See Photos <i class="fa fa-external-link" aria-hidden="true"></i></button>
+          </a></div>
         <!-- CIO Special Event End -->
         
         <div class="w-100">
@@ -215,6 +370,7 @@
         </div>
         
         <!-- Wheel of Majors Start -->
+		<a class="anchor" id="wom"></a>
         <div class="col-lg-5 col-md-5 text-center"> <img src="img/events/wom.jpg" class="events"/> </div>
         <div class="col-lg-7 col-md-7"> <span class="badge badge-pill badge-academic">Academic</span> <span class="badge badge-pill badge-info">External</span>
           <h3>Wheel of Majors</h3>
@@ -229,6 +385,9 @@
           <br>
           <a href="https://www.eventbrite.ca/e/trop-presents-wheel-of-majors-tickets-39669928825" target="_blank">
           <button type="button" class="btn btn-primary">Register <i class="fa fa-external-link" aria-hidden="true"></i></button>
+          </a>
+			<a href="https://www.facebook.com/pg/troponline/photos/?tab=album&album_id=1489696554433398" target="_blank">
+          <button type="button" class="btn btn-primary"> See Photos <i class="fa fa-external-link" aria-hidden="true"></i></button>
           </a> </div>
         <!-- Wheel of Majors End -->
         
@@ -237,6 +396,7 @@
         </div>
         
         <!-- IT Zone Start -->
+		<a class="anchor" id="itzone"></a>
         <div class="col-lg-5 col-md-5 text-center"> <img src="img/events/itzone.jpg" class="events"/> </div>
         <div class="col-lg-7 col-md-7"> <span class="badge badge-pill badge-social">Social</span>
           <h3>IT Zone</h3>
@@ -253,11 +413,14 @@
           </a> </div>
         <!-- IT Zone End -->
         
+		
+		
         <div class="w-100">
           <hr class="divider">
         </div>
         
         <!-- BTM TalentMash Start -->
+		<a class="anchor" id="btmtm"></a>
         <div class="col-lg-5 col-md-5 text-center"> <img src="img/events/btmtm.jpg" class="events"/> </div>
         <div class="col-lg-7 col-md-7"> <span class="badge badge-pill badge-academic">Academic</span> <span class="badge badge-pill badge-info">External</span>
           <h3>BTM TalentMash Ontario 2017</h3>
@@ -280,7 +443,7 @@
             <li>TheAppLabb</li>
           </ul>
           </p>
-          <a href="https://www.eventbrite.com/e/2017-ontario-business-technology-management-btm-talentmash-conference-tickets-33587876242?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&aff=escb&utm-source=cp&utm-term=listing#" target="_blank">
+          <a href="https://www.eventbrite.com/e/2017-ontario-business-technology-management-btm-talentmash-conference-tickets-33587876242" target="_blank">
           <button type="button" class="btn btn-primary">Register <i class="fa fa-external-link" aria-hidden="true"></i></button>
           </a> </div>
         <!-- BTM TalentMash End -->
@@ -290,6 +453,7 @@
         </div>
         
         <!-- BTM Certification Start -->
+	  <a class="anchor" id="btmcert"></a>
         <div class="col-lg-5 col-md-5 text-center"> <img src="img/events/btmcert.jpg" class="events"/> </div>
         <div class="col-lg-7 col-md-7"> <span class="badge badge-pill badge-academic">Academic</span>
           <h3>BTM Certification</h3>
@@ -305,8 +469,11 @@
           <p> If want to learn about professional certifications offered by a variety of renowned organizations that you can obtain after graduation or even while you’re still a student, then this is the perfect opportunity for you! </p>
           <p> On November 1st from 12:00pm to 3:00pm professionals from the Project Management Institute, Scrum Alliance, IT Association of Canada, and many more will be in attendance to share with you the many certification programs they offer. </p>
           <br>
-          <a href="#" target="_blank">
-          <button type="button" class="btn btn-primary disabled"> See Photos <i class="fa fa-external-link" aria-hidden="true"></i></button>
+			<a href="https://www.eventbrite.ca/e/btm-certification-tickets-39028494277" target="_blank">
+          <button type="button" class="btn btn-primary"> Register <i class="fa fa-external-link" aria-hidden="true"></i></button>
+          </a>
+          <a href="https://www.facebook.com/pg/itmsa/photos/?tab=album&album_id=10159845586685413" target="_blank">
+          <button type="button" class="btn btn-primary"> See Photos <i class="fa fa-external-link" aria-hidden="true"></i></button>
           </a> </div>
         <!-- BTM Certification End -->
         
@@ -315,6 +482,7 @@
         </div>
         
         <!-- JICC Start -->
+	  <a class="anchor" id="jicc"></a>
         <div class="col-lg-5 col-md-5 text-center"> <img src="img/events/jicc.jpg" class="events"/> </div>
         <div class="col-lg-7 col-md-7"> <span class="badge badge-pill badge-cc">Case Competition</span>
           <h3>Junior IT Case Competition (JICC)</h3>
@@ -327,7 +495,10 @@
           <p> ITMSA and WITM are excited to announce that the annual Junior IT Case Competition (JICC) is back! This year, JICC will be held on October 22nd. Please note, the competition is exclusive to 1st and 2nd year BTM students. </p>
           <p> Participating in this case competition will provide you with a chance to collaborate, build upon skills within a competitive learning environment, and leverage in-class material to solve business problems to a diverse set of industry professionals, all for a chance to win cash prizes! The team that comes in 1st place will get $1000, 2nd place will get $750 and the team in third place will get $450. Let's be real we are all students who could use some money, so make sure to sign up either individually or with a team of 3 ASAP!! </p>
           <br>
-          <a href="https://www.facebook.com/pg/itmsa/photos/?tab=album&album_id=10159598055210413" target="_blank">
+		 <a href="https://docs.google.com/forms/d/e/1FAIpQLSeyZCEfhR3_ELRPE4zbscCRBp39WLCiiIFitQ-Q0cIVfum3rg/closedform" target="_blank">
+          <button type="button" class="btn btn-primary"> Register <i class="fa fa-external-link" aria-hidden="true"></i></button>
+          </a>
+          <a href="https://www.facebook.com/pg/itmsa/photos/?tab=album&album_id=10159741189175413" target="_blank">
           <button type="button" class="btn btn-primary"> See Photos <i class="fa fa-external-link" aria-hidden="true"></i></button>
           </a> </div>
         <!-- JICC End -->
@@ -337,6 +508,7 @@
         </div>
         
         <!-- Welcome BTM Start -->
+	  <a class="anchor" id="wbtm"></a>
         <div class="col-lg-5 col-md-5 text-center"> <img src="img/events/wbtm.jpg" class="events"/> </div>
         <div class="col-lg-7 col-md-7"> <span class="badge badge-pill badge-social">Social</span>
           <h3>Welcome BTM</h3>
@@ -349,30 +521,74 @@
           <p> To kick off the 2017-2018 school year, the ITMSA would like to present our first event “Welcome BTM”! Come out to “Welcome BTM” to connect with professors outside of classrooms, ask BTM related questions, and learn about the different resources accessible within TRSM to help enhance your academic and professional experience at Ryerson University. </p>
           <p> Don’t miss this amazing opportunity to socialize, network, and build relationships with BTM student leaders, faculty, and students to learn more about their experiences in the BTM program. To learn more about what the ITMSA has to offer, be sure to come out! </p>
           <br>
+		  <a href="https://guestlist.co/events/477741?utm=bp1buc0yxfxwwr7x" target="_blank">
+          <button type="button" class="btn btn-primary"> Register <i class="fa fa-external-link" aria-hidden="true"></i></button>
+          </a> 
           <a href="https://www.facebook.com/pg/itmsa/photos/?tab=album&album_id=10159598055210413" target="_blank">
           <button type="button" class="btn btn-primary"> See Photos <i class="fa fa-external-link" aria-hidden="true"></i></button>
           </a> </div>
         <!-- Welcome BTM End --> 
-    </div>
-        
       </div>
     </div>
   </div>
+              
+
+
+              	
+
+              	
+
+      		</div> 
+
+  	</div>
+
+</div>
+
+	
+	
   
-  <!-- Footer Start
+    <!-- Footer Start
 ============================================= --> 
   
   <a id="back-to-top" class="btn btn-primary back-to-top" role="button"> <i class="fa fa-chevron-up" aria-hidden="true" style="color:white;"></i> </a>
   <footer class="container-fluid footer-jumbotron">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md-5 mobilecol"> <img src="img/logo/ITMSA Logotype-White.png" style="max-height:50px; max-width:100%;"/>
-          <div class="footersocial mr-auto">
-            <div class="footersociallogo"> <a href="http://www.facebook.com/itmsa/" target="_blank"> <img src="img/social/Facebook.png"/> </a> </div>
-            <div class="footersociallogo"> <a href="http://www.twitter.com/itmsa/" target="_blank"> <img src="img/social/Twitter.png"/> </a> </div>
-            <div class="footersociallogo"> <a href="http://www.instagram.com/itmsa/" target="_blank"> <img src="img/social/Instagram.png"/> </a> </div>
-            <div class="footersociallogo"> <a href="https://www.linkedin.com/company/692132/" target="_blank"> <img src="img/social/LinkedIn.png"/> </a> </div>
-            <div class="footersociallogo"> <a href="https://www.snapchat.com/add/itmsa/" target="_blank"> <img src="img/social/Snapchat.png"/> </a> </div>
+        <div class="col-md-5 mobilecol"> <img src="img/logo/ITMSA_Logotype-White.svg" style="height:50px; max-width:100%;" alt="ITMSA Logotype"/>
+          
+			
+			<div class="footersocial mr-auto">
+				
+            <div class="footersociallogo" style="padding: 0 10px 0 0;">
+				<a href="http://www.facebook.com/itmsa/" target="_blank">
+					<div class="overlay-facebook"></div>
+				</a>
+			</div>
+			  
+            <div class="footersociallogo">
+				<a href="http://www.twitter.com/itmsa/" target="_blank">
+					<div class="overlay-twitter"></div>
+				</a>
+			</div>
+				
+            <div class="footersociallogo">
+				<a href="http://www.instagram.com/itmsa/" target="_blank">
+					<div class="overlay-instagram"></div>
+				</a>
+			</div>
+				
+            <div class="footersociallogo">
+				<a href="https://www.linkedin.com/company/692132/" target="_blank">
+					<div class="overlay-linkedin"></div>
+				</a>
+			</div>
+				
+            <div class="footersociallogo">
+				<a href="https://www.snapchat.com/add/itmsa/" target="_blank">
+					<div class="overlay-snapchat"></div>
+				</a>
+			</div>
+				
           </div>
           <p class="ml-auto"><b>Ted Rogers School of Management<br>
             </b> TRS 1-137 (7th Floor) — 55 Dundas Street West<br>
@@ -380,16 +596,16 @@
         </div>
         <div class="col-md-7 no-gutters">
           <div class="row justify-content-end">
-            <div class="col-md"> <b>Quick Links</b>
+            <div class="col-md"> <p style="font-size:12pt; margin-top:0;"><b>Useful Links</b></p>
               <ul>
-                <li><a href="http://www.ryerson.ca/calendar/2017-2018/programs/trsm/business_tech/table_i/" target="_blank"><i class="fa fa-star" aria-hidden="true"></i> 2017-2018 Professional Table I</a></li>
-                <li><a href="http://www.ryerson.ca/calendar/2017-2018/programs/trsm/business_tech/table_ii/" target="_blank"><i class="fa fa-star" aria-hidden="true"></i> 2017-2018 Professionally-Related Table II</a></li>
-                <li><i class="fa fa-star" aria-hidden="true"></i> <a href="http://www.ryerson.ca/trsm-careers/" target="_blank">Business Career Hub</a></li>
-                <li><i class="fa fa-star" aria-hidden="true"></i> <a href="http://www.ryerson.ca/itm/current/cos/" target="_blank">Course Syllabuses</a></li>
-                <li><i class="fa fa-star" aria-hidden="true"></i> <a href="http://www.ryerson.ca/itm/current/coop/" target="_blank">Co-operative Education</a></li>
+                <li><a href="http://www.ryerson.ca/calendar/2017-2018/programs/trsm/business_tech/table_i/" target="_blank">2017-2018 Professional Table I</a></li>
+                <li><a href="http://www.ryerson.ca/calendar/2017-2018/programs/trsm/business_tech/table_ii/" target="_blank">2017-2018 Professionally-Related Table II</a></li>
+                <li><a href="http://www.ryerson.ca/trsm-careers/" target="_blank">Business Career Hub</a></li>
+                <li><a href="http://www.ryerson.ca/itm/current/cos/" target="_blank">Course Syllabuses</a></li>
+                <li><a href="http://www.ryerson.ca/itm/current/coop/" target="_blank">Co-operative Education</a></li>
               </ul>
             </div>
-            <div class="col-md"> <b>Business Technology Management Program</b>
+            <div class="col-md"> <p style="font-size:12pt; margin-top:0;"><b>Business Technology Management</b></p>
               <ul>
                 <li><a href="http://www.ryerson.ca/itm/" target="_blank">Department Website</a></li>
                 <li><a href="http://www.ryerson.ca/itm/about/" target="_blank">About the Program</a></li>
@@ -412,9 +628,25 @@
             </div>
             <div class="col-md-6 no-gutters">
               <div class="footerhierarchy ml-auto">
-                <div class="footerhierarchylogo"> <a href="http://www.ryerson.ca/" target="_blank"> <img src="img/logo/Ryerson.png"/> </a> </div>
-                <div class="footerhierarchylogo"> <a href="http://www.ryerson.ca/tedrogersschool/" target="_blank"> <img src="img/logo/TRSM.png"/> </a> </div>
-                <div class="footerhierarchylogo"> <a href="http://www.trssociety.ca/" target="_blank"> <img src="img/logo/TRSS.png"/> </a> </div>
+				  
+                <div class="footerhierarchylogo">
+					<a href="http://www.ryerson.ca/" target="_blank">
+						<div class="overlay-ryerson"></div>
+					</a>
+				  </div>
+				  
+                <div class="footerhierarchylogo">
+					<a href="http://www.ryerson.ca/tedrogersschool/" target="_blank">
+						<div class="overlay-trsm"></div>
+					</a>
+			  	</div>
+				  
+                <div class="footerhierarchylogo">
+					<a href="http://www.trssociety.ca/" target="_blank">
+						<div class="overlay-trss"></div>
+					</a>
+			  	</div>
+				  
               </div>
             </div>
           </div>
@@ -432,11 +664,9 @@
 <script src="js/bootstrap.js"></script> 
 <script src="js/script.js"></script> 
 <script src="js/header-shrink.js"></script> 
+<script src="js/scrollspy.js"></script> 
 <script src="https://use.fontawesome.com/e0fc1912cd.js"></script>
-<script src="js/wow.js"></script> 
-<script>
-  var wow = new WOW();
-  wow.init(); 
-</script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -1,9 +1,5 @@
 /* Body
 ------------------------- */
-.wow {
-  visibility: hidden;
-}
-
 body {
   padding-bottom: 0;
   padding-top:0;
@@ -78,7 +74,7 @@ h1,h2,h3,h4,h5,h6 {
 
 
 .jumbotron {
-  padding: 2rem 0 2rem;
+  padding: 2rem;
   background-color: #EEEEEE;
   border:15px solid white;
   border-radius: 0;
@@ -87,7 +83,7 @@ h1,h2,h3,h4,h5,h6 {
 
 
 .jumbotron2 {
-  padding: 2rem 1rem 3rem;
+  padding: 0rem 3rem 2rem;
   background-color: #FFFFFF;
   border-radius: 0;
 }
@@ -111,14 +107,15 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a {
-  color: black;
+  color: #000000;
+font-weight:500;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: black;
-  text-decoration: none;
+  color: #000000;
+  text-decoration: underline;
 }
 
 .btn-primary {
@@ -139,70 +136,11 @@ a:hover {
   box-shadow: 0 !important;
 }
 
-.dropdown-toggle {
-    color: rgba(255, 255, 255, 0.5);
-}
 
-.dropdown-link {
- color: rgba(255, 255, 255, 0.5);   
-}
-
-.dropdown-link:hover {
-    color:rgba(255, 255, 255, 0.75);
-}
-
-.dropdown-toggle:hover {
-    color: rgba(255, 255, 255, 0.75);
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content .dropdown-link:hover {background-color: #f1f1f1}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}
 
 
 /* Nav Bar
 ------------------------- */
-.navbar-default .navbar-nav > li.dropdown:hover > a, 
-.navbar-default .navbar-nav > li.dropdown:hover > .dropdown-link:hover,
-.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
-    background-color: rgb(231, 231, 231);
-    color: white;
-}
-li.dropdown:hover > .dropdown-menu {
-    display: block;
-}
 
 #Logo{
   transition: all 0.3s;
@@ -249,8 +187,20 @@ li.dropdown:hover > .dropdown-menu {
   padding:0.5rem;
 }
 
-.nav-link {
-  text-decoration: none;
+.navbar-dark .navbar-nav .nav-link {
+color: #FFFFFF;
+text-decoration: none;
+	font-weight: 500;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+color: #B59141;
+	font-weight: 500;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+color: #B59141;
+font-weight: 500;
 }
 
 .navbar-toggler {
@@ -303,14 +253,6 @@ li.dropdown:hover > .dropdown-menu {
 
 /* Index
 ------------------------- */
-
-.boilerplate {
-  font-family:'Montserrat', Arial Black, sans-serif;
-  font-size:2.5em;
-  font-weight:bold;
-  line-height:1.5;
-  color:#064F3A;
-}
 
 
 .missionicon {
@@ -385,16 +327,22 @@ li.dropdown:hover > .dropdown-menu {
   .footer-jumbotron a {
       color: #FFFFFF;
       background-color: transparent;
+	  font-weight: 400;
+
     }
 
   .footer-jumbotron a:hover {
-      color: #FFFFFF;
-      text-decoration: underline;
+      color: #B59141;
+      text-decoration: none;
   }
 
   .footer-jumbotron ul {
     list-style: none;
     padding: 0;
+  }
+
+  .footer-jumbotron ul>ul>li {
+    padding-left:5pt;
   }
 
 
@@ -417,8 +365,68 @@ li.dropdown:hover > .dropdown-menu {
         vertical-align: middle;
         display: table-cell;
         padding:0 10px;
-
       }
+
+.overlay-facebook {
+	height:20px;
+	width:20px;
+	background:url(../img/social/Facebook.png) no-repeat center center;
+	background-size: contain;
+}
+
+	.overlay-facebook:hover{
+	background: url(../img/social/Facebook-Colour.png) no-repeat center center;
+	background-size: contain;
+      }
+
+.overlay-twitter {
+	height:20px;
+	width:25px;
+	background:url(../img/social/Twitter.png) no-repeat center center;
+	background-size: contain;
+}
+
+	.overlay-twitter:hover{
+	background: url(../img/social/Twitter-Colour.png) no-repeat center center;
+	background-size: contain;
+      }
+
+.overlay-instagram {
+	height:20px;
+	width:20px;
+	background:url(../img/social/Instagram.png) no-repeat center center;
+	background-size: contain;
+}
+
+	.overlay-instagram:hover{
+	background: url(../img/social/Instagram-Colour.png) no-repeat center center;
+	background-size: contain;
+      }
+
+.overlay-linkedin {
+	height:20px;
+	width:20px;
+	background:url(../img/social/LinkedIn.png) no-repeat center center;
+	background-size: contain;
+}
+
+	.overlay-linkedin:hover{
+	background: url(../img/social/LinkedIn-Colour.png) no-repeat center center;
+	background-size: contain;
+      }
+
+.overlay-snapchat {
+	height:20px;
+	width:25px;
+	background:url(../img/social/Snapchat.png) no-repeat center center;
+	background-size: contain;
+}
+
+	.overlay-snapchat:hover{
+	background: url(../img/social/Snapchat-Colour.png) no-repeat center center;
+	background-size: contain;
+      }
+
 
 
       .footersociallogo img {
@@ -443,6 +451,60 @@ li.dropdown:hover > .dropdown-menu {
         max-height: 40px;
       }
 
+
+.overlay-ryerson {
+	height:40px;
+	width:82px;
+	background:url(../img/logo/Ryerson.svg) no-repeat center center;
+	background-size: contain;
+}
+
+	.overlay-ryerson:hover{
+	background: url(../img/logo/Ryerson-Colour.svg) no-repeat center center;
+	background-size: contain;
+      }
+
+.overlay-trsm {
+	height:40px;
+	width:58px;
+	background:url(../img/logo/TRSM.svg) no-repeat center center;
+	background-size: contain;
+}
+
+	.overlay-trsm:hover{
+	background: url(../img/logo/TRSM-Colour.svg) no-repeat center center;
+	background-size: contain;
+      }
+
+
+.overlay-trss {
+	height:40px;
+	width:102px;
+	background:url(../img/logo/TRSS.svg) no-repeat center center;
+	background-size: contain;
+}
+
+	.overlay-trss:hover{
+	background: url(../img/logo/TRSS-Colour.svg) no-repeat center center;
+	background-size: contain;
+      }
+
+
+
+.overlay-bch {
+	height:40px;
+	width:102px;
+	background:url(../img/logo/BCH.svg) no-repeat center center;
+	background-size: contain;
+}
+
+	.overlay-bch:hover{
+	background: url(../img/logo/BCH-Colour.svg) no-repeat center center;
+	background-size: contain;
+      }
+
+
+
   .copyright {
       margin:0;
       font-size:10pt;
@@ -451,8 +513,8 @@ li.dropdown:hover > .dropdown-menu {
 
   .back-to-top {
       position: fixed;
-      bottom: 40px;
-      right: 40px;
+      bottom: 20px;
+      right: 20px;
       display:none;
       width:50px;
       height:50px;
@@ -478,6 +540,98 @@ li.dropdown:hover > .dropdown-menu {
 
 .events {
   width:100%;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -30px;
+    visibility: hidden;
+}
+
+a.anchortitle {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
+
+#masthead {
+	min-height:270px;
+}
+
+
+.affix-top,.affix{
+	position: static;
+}
+
+
+@media (min-width: 979px) {
+
+  #sidebar.affix-top {
+    position: static;
+	margin-top: 30px;
+  	width:280px;
+  }
+
+
+  #sidebar.affix-bottom {
+    position: relative;
+	width:280px;
+  }
+
+  #sidebar.affix {
+    position: fixed;
+    top:100px;
+    width:280px;
+  	max-height: calc(100vh - 9rem);
+	overflow-y: auto;
+  }
+
+}
+
+
+#sidebar li.active {
+  	font-weight:800;
+}
+
+
+#sidebar li li.active {
+  	border:0 #ccc solid;
+  	border-left-width:3px;
+}
+
+.nav {
+	display: block;
+}
+
+.nav>li {
+    position: relative;
+    display: block;
+}
+
+.nav-stacked>li {
+    float: none;
+}
+
+.nav-stacked>li>ul>li {
+    padding-left:10px;
+}
+
+.nav-stacked>li+li {
+    margin-top: 0px;
+    margin-left: 0;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px;
+	}
+
+#mainCol>h3 {
+    margin-top: 1.5rem;
 }
 
 /* OLD DATE STUFF
@@ -546,6 +700,26 @@ li.dropdown:hover > .dropdown-menu {
   background-color: #8BC052;
 }
 
+.badge-citc {
+  background-color: #1A3868;
+}
+
+.badge-citc a {
+  color: #FFFFFF;
+	font-size:11pt;
+
+}
+
+.badge-witm {
+  background-color: #4F61D3;
+}
+
+.badge-witm a {
+  color: #FFFFFF;
+	font-size:11pt;
+
+}
+
 ul.event-details {
     padding: 0;
     list-style: none;
@@ -593,92 +767,7 @@ div.applybuttontable {
 
 /* Partnership
 ------------------------- */
-
-#test{
-  height:300px;
-}
-.col-centered {
-  width: 800px;
-}
-.skillbar {
-    position:relative;
-    display:block;
-    margin-bottom:15px;
-    width:100%;
-    background:#eee;
-    height:35px;
-    border-radius:3px;
-    -moz-border-radius:3px;
-    -webkit-border-radius:3px;
-    -webkit-transition:0.4s linear;
-    -moz-transition:0.4s linear;
-    -ms-transition:0.4s linear;
-    -o-transition:0.4s linear;
-    transition:0.4s linear;
-    -webkit-transition-property:width, background-color;
-    -moz-transition-property:width, background-color;
-    -ms-transition-property:width, background-color;
-    -o-transition-property:width, background-color;
-    transition-property:width, background-color;
-}
-
-.skillbar-title {
-    position:absolute;
-    top:0;
-    left:0;
-    font-weight:bold;
-    font-size:13px;
-    color:#fff;
-    background:#6adcfa;
-    -webkit-border-top-left-radius:3px;
-    -webkit-border-bottom-left-radius:4px;
-    -moz-border-radius-topleft:3px;
-    -moz-border-radius-bottomleft:3px;
-    border-top-left-radius:3px;
-    border-bottom-left-radius:3px;
-}
-
-.skillbar-title span {
-    display:block;
-    background:rgba(0, 0, 0, 0.1);
-    padding:0 20px;
-    height:35px;
-    line-height:35px;
-    -webkit-border-top-left-radius:3px;
-    -webkit-border-bottom-left-radius:3px;
-    -moz-border-radius-topleft:3px;
-    -moz-border-radius-bottomleft:3px;
-    border-top-left-radius:3px;
-    border-bottom-left-radius:3px;
-}
-
-.skillbar-bar {
-height:35px;
-width:0px;
-background:#6adcfa;
-border-radius:3px;
--moz-border-radius:3px;
--webkit-border-radius:3px;
-float: left;
-}
-
-.containers {
-    min-height: 100%;
-      height: 100vh;
-
-
-}
-.skill-bar-percent {
-    position:absolute;
-    right:10px;
-    top:0;
-    font-size:11px;
-    height:35px;
-    line-height:35px;
-    color:#444;
-    color:rgba(0, 0, 0, 0.4);
-}
-
+/*
 .container h1 {
     margin-top: 10px;
     margin-bottom: 20px;
@@ -694,7 +783,7 @@ float: left;
     text-align: center;
 }
 }
-
+*/
 div.partners {
   width:150px;
   height:150px;
@@ -831,6 +920,10 @@ div.portraitsmodal {
 
 .modal-dialog {
     max-width: 525px;
+}
+
+.modal-body {
+	padding:1rem 2rem;
 }
 
 .btn-primary.disabled,

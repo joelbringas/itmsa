@@ -3,7 +3,7 @@ window.onscroll = function() {
 };
 
 var Logo = document.getElementById("Logo");
-var endOfDocumentTop = 110;
+var endOfDocumentTop = 30;
 var size = 0;
 
 function growShrinkLogo() {
