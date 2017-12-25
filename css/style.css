@@ -1035,6 +1035,18 @@ div.portraitsmodal {
 /* Apply
 ------------------------- */
 
+.infographic-wrap {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+.infographic-padding {
+padding: 20px;
+}
+}
 
 .carouselapply {
   height:auto;
