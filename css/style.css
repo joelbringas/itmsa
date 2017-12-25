@@ -55,7 +55,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .headers {
-  padding-top:1rem;
+  padding-top:0.5rem;
   padding-bottom:1rem;
 }
 
@@ -83,7 +83,7 @@ h1,h2,h3,h4,h5,h6 {
 
 
 .jumbotron2 {
-  padding: 1rem 2rem 2rem 2rem;
+  padding: 2rem;
   background-color: #FFFFFF;
   border-radius: 0;
 }
@@ -537,10 +537,6 @@ font-weight: 500;
 
 /* Events
 ------------------------- */
-
-.events {
-  width:100%;
-}
 
 a.anchor {
     display: block;
