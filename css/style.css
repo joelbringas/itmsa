@@ -879,7 +879,7 @@ position: relative;
     float: left;
     margin: 10px;
     height:130px;
-    width: 100px;
+    width: 120px;
 }
 
 #myModal img {
@@ -1040,6 +1040,10 @@ div.portraitsmodal {
     display: block;
     position: relative;
     text-align: center;
+}
+
+.infographic-wrap p {
+    font-size: 18px;
 }
 
 @media only screen and (max-width: 900px) {
