@@ -68,6 +68,10 @@ h1,h2,h3,h4,h5,h6 {
   padding-bottom:5px;
 }
 
+i.hidden {
+  	display:none;
+	}
+
 .container, .container-fluid {
   padding:0;
 }
@@ -94,6 +98,9 @@ h1,h2,h3,h4,h5,h6 {
   color:#ffffff;
 }
 
+.img-fluid {
+	margin-bottom:20px;
+}
 
 
 .row {
@@ -213,6 +220,10 @@ font-weight: 500;
 .navbar-collapse {
   margin-right: 2em;
   margin-left: 2em;
+}
+
+.nav-link.disabled:hover {
+  color: rgba(255, 255, 255, 0.25) !important;
 }
 
 
@@ -439,66 +450,13 @@ font-weight: 500;
       }
 
       .footerhierarchylogo {
-        vertical-align: middle;
-        display: table-cell;
-        padding: 0px 10px;
+		  text-align: center;
+		  padding: 0 10px;
       }
 
       .footerhierarchylogo img {
         max-width:100%;
-        max-height: 40px;
-      }
-
-
-.overlay-ryerson {
-	height:40px;
-	width:82px;
-	background:url(../img/logo/Ryerson.svg) no-repeat center center;
-	background-size: contain;
-}
-
-	.overlay-ryerson:hover{
-	background: url(../img/logo/Ryerson-Colour.svg) no-repeat center center;
-	background-size: contain;
-      }
-
-.overlay-trsm {
-	height:40px;
-	width:58px;
-	background:url(../img/logo/TRSM.svg) no-repeat center center;
-	background-size: contain;
-}
-
-	.overlay-trsm:hover{
-	background: url(../img/logo/TRSM-Colour.svg) no-repeat center center;
-	background-size: contain;
-      }
-
-
-.overlay-trss {
-	height:40px;
-	width:102px;
-	background:url(../img/logo/TRSS.svg) no-repeat center center;
-	background-size: contain;
-}
-
-	.overlay-trss:hover{
-	background: url(../img/logo/TRSS-Colour.svg) no-repeat center center;
-	background-size: contain;
-      }
-
-
-
-.overlay-bch {
-	height:40px;
-	width:102px;
-	background:url(../img/logo/BCH.svg) no-repeat center center;
-	background-size: contain;
-}
-
-	.overlay-bch:hover{
-	background: url(../img/logo/BCH-Colour.svg) no-repeat center center;
-	background-size: contain;
+		height:40px;
       }
 
 
@@ -579,7 +537,7 @@ a.anchortitle {
     position: fixed;
     top:100px;
     width:280px;
-  	max-height: calc(100vh - 9rem);
+  	max-height: calc(100vh - 8rem);
 	overflow-y: auto;
   }
 

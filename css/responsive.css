@@ -53,6 +53,10 @@
     border-bottom: 0;
 	border-right: 15px solid white !important;
   }
+	
+	i.hidden {
+  		display:block;
+	}
 
 }
 
