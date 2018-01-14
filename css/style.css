@@ -743,6 +743,12 @@ div.applybuttontable {
 	background-size:cover;
 }
 
+.stat-number {
+    font-weight: 700;
+    font-size: 3em;
+	line-height: 14pt;
+}
+
 .form-area
 {
     background-color: #FAFAFA;
