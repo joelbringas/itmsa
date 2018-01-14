@@ -495,7 +495,6 @@ font-weight: 500;
 .eventsbg {
 	background-image: url(../img/events/headerbg.jpg);
 	background-repeat:no-repeat;
-	background-attachment: fixed;
 	background-position: top center;
 	background-size:cover;
 }
