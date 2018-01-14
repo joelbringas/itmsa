@@ -245,6 +245,11 @@ font-weight: 500;
   cursor:pointer;
 }
 
+.carousel-indicators {
+	bottom:0;
+}
+
+
 .carousel-item {
   height: 28rem;
   background-color: #777;
@@ -282,7 +287,7 @@ font-weight: 500;
     text-align: center;
     position: relative;
     display: inline-block;
-    margin-top: 2em;
+    margin-top: 1em;
     color: #B59141;
 }
 
@@ -498,9 +503,6 @@ font-weight: 500;
 	background-attachment: fixed;
 	background-position: top center;
 	background-size:cover;
-	-o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size:cover;
 }
 
 a.anchor {
@@ -732,23 +734,14 @@ div.applybuttontable {
 
 /* Partnership
 ------------------------- */
-/*
-.container h1 {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    width: 60%; margin: 0 auto;
-    text-align: center;
-}
 
-@media only screen and (max-width: 900px) {
-.container h1 {
-    margin-top: 10px;
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
+.partnershipbg {
+	background-image: url(../img/partnership/headerbg.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: top center;
+	background-size:cover;
 }
-}
-*/
 
 .form-area
 {
@@ -869,6 +862,15 @@ position: relative;
 
 /* Team
 ------------------------- */
+
+.teambg {
+	background-image: url(../img/team/headerbg.jpg);
+	background-repeat:no-repeat;
+	background-position: top center;
+	background-attachment: scroll;
+	background-size:cover;
+}
+
 
 div.portraits {
   max-width:200px;
@@ -1014,6 +1016,14 @@ div.portraitsmodal {
 /* Apply
 ------------------------- */
 
+.applybg {
+	background-image: url(../img/apply/headerbg.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size:cover;
+}
+
 .infographic-wrap {
     margin: 0 auto;
     display: block;
@@ -1032,7 +1042,29 @@ padding: 20px;
 }
 
 .carouselapply {
-  height:auto;
-  background-color:#F0F0F0;
+  height:12rem;
+  background-color:#EEE;
 
+}
+
+
+/* Contact
+------------------------- */
+
+.contactbg {
+	background-image: url(../img/contact/headerbg.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size:cover;
+}
+
+.map-overlay {
+   background:transparent; 
+   position:relative; 
+   width:100%;
+   height:300px;
+   top:300px;
+   margin-top:-300px; 
+}
 }

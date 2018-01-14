@@ -33,7 +33,8 @@
   }
 
   .carouselapply {
-    height:30rem !important;
+    height:32rem !important;
+	  overflow-y: scroll;
   }
 
   .carousel-caption h1 {
@@ -64,10 +65,41 @@
 	background-position: center center;
 	background-attachment: scroll;
 	background-size:cover;
-	-o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size:cover;
 }
+	
+.partnershipbg {
+	background-image: url(../img/partnership/headerbg.jpg);
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-attachment: scroll;
+	background-size:cover;
+}
+	
+.teambg {
+	background-image: url(../img/team/headerbg.jpg);
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-attachment: scroll;
+	background-size:cover;
+}
+	
+.applybg {
+	background-image: url(../img/apply/headerbg.jpg);
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-attachment: scroll;
+	background-size:cover;
+}
+	
+
+.contactbg {
+	background-image: url(../img/contact/headerbg.jpg);
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-attachment: scroll;
+	background-size:cover;
+}
+
 
 
 }
