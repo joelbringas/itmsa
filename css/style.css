@@ -498,6 +498,9 @@ font-weight: 500;
 	background-attachment: fixed;
 	background-position: top center;
 	background-size:cover;
+	-o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
 }
 
 a.anchor {
