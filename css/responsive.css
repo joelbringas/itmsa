@@ -62,7 +62,7 @@
 	background-image: url(../img/events/headerbg.jpg);
 	background-repeat:no-repeat;
 	background-position: center center;
-	background-size: contain;
+	image-rendering: -webkit-optimize-contrast;
 }
 
 
