@@ -17,15 +17,13 @@
 <link href="css/animate.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700,700i,900,900i">
 <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112411654-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  ga('create', 'UA-53626443-1', 'auto');
-  ga('send', 'pageview');
-
+  gtag('config', 'UA-112411654-1');
 </script>
 
 </head>
@@ -119,7 +117,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 text-center headers">
-          <h1>Social Media</h1>
+          <h1>Marketing Report</h1>
         </div>
         <div class="col-md-3">
 			 <img src="img/partnership/Snapchat-Stats.png" class="img-fluid"/>
@@ -131,7 +129,7 @@
 		  
         <div class="col-md-3">
 			 <img src="img/partnership/Slack-Stats.png" class="img-fluid"/>
-        </div>
+	  </div>
 		  
 <div class="w-100"></div>
 		  
@@ -144,7 +142,8 @@
         </div>
 		  
         <div class="col-md-3">
-			 <img src="img/partnership/Twitter-LinkedIn-Stats.png" class="img-fluid"/>
+			 <img src="img/partnership/Twitter-Stats.png" class="img-fluid"/>
+			 <img src="img/partnership/LinkedIn-Stats.png" class="img-fluid linkedin-stats"/>
         </div>
       </div>
     </div>
@@ -193,71 +192,109 @@
 	
   <div class="container">
 	  <div class="row justify-content-center jumbotron2">
-		  
-    <div class="col-lg-12">
-        <div class="headers text-center">
-          <h1>Marketing Report</h1>
-        </div>
-    <div class="right-metrics">
-    <img src="img/partnership/BTMstudents-metric.svg" class="wow fadeIn">
-    <img src="img/partnership/TRSstudents-metric.svg" class="wow fadeIn">
-    </div>
-    <div class="socialmedia-metrics">
-    <img src="img/partnership/socialmedia-metrics.svg" class="wow fadeIn">
-      </div>
-    <div class="right-metrics">
-    <img src="img/partnership/averageattendance-metric.svg" class="wow fadeIn">
-    <img src="img/partnership/coopstudents-metric.svg" class="wow fadeIn">
-    </div>
-  
-<div class="w-100">
-    <hr class="divider">
-  </div>
-		
-    <div class="partnership-events">
+
       
 		<div class="col-lg-12">
         <div class="headers text-center">
-          <h1>Upcoming Events</h1>
+          <h1>Sponsor an Event</h1>
         </div>
 		</div>
 
-      <div class="partner-events" style="margin-top: 20px;"> <img src="img/events/alumni.jpg">
-        <h5>Alumni Event</h5>
-        <p>This annual event is essentially a social and takes place for faculty and alumni to reconnect, but is also a way for ITMSA to give back to the individuals who have participated in our recent events. Student attendance is also encouraged in order for them to gain career relevant information and opportunities over food and beverages. Sponsoring this event will give you the opportunity to increase your brand awareness, receive media exposure, engage with a large audience, and lastly, have your business front and center. Your brand will be seen through various elements of the event such as recognition at the event, and recruitment opportunities through the networking portion of the night.</p>
-        <button type="button" data-toggle="modal" data-target="#myModal2" class="btn btn-secondary" style="margin: 10px;">Event Offerings</button>
-        <div id="myModal2" class="modal fade" tabindex="-1" role="dialog">
+		<!-- Alumni Start -->
+        <div class="col-lg-3 col-md-5 text-center"> <img src="img/events/alumni.jpg" class="img-fluid"/> </div>
+        <div class="col-lg-9 col-md-7"> <span class="badge badge-pill badge-social">Social</span> <span class="badge badge-pill badge-tentative">Tentative</span>
+          <h3>Alumni Appreciation</h3>
+		<ul class="event-details">
+		   <li><i class="fa fa-heart fa-fw" aria-hidden="true"></i> In collaboration with <a href="https://www.ciocan.ca/" target="_blank">CIO Association of Canada</a></li>
+            <li><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i> January 31, 2018 — 6-9 PM</li>
+            <li><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i> Aperture Room — 340 Yonge Street, Toronto</li>
+            <li><i class="fa fa-user fa-fw" aria-hidden="true"></i> Business Formal</li>
+          </ul>
+          <p> This a social event or faculty and alumni to reconnect. It is also a way for ITMSA to give back to the individuals who have participated in our recent events. Student attendance is also encouraged in order for them to gain career relevant information and opportunities over food and beverages.</p>
+			<p>
+			  By sponsoring this event, it will give you the opportunity to increase your brand awareness, receive media exposure, engage with a large audience, and have your business front and center. Your brand will be seen through various elements of the event such as: recognition at the event, and recruitment opportunities through the networking portion of the night.
+          </p>
+			<br>
+          <button type="button" data-toggle="modal" data-target="#alumni" class="btn btn-primary "> Event Offerings </button>
+          <div id="alumni" class="modal fade" tabindex="-1" role="dialog">
           <div class="modal-dialog">
             <div class="modal-content">
-              <div class="modal-body"> <img src="img/partnership/Alumni-eventofferings.svg" style="height: 100%; width: 100%;" class="img-responsive"> </div>
+              <div class="modal-body"> <img src="img/partnership/Alumni-EventOfferings.svg" class="img-responsive img-fluid"> </div>
+			<div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
             </div>
           </div>
         </div>  
-      </div>
-      <div class="partner-events" style="margin-top: 20px;"> <img src="img/events/tcn.jpg">
-            <h5>Tech Consulting Night</h5>
-        <p>The ITMSA and the Ryerson Consulting Association (RCA) have partnered together this year to bring this amazing networking night to both the students and partnering firms. Firms will have the opportunity to educate the students on Technology Consulting and  network with students looking to pursue a career in consulting. Your firm will get the chance to promote all their co-op/internships and new-grad opportunities to our student leaders. Your brand will be seen through various elements of the event such as branded merchandise in delegate bags, recognition at the event, and recruitment opportunities through a night of networking. </p>
-        <button type="button" data-toggle="modal" data-target="#myModal3" class="btn btn-secondary" style="margin: 10px;">Event Offerings</button>
-        <div id="myModal3" class="modal fade" tabindex="-1" role="dialog">
+		  </div>
+        <!-- Alumni End --> 
+
+		<div class="w-100">
+          <hr class="divider">
+        </div>
+		  
+		<!-- Tech Start -->
+        <div class="col-lg-3 col-md-5 text-center"> <img src="img/events/tcn.jpg" class="img-fluid"/> </div>
+        <div class="col-lg-9 col-md-7"> <span class="badge badge-pill badge-academic">Academic</span> <span class="badge badge-pill badge-tentative">Tentative</span>
+          <h3>Tech Consulting Night</h3>
+		<ul class="event-details">
+		   <li><i class="fa fa-heart fa-fw" aria-hidden="true"></i> In collaboration with <a href="http://www.ryersonconsulting.ca/" target="_blank">RCA</a></li>
+            <li><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i> March 2, 2018 — 6-9 PM</li>
+            <li><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i> Sears Atrium — 245 Church Street (3rd Floor), Toronto</li>
+            <li><i class="fa fa-user fa-fw" aria-hidden="true"></i> Business Casual</li>
+          </ul>
+          <p>ITMSA and Ryerson Consulting Association (RCA) have partnered together this year to bring this amazing networking night to both the students and partnering firms. Firms will have the opportunity to educate the students on Technology Consulting and network with students looking to pursue a career in consulting. Your firm will get the chance to promote all their co-op/internships and new-grad opportunities to our student leaders.</p>
+			<p>Your brand will be seen through various elements of the event such as: branded merchandise in delegate bags, recognition at the event, and recruitment opportunities through a night of networking.
+          </p>
+			<br>
+          <button type="button" data-toggle="modal" data-target="#tech" class="btn btn-primary "> Event Offerings </button>
+          <div id="tech" class="modal fade" tabindex="-1" role="dialog">
           <div class="modal-dialog">
             <div class="modal-content">
-              <div class="modal-body"> <img src="img/partnership/Tech-Consulting-Night-eventofferings.svg" style="height: 100%; width: 100%;" class="img-responsive"> </div>
+              <div class="modal-body"> <img src="img/partnership/TCN-EventOfferings.svg" class="img-responsive img-fluid"> </div>
+			<div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
             </div>
           </div>
+        </div>  
+		</div>
+        <!-- Tech End --> 
+		  
+		<div class="w-100">
+          <hr class="divider">
         </div>
-        </div>
-           <div class="partner-events" style="margin-top: 20px;"> <img src="img/events/trits.jpg">
-            <h5>Ted Rogers IT Summit</h5>
-        <p>The Ted Rogers IT Summit provides an opportunity for students from a variety of business academic backgrounds to expand their understanding of the pivotal integration of Information Technologies across all industries. The event aims to explore the applications of technology along with analyzing the current trends in the industry through the aid of panels, speakers, and competitions.  Sponsoring this event will give you the opportunity to increase your brand awareness, receive media exposure, engage with a large audience, and lastly, have your business front and center. Your brand will be seen through various elements of the event such as branded merchandise in delegate bags, recognition at the event, and recruitment opportunities through the career fair portion of the night. </p>
-        <button type="button" data-toggle="modal" data-target="#myModal4" class="btn btn-secondary" style="margin: 10px;">Event Offerings</button>
-        <div id="myModal4" class="modal fade" tabindex="-1" role="dialog">
+		  
+		<!-- TRITS Start -->
+        <div class="col-lg-3 col-md-5 text-center"> <img src="img/events/trits.jpg" class="img-fluid"/> </div>
+        <div class="col-lg-9 col-md-7"> <span class="badge badge-pill badge-academic">Academic</span>
+          <h3>Ted Rogers IT Summit</h3>
+		<ul class="event-details">
+            <li><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i>March 13, 2018 — 6-9PM</li>
+            <li><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>Ritz Carlton — 181 Wellington Street West, Toronto</li>
+            <li><i class="fa fa-user fa-fw" aria-hidden="true"></i>Business Formal</li>
+          </ul>
+          <p>Ted Rogers IT Summit provides an opportunity for students from a variety of business academic backgrounds to expand their understanding of the pivotal integration of Information Technologies across all industries. The event aims to explore the applications of technology along with analyzing the current trends in the industry through the aid of panels, speakers, and competitions.</p>
+			<p>
+			  By sponsoring this event, it will give you the opportunity to increase your brand awareness, receive media exposure, engage with a large audience, and have your business front and center. Your brand will be seen through various elements of the event such as: branded merchandise in delegate bags, recognition at the event, and recruitment opportunities through the career fair portion of the night. 
+          </p>
+			<br>
+          <button type="button" data-toggle="modal" data-target="#trits" class="btn btn-primary "> Event Offerings </button>
+          <div id="trits" class="modal fade" tabindex="-1" role="dialog">
           <div class="modal-dialog">
             <div class="modal-content">
-              <div class="modal-body"> <img src="img/partnership/TRITS-eventofferings.svg" style="height: 100%; width: 100%;" class="img-responsive"> </div>
+              <div class="modal-body"> <img src="img/partnership/TRITS-EventOfferings.svg" class="img-responsive img-fluid"> </div>
+			<div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
             </div>
           </div>
+        </div>  
         </div>
-        </div>
+	  </div>
+        <!-- TRITS End -->
+	  
+
     </div>
   </div>
 	  
@@ -268,7 +305,7 @@
 	<div class="container">
 		<div class="row justify-content-center text-center" style="padding:0;">
 		  <div class="col-12 headers" style="color: white;">
-			<h1>PARTNERSHIP PACKAGE</h1>
+			<h1>Partnership Package</h1>
 			<p> Read our General Partnership Package and see what we offer.<br>We have several partnership options and are more than willing to offer customized plans.</p>
 		  </div>
 			<div class="col-12 no-gutters">
@@ -499,27 +536,105 @@
 <!-- Partners End-->
 	
 <!-- Corporate Relations Start -->
-  <div class="container-fluid jumbotron">
+  <div class="container-fluid jumbotron" style="border-bottom: 0;">
     <div class="row justify-content-center text-center">
       <div class="col-12 headers">
         <h1>Corporate Relations Contact</h1>
       </div>
-      <div class="col-lg-3 divider2 mobilecol">
-        <div class="portraits"> <img src="img/team/Alicia.jpg" class="portraits"/> </div>
-        <p> <b>Alicia D'Souza</b><br>
-          Co-Vice President of Corporate Relations <br>
-          <br>
-          <i class="fa fa-phone" aria-hidden="true"></i> 647-719-2449 <br>
-          <i class="fa fa-envelope" aria-hidden="true"></i> alicia.dsouza@ryerson.ca </p>
+		
+		<div class="col-lg-3 divider2">
+      <button type="button" class="btn btn-hidden" data-toggle="modal" data-target="#aliciabio">
+      <div class="portraits"> <img src="img/team/Alicia.jpg" class="portraits"/> </div>
+      </button>
+      <p> <b>Alicia D'Souza</b><br>
+        Co-Vice President of Corporate Relations<br>
+		<br>
+		<i class="fa fa-phone" aria-hidden="true"></i> 647-719-2449 <br>
+		<i class="fa fa-envelope" aria-hidden="true"></i> alicia.dsouza@ryerson.ca</p>
+			
+      <div class="modal fade text-left" id="aliciabio" tabindex="-1" role="dialog" aria-labelledby="aliciabioLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="container no-gutters">
+                <div class="row">
+                  <div class="portraits portraitsmodal"> <img src="img/team/Alicia.jpg" class="portraits"/> </div>
+                  <div class="col-sm">
+                    <h3 id="aliciaModalLabel">Alicia D'Souza</h3>
+                    <b>Co-Vice President of Corporate Relations</b> <br>
+                    <i>2nd Year, Co-op</i> <br>
+                    Business Technology Management <br>
+                    <br>
+                    <div class="row text-center no-gutters">
+                      <div class="col-4"> <a href="https://www.facebook.com/alicia.dsouza123" class="socialicon" target="_blank"> <img src="img/social/Facebook-Colour.png"/> </a> </div>
+                      <div class="col-4"> <a href="https://www.linkedin.com/in/alicia-d-souza-229299127/" class="socialicon" target="_blank"> <img src="img/social/LinkedIn-Colour.png"/> </a> </div>
+                      <div class="col-4"> <a href="mailto:alicia.dsouza@ryerson.ca" class="socialicon"> <img src="img/social/Email-Colour.png"/> </a> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-body">
+              <p> Alicia is a 2nd year Business Technology Management Co-op student and the Co-Vice President of Corporate Relations.<br>
+              </p>
+              <p> Prior to her current position, she was an ITMSA Event Associate in the 2015-2016 academic year. ITMSA gave her the opportunity to not only encourage and engage students to learn more about their program, but also to help them step outside their comfort zone.<br>
+              </p>
+              <p> During her summer, she worked for the Government of Ontario where she provided strategic advice for modernizing government services. Feel free to say hi or drop by the office where she is always looking for new ideas and places to visit downtown. </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-lg-3 divider2">
-        <div class="portraits"> <img src="img/team/Iftikhar.jpg" class="portraits"/> </div>
-        <p> <b>Iftikhar Choudhary</b><br>
-          Co-Vice President of Corporate Relations <br>
+    </div>
+
+   <div class="col-lg-3 divider2">
+      <button type="button" class="btn btn-hidden" data-toggle="modal" data-target="#iftikharbio">
+      <div class="portraits"> <img src="img/team/Iftikhar.jpg" class="portraits"/> </div>
+      </button>
+      <p> <b>Iftikhar Choudhary</b><br>
+        Co-Vice President of Corporate Relations<br>
           <br>
           <i class="fa fa-phone" aria-hidden="true"></i> 647-927-7003 <br>
-          <i class="fa fa-envelope" aria-hidden="true"></i> iftikhar.choudhary@ryerson.ca </p>
+          <i class="fa fa-envelope" aria-hidden="true"></i> iftikhar.choudhary@ryerson.ca</p>
+      <div class="modal fade text-left" id="iftikharbio" tabindex="-1" role="dialog" aria-labelledby="iftikharbioLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="container no-gutters">
+                <div class="row">
+                  <div class="portraits portraitsmodal"> <img src="img/team/Iftikhar.jpg" class="portraits"/> </div>
+                  <div class="col-sm">
+                    <h3 id="iftikharModalLabel">Iftikhar Choudhary, <span class="accreditation" title="Certified Associate in Project Management">CAPM</span></h3>
+                    <b>Co-Vice President of Corporate Relations</b> <br>
+                    <i>5th Year</i> <br>
+                    Business Management <br>
+                    Marketing Management, Major<br>
+					Information Technology Management, Minor<br>
+					<br>
+                    <div class="row text-center no-gutters">
+                      <div class="col-4"> <a href="https://www.facebook.com/iftikhar.choudhary.5" class="socialicon" target="_blank"> <img src="img/social/Facebook-Colour.png"/> </a> </div>
+                      <div class="col-4"> <a href="https://www.linkedin.com/in/iftikharchoudhary/" class="socialicon" target="_blank"> <img src="img/social/LinkedIn-Colour.png"/> </a> </div>
+                      <div class="col-4"> <a href="mailto:iftikhar.choudhary@ryerson.ca" class="socialicon"> <img src="img/social/Email-Colour.png"/> </a> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-body">
+              <p> Iftikhar is a 5th year Business Management student pursuing a Marketing Management major with an Information Technology Management minor. He is also the Co-Vice President of Corporate Relations. </p>
+              <p> Iftikhar wants to utilize the knowledge he has gained from his CAPM (Certified Associate in Project Management) to plan, execute and maintain all aspects of ITMSA in an exceptional manner. </p>
+              <p> As Co-Vice President of Corporate Relations, Iftikhar wants to effectively acquire new sponsorships and keynote professionals, strengthen current corporate partnerships and serve as a catalyst to the outreach and brand exposure of the largest course union for a BTM program within Canada. </p>
+              <p> Upon graduation, Iftikhar will be pursuing a career in Project Management within the Financial Services industry to apply the valuable knowledge and skills he has obtained throughout his years at Ryerson University. </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
 	
 		<div class="w-100">
           <hr class="divider">
@@ -543,12 +658,29 @@
                     <div class="form-group">
                     <textarea class="form-control" type="textarea" id="message" placeholder="Message" rows="7"></textarea>                    
                     </div>
-            <input type="submit" value="Send" class="btn btn-primary">
+            
+        <button type="button" id="submit" value="send" name="submit" class="btn btn-primary">Send</button>
         </form>
 		</div>
     </div>
   </div>
   <!-- Corporate Relations End -->
+	
+<!-- Footnote Start -->
+
+<div class="container-fluid jumbotron2">
+<div class="container">
+<div class="row justify-content-center text-center">
+	<div class="col-12">
+	  <sup id="footnote-1">1</sup> Data from Sept 2016 to Apr 2017<br>
+	  <sup id="footnote-2">2</sup> Based on Last 20 Posts<br>
+	  <a href="http://www.ryerson.ca/upo/statistics/students-2016-head" target="_blank"><sup id="footnote-3">3</sup> Ryerson University — University Planning Office (UPO) — As of Fall 2016</a>
+	</div>
+</div>
+</div>
+</div>
+
+<!-- Footnote End -->
 
 <!-- Footer Start
 ============================================= --> 
