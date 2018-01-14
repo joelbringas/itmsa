@@ -234,7 +234,6 @@ font-weight: 500;
 
 
 .carousel-caption {
-  padding:10px;
   z-index: 10;
   text-shadow: 0 0 15px #616161;
 }
@@ -318,7 +317,6 @@ font-weight: 500;
     width:100%;
     padding:5px;
   }
-
 
 
 
@@ -493,6 +491,14 @@ font-weight: 500;
 
 /* Events
 ------------------------- */
+
+.eventsbg {
+	background-image: url(../img/events/headerbg.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: top center;
+	background-size:cover;
+}
 
 a.anchor {
     display: block;
