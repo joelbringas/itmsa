@@ -516,7 +516,7 @@ a.anchortitle {
 
 
 #masthead {
-	min-height:270px;
+	min-height:220px;
 }
 
 
@@ -529,7 +529,7 @@ a.anchortitle {
 
   #sidebar.affix-top {
     position: static;
-	margin-top: 30px;
+	margin-top: 20px;
   	width:280px;
   }
 
@@ -541,7 +541,7 @@ a.anchortitle {
 
   #sidebar.affix {
     position: fixed;
-    top:100px;
+    top:90px;
     width:280px;
   	max-height: calc(100vh - 8rem);
 	overflow-y: auto;
@@ -556,8 +556,7 @@ a.anchortitle {
 
 
 #sidebar li li.active {
-  	border:0 #ccc solid;
-  	border-left-width:3px;
+  	background-color:#eee;
 }
 
 .nav {
@@ -656,6 +655,11 @@ a.anchortitle {
 .badge-new {
   color: #fff;
   background-color: #8BC052;
+}
+
+.badge-tentative {
+  color: #fff;
+  background-color: #000;
 }
 
 .badge-citc {
