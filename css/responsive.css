@@ -59,9 +59,10 @@
 	}
 	
 .eventsbg {
-	background-image: url(../img/events/headerbg-mobile.jpg);
+	background-image: url(../img/events/headerbg.jpg);
 	background-repeat:no-repeat;
 	background-position: center center;
+	background-size: contain;
 }
 
 
