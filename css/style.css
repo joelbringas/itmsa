@@ -546,9 +546,9 @@ a.anchortitle {
   #sidebar.affix {
     position: fixed;
     top:90px;
-    width:260px;
+    width:280px;
   	max-height: calc(100vh - 8rem);
-	overflow-y: hidden;
+	overflow-y: scroll;
   }
 
 }
