@@ -143,6 +143,9 @@ a:hover {
   box-shadow: 0 !important;
 }
 
+.bicicon {
+    width: 65px;
+}
 
 
 
@@ -276,10 +279,6 @@ font-weight: 500;
   width:75px;
   display: block;
   margin: 0 auto;
-}
-
-.bicicon {
-  width:65px;
 }
 
 
@@ -774,8 +773,8 @@ div.partners {
 .teambg {
 	background-image: url(../img/team/headerbg.jpg);
 	background-repeat:no-repeat;
+	background-attachment: fixed;
 	background-position: top center;
-	background-attachment: scroll;
 	background-size:cover;
 }
 
